@@ -12,3 +12,5 @@ artifacts/**/*.joblib
 artifacts/**/model/*.pt
 .idea/
 .vscode/
+Ethan/data/dair_emotion/source/
+Ethan/data/dair_emotion/*.csv

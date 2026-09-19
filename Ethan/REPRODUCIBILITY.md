@@ -169,3 +169,51 @@ Each contributor should copy `team_results/template` to
 `team_results/<github_username>` and commit only compact result files, configuration,
 and notes. Do not commit model weights, cached LLM files, virtual environments, or
 full embedding arrays.
+
+## 9. External emotion-transfer check (dair-ai/emotion)
+
+This is an exploratory **emotion-classification transfer** check, not a test of
+personality or a zero-shot classifier. The frozen Qwen features and the EmoBank
+representation models are transferred to a new corpus. A fresh linear classifier
+is trained with labels from the new corpus, tuned on its development split, and
+evaluated once on its test split.
+
+The dataset is the Hugging Face `dair-ai/emotion` `split` configuration (official
+16,000 / 2,000 / 2,000 train / validation / test). `prepare_dair_emotion.py` reads
+the official Parquet files in `data/dair_emotion/source` and writes a single CSV
+in official split order. The complete processed file used here has SHA-256
+`EFB627D8B196A1756B2C4E2804AE241266B8158BCFDEE3E2E1360DB6315FA65F`.
+The 1,000-row pilot is a seed-42 label-stratified sample with 800 / 100 / 100
+rows from those respective splits. Test labels are used only to stratify the
+fixed pilot sample and calculate final metrics; they do not influence
+representation training or hyperparameter selection.
+An exact, case-insensitive text-overlap check found no overlap between EmoBank
+and the complete dair file; the fixed pilot also has no train/test or dev/test
+exact-text overlap. The full official dair train/test splits do contain 11
+exact-text overlaps, so any later full-scale test should deduplicate the
+training side against test before fitting the classifier.
+
+```powershell
+..\.venv\Scripts\python.exe .\download_dair_emotion.py
+..\.venv\Scripts\python.exe .\prepare_dair_emotion.py
+..\.venv\Scripts\python.exe .\sample_dair_pilot.py `
+  --csv .\data\dair_emotion\dair_emotion.csv `
+  --output .\data\dair_emotion\dair_pilot_1000.csv
+..\.venv\Scripts\python.exe .\extract_embeddings.py `
+  --csv .\data\dair_emotion\dair_pilot_1000.csv `
+  --output .\artifacts\dair_emotion\pilot_embeddings.npy `
+  --model Qwen/Qwen3-4B --batch-size 2 --max-length 256
+..\.venv\Scripts\python.exe .\evaluate_dair_transfer.py `
+  --emobank-csv .\data\emobank\emobank_manifold.csv `
+  --emobank-embeddings .\artifacts\emobank_full\embeddings.npy `
+  --dair-csv .\data\dair_emotion\dair_pilot_1000.csv `
+  --dair-embeddings .\artifacts\dair_emotion\pilot_embeddings.npy `
+  --output-dir .\artifacts\dair_emotion\pilot_transfer `
+  --seed 42 --dimensions 16 --epochs 80 --hidden-dim 256 `
+  --batch-size 128 --reconstruction-weight 0.1 --geometry-weight 0.1
+```
+
+The comparison is raw Qwen, EmoBank-trained PCA, EmoBank-trained AE + VAD,
+and EmoBank-trained AE + VAD + affective local-geometry loss. A result above
+the raw-feature baseline would suggest useful transfer for emotion labeling;
+it would not establish a human digital personality manifold.
