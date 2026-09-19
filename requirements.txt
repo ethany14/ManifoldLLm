@@ -1,0 +1,9 @@
+torch>=2.2
+transformers>=4.51
+accelerate>=1.0
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+joblib>=1.4
+tqdm>=4.66
+

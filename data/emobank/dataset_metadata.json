@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/JULIELab/EmoBank/master/corpus/emobank.csv",
+  "license": "CC BY-SA 4.0",
+  "rows": 10061,
+  "excluded_missing_text_rows": 1,
+  "split_counts": {
+    "train": 8062,
+    "test": 1000,
+    "dev": 999
+  },
+  "pilot_split_counts": {
+    "train": 800,
+    "dev": 100,
+    "test": 100
+  },
+  "value_transform": "normalized = (official_score - 3) / 2",
+  "normalized_range": [
+    -1.0,
+    1.0
+  ],
+  "citation": "Buechel and Hahn (2017), EmoBank, EACL 2017"
+}

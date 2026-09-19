@@ -1,0 +1,10 @@
+artifacts/hf_cache/
+artifacts/*/model/*.pt
+__pycache__/
+*.pyc
+.venv/
+artifacts/**/*.npy
+artifacts/**/*.joblib
+artifacts/**/model/*.pt
+.idea/
+.vscode/

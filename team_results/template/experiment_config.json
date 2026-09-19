@@ -1,0 +1,14 @@
+{
+  "contributor": "replace-with-github-username",
+  "dataset": "EmoBank",
+  "processed_rows": 10061,
+  "model": "Qwen/Qwen3-4B",
+  "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "layer": -1,
+  "pooling": "masked_mean",
+  "max_length": 256,
+  "latent_dimensions": 16,
+  "seed": 42,
+  "geometry_weight": 0.1,
+  "reconstruction_weight": 0.1
+}

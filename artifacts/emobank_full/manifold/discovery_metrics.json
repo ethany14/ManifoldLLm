@@ -1,0 +1,6 @@
+{
+  "train_trustworthiness_raw": 0.9208803672799577,
+  "train_trustworthiness_standardized": 0.9167816399804954,
+  "fit_rows": 8062,
+  "out_of_sample_rows": 1999
+}

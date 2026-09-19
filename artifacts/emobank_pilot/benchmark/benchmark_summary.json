@@ -1,0 +1,24 @@
+{
+  "best_isomap": {
+    "method": "Isomap",
+    "dimensions": 16,
+    "neighbors": 20,
+    "trustworthiness": 0.8600728170809433,
+    "valence_mae": 0.12071150541305542,
+    "valence_r2": 0.12234729528427124,
+    "arousal_mae": 0.09479178488254547,
+    "arousal_r2": 0.024719953536987305,
+    "mean_affect_r2": 0.07353362441062927
+  },
+  "best_pca": {
+    "method": "PCA",
+    "dimensions": 16,
+    "neighbors": 0,
+    "trustworthiness": 0.9215070108349267,
+    "valence_mae": 0.12323907017707825,
+    "valence_r2": 0.09544342756271362,
+    "arousal_mae": 0.0924958884716034,
+    "arousal_r2": 0.0610538125038147,
+    "mean_affect_r2": 0.07824862003326416
+  }
+}

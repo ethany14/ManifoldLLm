@@ -1,0 +1,7 @@
+{
+  "best_validation_loss": 195.80682373046875,
+  "test_loss": 169.51730346679688,
+  "train_rows": 800,
+  "validation_rows": 100,
+  "test_rows": 100
+}

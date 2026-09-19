@@ -1,0 +1,11 @@
+text,valence,arousal,emotion,sequence_id,time
+I feel peaceful and safe here.,0.80,0.20,joy,dialogue_1,0
+This news makes me genuinely happy!,0.92,0.75,joy,dialogue_1,1
+I am worried that everything will go wrong.,-0.65,0.82,fear,dialogue_2,0
+I cannot stop thinking about the deadline.,-0.42,0.73,fear,dialogue_2,1
+I feel empty and do not want to do anything.,-0.78,0.18,sadness,dialogue_3,0
+I miss them more than I expected.,-0.70,0.35,sadness,dialogue_3,1
+That was completely unfair!,-0.76,0.88,anger,dialogue_4,0
+"I am still annoyed, but I am calming down.",-0.38,0.48,anger,dialogue_4,1
+I did not expect that at all!,0.10,0.86,surprise,dialogue_5,0
+I feel ordinary today.,0.02,0.25,neutral,dialogue_5,1
