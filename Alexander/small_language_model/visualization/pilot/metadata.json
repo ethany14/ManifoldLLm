@@ -1,0 +1,15 @@
+{
+  "checkpoint": "/private/tmp/alexander-emobank-manifold-check/model.pt",
+  "checkpoint_sha256": "0a0f8f9f00c7bf8f3c54e9955a5012c42923fb628adad600f68b91a937aca4e4",
+  "csv": "/Users/xander/Desktop/School_Work/ResearchProjects2026/ManifoldLLm/Ethan/data/emobank/emobank_pilot_1000.csv",
+  "csv_sha256": "3805e5dbe56a1f74f4adf3675ced955dd3e1b7e574143f07a2ad7a86849422e3",
+  "split": "dev",
+  "rows": 100,
+  "best_epoch": 2,
+  "training_rows": 800,
+  "coordinates": "Deterministic 3D affect posterior means; no PCA/Isomap or smoothing",
+  "color": "Human-annotated valence, used for coloring only",
+  "note": "A point cloud of the learned representation, not proof of a recovered manifold",
+  "source": "EmoBank, Buechel and Hahn (2017)",
+  "license": "CC BY-SA 4.0"
+}
