@@ -1,0 +1,86 @@
+{
+  "settings": {
+    "emobank_csv": ".\\data\\emobank\\emobank_manifold.csv",
+    "emobank_embeddings": ".\\artifacts\\emobank_full\\embeddings.npy",
+    "dair_csv": ".\\data\\dair_emotion\\dair_pilot_1000.csv",
+    "dair_embeddings": ".\\artifacts\\dair_emotion\\pilot_embeddings.npy",
+    "output_dir": ".\\artifacts\\dair_emotion\\dimension_ablation\\dim_32_seed_44",
+    "seed": 44,
+    "dimensions": 32,
+    "epochs": 80,
+    "hidden_dim": 256,
+    "batch_size": 128,
+    "reconstruction_weight": 0.1,
+    "geometry_weight": 0.1
+  },
+  "results": [
+    {
+      "method": "Raw_Qwen",
+      "dimensions": 2560,
+      "selected_c": 0.01,
+      "dev_macro_f1": 0.5276839079656571,
+      "test_macro_f1": 0.4230538186093742,
+      "test_accuracy": 0.56,
+      "test_balanced_accuracy": 0.4175063442304822,
+      "per_class_f1": {
+        "0": 0.6181818181818182,
+        "1": 0.6172839506172839,
+        "2": 0.26666666666666666,
+        "3": 0.56,
+        "4": 0.47619047619047616,
+        "5": 0.0
+      }
+    },
+    {
+      "method": "EmoBank_PCA",
+      "dimensions": 32,
+      "selected_c": 1.0,
+      "dev_macro_f1": 0.294876443001443,
+      "test_macro_f1": 0.3006224712107065,
+      "test_accuracy": 0.49,
+      "test_balanced_accuracy": 0.3016942827287655,
+      "per_class_f1": {
+        "0": 0.5079365079365079,
+        "1": 0.6428571428571429,
+        "2": 0.0,
+        "3": 0.3,
+        "4": 0.35294117647058826,
+        "5": 0.0
+      }
+    },
+    {
+      "method": "AE_VAD_none",
+      "dimensions": 32,
+      "selected_c": 10.0,
+      "dev_macro_f1": 0.3430672230672231,
+      "test_macro_f1": 0.3584269214896989,
+      "test_accuracy": 0.53,
+      "test_balanced_accuracy": 0.3538699805941185,
+      "per_class_f1": {
+        "0": 0.5666666666666667,
+        "1": 0.6746987951807228,
+        "2": 0.3076923076923077,
+        "3": 0.2857142857142857,
+        "4": 0.3157894736842105,
+        "5": 0.0
+      }
+    },
+    {
+      "method": "AE_VAD_affective",
+      "dimensions": 32,
+      "selected_c": 1.0,
+      "dev_macro_f1": 0.3259727601832865,
+      "test_macro_f1": 0.3018237934904601,
+      "test_accuracy": 0.5,
+      "test_balanced_accuracy": 0.31162860128377373,
+      "per_class_f1": {
+        "0": 0.5185185185185185,
+        "1": 0.6590909090909091,
+        "2": 0.0,
+        "3": 0.3333333333333333,
+        "4": 0.3,
+        "5": 0.0
+      }
+    }
+  ]
+}

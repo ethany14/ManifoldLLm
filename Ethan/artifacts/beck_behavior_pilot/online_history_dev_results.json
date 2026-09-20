@@ -1,0 +1,151 @@
+{
+  "status": "exploratory variable-prefix personality-method prototype",
+  "protocol": {
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "train_people": 105,
+    "dev_people": 35,
+    "train_pairs": 2680,
+    "dev_pairs": 871,
+    "max_epochs": 300,
+    "patience": 40,
+    "stability_weight": 0.01,
+    "history": "per-feature mean of all observed prompts through and including prediction time",
+    "selection": "development Brier; no test data used"
+  },
+  "audit": {
+    "source_rows": 8672,
+    "source_people": 199,
+    "eligible_people_min_15_prompts": 177,
+    "pairs_after_calibration_gap_and_target_rules": 4355,
+    "pair_people": 176,
+    "personality_item_columns": [
+      "optimistic_setback",
+      "talkative",
+      "difficulty_starting",
+      "sad",
+      "curious",
+      "persistent",
+      "worries",
+      "inventive",
+      "starts_arguments",
+      "depressed",
+      "less_active",
+      "assumes_best",
+      "relaxed",
+      "rarely_excited",
+      "fascinated_art",
+      "assertive",
+      "careless",
+      "finds_fault",
+      "controls_emotions",
+      "values_beauty",
+      "moody",
+      "messy",
+      "others_charge",
+      "poetry_boring",
+      "compassionate",
+      "neat_tidy",
+      "enthusiastic",
+      "reliable",
+      "rude",
+      "tense",
+      "little_creativity",
+      "energetic",
+      "quiet",
+      "original",
+      "dependable",
+      "lazy",
+      "deep_thinker",
+      "forgiving",
+      "helpful",
+      "emotionally_stable",
+      "polite",
+      "difficulty_imagining",
+      "little_sympathy",
+      "dominant",
+      "influence_hard",
+      "efficient",
+      "outgoing",
+      "secure_comfortable",
+      "avoids_intellectual",
+      "disorganized",
+      "few_artistic",
+      "suspicious",
+      "respectful",
+      "systematic",
+      "little_abstract",
+      "rarely_anxious",
+      "temperamental",
+      "shy",
+      "cold",
+      "irresponsible"
+    ],
+    "personality_item_nonmissing_fraction": 0.19944808487401514,
+    "gap_hours_median": 3.9833333333333334,
+    "target_is_self_report": true
+  },
+  "runs": [
+    {
+      "seed": 1,
+      "best_epoch": 22,
+      "dev": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18269715209597973,
+        "log_loss": 0.5468223697037198,
+        "auprc": 0.3801971369584041,
+        "auroc": 0.6713936863932771
+      },
+      "person_change": {
+        "people_with_two_eligible_prefixes": 35,
+        "early_to_late_phi_euclidean_median": 0.28580018877983093,
+        "prefix_count_early_median": 10.0,
+        "prefix_count_late_median": 46.0
+      },
+      "checkpoint": "online_history_models\\seed_1.pt"
+    },
+    {
+      "seed": 2,
+      "best_epoch": 37,
+      "dev": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18341740126052555,
+        "log_loss": 0.5460274813850039,
+        "auprc": 0.37829020016956716,
+        "auroc": 0.6652478786390549
+      },
+      "person_change": {
+        "people_with_two_eligible_prefixes": 35,
+        "early_to_late_phi_euclidean_median": 0.6328315138816833,
+        "prefix_count_early_median": 10.0,
+        "prefix_count_late_median": 46.0
+      },
+      "checkpoint": "online_history_models\\seed_2.pt"
+    },
+    {
+      "seed": 3,
+      "best_epoch": 41,
+      "dev": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.1835245116324421,
+        "log_loss": 0.5447793860543557,
+        "auprc": 0.3844727286971037,
+        "auroc": 0.6727033368803034
+      },
+      "person_change": {
+        "people_with_two_eligible_prefixes": 35,
+        "early_to_late_phi_euclidean_median": 0.45758381485939026,
+        "prefix_count_early_median": 10.0,
+        "prefix_count_late_median": 46.0
+      },
+      "checkpoint": "online_history_models\\seed_3.pt"
+    }
+  ],
+  "mean_dev_brier": 0.18321302166298245
+}

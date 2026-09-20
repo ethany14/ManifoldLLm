@@ -1,0 +1,305 @@
+{
+  "status": "exploratory; deterministic hierarchy and supervised person-distance proxy, not an H-VAE or Riemannian manifold",
+  "source_sha256": "3b6c8ba9d02a57ac23e590e5db9b5a20c97c78531ce68e130a203315ac8cdbd1",
+  "split_seed": 46,
+  "split_person_ids": {
+    "train": [
+      201,
+      202,
+      206,
+      210,
+      213,
+      214,
+      217,
+      218,
+      222,
+      223,
+      225,
+      226,
+      227,
+      228,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      241,
+      242,
+      244,
+      247,
+      249,
+      250,
+      252,
+      253,
+      254,
+      256,
+      257,
+      258,
+      262,
+      263
+    ],
+    "dev": [
+      200,
+      205,
+      216,
+      224,
+      229,
+      239,
+      243,
+      245,
+      246,
+      255,
+      260,
+      264
+    ],
+    "test": [
+      203,
+      207,
+      209,
+      211,
+      212,
+      215,
+      221,
+      230,
+      240,
+      251,
+      259,
+      261
+    ]
+  },
+  "split_example_counts": {
+    "train": 733,
+    "dev": 264,
+    "test": 247
+  },
+  "model_seeds": [
+    1,
+    2,
+    3
+  ],
+  "geometry_weight": 0.002,
+  "geometry_definition": "pairwise Euclidean distances between person phi embeddings fitted to pairwise future-state-mean distances, training participants only",
+  "raw_first_ten_mean_test_distance_spearman": 0.559,
+  "pca4_first_ten_mean_test_distance_spearman": 0.5526,
+  "selection": "best epoch by development MSE separately for each model; no hyperparameter search",
+  "linear_fixed_history": {
+    "dev": {
+      "mean_mae_0_to_100": 11.5171,
+      "mean_rmse_0_to_100": 14.7404,
+      "mean_r2": 0.2577,
+      "trait_mae_0_to_100": {
+        "O": 9.9126,
+        "C": 11.05,
+        "E": 15.1913,
+        "A": 9.7265,
+        "N": 11.7051
+      }
+    },
+    "test": {
+      "mean_mae_0_to_100": 11.3366,
+      "mean_rmse_0_to_100": 14.9734,
+      "mean_r2": 0.2021,
+      "trait_mae_0_to_100": {
+        "O": 11.6261,
+        "C": 9.3205,
+        "E": 16.8581,
+        "A": 7.8921,
+        "N": 10.986
+      }
+    }
+  },
+  "summary": {
+    "no_geometry_dev_mae_mean": 12.2327,
+    "no_geometry_dev_mae_sd": 0.0074,
+    "no_geometry_test_mae_mean": 11.6826,
+    "no_geometry_test_mae_sd": 0.0184,
+    "no_geometry_test_person_distance_spearman_mean": 0.3187,
+    "person_distance_geometry_dev_mae_mean": 12.2325,
+    "person_distance_geometry_dev_mae_sd": 0.006,
+    "person_distance_geometry_test_mae_mean": 11.6822,
+    "person_distance_geometry_test_mae_sd": 0.0163,
+    "person_distance_geometry_test_person_distance_spearman_mean": 0.4314
+  },
+  "runs": [
+    {
+      "model_seed": 1,
+      "no_geometry": {
+        "best_epoch": 42,
+        "dev": {
+          "mean_mae_0_to_100": 12.2279,
+          "mean_rmse_0_to_100": 15.7109,
+          "mean_r2": 0.1588,
+          "trait_mae_0_to_100": {
+            "O": 10.4128,
+            "C": 11.5881,
+            "E": 15.8956,
+            "A": 10.4499,
+            "N": 12.7932
+          }
+        },
+        "test": {
+          "mean_mae_0_to_100": 11.6635,
+          "mean_rmse_0_to_100": 15.5799,
+          "mean_r2": 0.1296,
+          "trait_mae_0_to_100": {
+            "O": 12.0335,
+            "C": 9.5711,
+            "E": 17.0017,
+            "A": 8.0261,
+            "N": 11.6852
+          }
+        },
+        "test_person_distance_spearman": 0.1869
+      },
+      "person_distance_geometry": {
+        "best_epoch": 43,
+        "dev": {
+          "mean_mae_0_to_100": 12.2296,
+          "mean_rmse_0_to_100": 15.7122,
+          "mean_r2": 0.1587,
+          "trait_mae_0_to_100": {
+            "O": 10.4156,
+            "C": 11.5886,
+            "E": 15.9001,
+            "A": 10.4437,
+            "N": 12.8001
+          }
+        },
+        "test": {
+          "mean_mae_0_to_100": 11.6652,
+          "mean_rmse_0_to_100": 15.5825,
+          "mean_r2": 0.1293,
+          "trait_mae_0_to_100": {
+            "O": 12.034,
+            "C": 9.5721,
+            "E": 17.005,
+            "A": 8.023,
+            "N": 11.692
+          }
+        },
+        "test_person_distance_spearman": 0.4065
+      }
+    },
+    {
+      "model_seed": 2,
+      "no_geometry": {
+        "best_epoch": 37,
+        "dev": {
+          "mean_mae_0_to_100": 12.229,
+          "mean_rmse_0_to_100": 15.7163,
+          "mean_r2": 0.1586,
+          "trait_mae_0_to_100": {
+            "O": 10.39,
+            "C": 11.5759,
+            "E": 15.9292,
+            "A": 10.4307,
+            "N": 12.819
+          }
+        },
+        "test": {
+          "mean_mae_0_to_100": 11.6841,
+          "mean_rmse_0_to_100": 15.5958,
+          "mean_r2": 0.1281,
+          "trait_mae_0_to_100": {
+            "O": 12.0174,
+            "C": 9.6048,
+            "E": 17.0429,
+            "A": 8.0373,
+            "N": 11.7182
+          }
+        },
+        "test_person_distance_spearman": 0.3572
+      },
+      "person_distance_geometry": {
+        "best_epoch": 38,
+        "dev": {
+          "mean_mae_0_to_100": 12.2286,
+          "mean_rmse_0_to_100": 15.7169,
+          "mean_r2": 0.1585,
+          "trait_mae_0_to_100": {
+            "O": 10.3904,
+            "C": 11.5753,
+            "E": 15.9288,
+            "A": 10.4302,
+            "N": 12.8182
+          }
+        },
+        "test": {
+          "mean_mae_0_to_100": 11.6835,
+          "mean_rmse_0_to_100": 15.5959,
+          "mean_r2": 0.128,
+          "trait_mae_0_to_100": {
+            "O": 12.0181,
+            "C": 9.603,
+            "E": 17.0408,
+            "A": 8.0364,
+            "N": 11.7191
+          }
+        },
+        "test_person_distance_spearman": 0.4433
+      }
+    },
+    {
+      "model_seed": 3,
+      "no_geometry": {
+        "best_epoch": 58,
+        "dev": {
+          "mean_mae_0_to_100": 12.2413,
+          "mean_rmse_0_to_100": 15.7251,
+          "mean_r2": 0.157,
+          "trait_mae_0_to_100": {
+            "O": 10.4321,
+            "C": 11.5856,
+            "E": 15.8842,
+            "A": 10.4676,
+            "N": 12.8372
+          }
+        },
+        "test": {
+          "mean_mae_0_to_100": 11.7003,
+          "mean_rmse_0_to_100": 15.6009,
+          "mean_r2": 0.1272,
+          "trait_mae_0_to_100": {
+            "O": 12.0476,
+            "C": 9.6175,
+            "E": 17.0519,
+            "A": 8.0719,
+            "N": 11.7126
+          }
+        },
+        "test_person_distance_spearman": 0.4119
+      },
+      "person_distance_geometry": {
+        "best_epoch": 60,
+        "dev": {
+          "mean_mae_0_to_100": 12.2394,
+          "mean_rmse_0_to_100": 15.7248,
+          "mean_r2": 0.1571,
+          "trait_mae_0_to_100": {
+            "O": 10.4307,
+            "C": 11.5851,
+            "E": 15.8846,
+            "A": 10.462,
+            "N": 12.8344
+          }
+        },
+        "test": {
+          "mean_mae_0_to_100": 11.6978,
+          "mean_rmse_0_to_100": 15.6003,
+          "mean_r2": 0.1272,
+          "trait_mae_0_to_100": {
+            "O": 12.0461,
+            "C": 9.6178,
+            "E": 17.05,
+            "A": 8.0675,
+            "N": 11.7078
+          }
+        },
+        "test_person_distance_spearman": 0.4443
+      }
+    }
+  ]
+}

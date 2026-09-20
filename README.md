@@ -7,7 +7,7 @@ The current method is a longitudinal slow/fast generative model: an ordered hist
 ## Start here
 
 - [Current method, commands, and data handling](Ethan/README.md)
-- [How-focused supervisor report (PDF)](Ethan/output/pdf/PSYCHARCHIVES_CORE_METHOD_REPORT_EN.pdf)
+- [Final report (PDF)](Ethan/output/pdf/PSYCHARCHIVES_CORE_METHOD_REPORT_EN.pdf)
 - [PsychArchives implementation details](Ethan/PSYCHARCHIVES_MANIFOLD_IMPLEMENTATION.md)
 - [Geometry-training comparison](Ethan/PSYCHARCHIVES_GEOMETRY_TRAINING_RESULTS.md)
 - [Feature-group and simple-baseline check](Ethan/PSYCHARCHIVES_FEATURE_GROUP_RESULTS.md)

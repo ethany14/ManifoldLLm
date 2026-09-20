@@ -1,0 +1,136 @@
+{
+  "status": "exploratory development-only; sentence affect, not personality",
+  "protocol": {
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "train_rows": 8062,
+    "dev_rows": 999,
+    "latent_dim": 16,
+    "candidate_neighbors": 32,
+    "readout_neighbors": 8,
+    "path_steps": 5,
+    "selection": "direct-head development VAD MSE",
+    "geometry": "decoder-output length of straight latent paths; not optimized global geodesic"
+  },
+  "runs": [
+    {
+      "seed": 1,
+      "best_epoch": 2,
+      "direct_head": {
+        "mean_r2": 0.2827351490656535,
+        "r2": {
+          "valence": 0.49429500102996826,
+          "arousal": 0.2535388469696045,
+          "dominance": 0.1003715991973877
+        },
+        "mean_mae": 0.0816985269387563
+      },
+      "euclidean_knn": {
+        "mean_r2": 0.24736652497714964,
+        "r2": {
+          "valence": 0.4822848669224359,
+          "arousal": 0.2223294536078333,
+          "dominance": 0.03748525440117978
+        },
+        "mean_mae": 0.08282457028926687
+      },
+      "decoder_path_knn": {
+        "mean_r2": 0.25002137819925946,
+        "r2": {
+          "valence": 0.4623990058898926,
+          "arousal": 0.21875053644180298,
+          "dominance": 0.06891459226608276
+        },
+        "mean_mae": 0.08224331835905711
+      },
+      "metric_diagnostics": {
+        "training_points_checked": 5,
+        "smallest_singular_median": 1.6685774326324463,
+        "condition_number_median": 6.842893600463867
+      },
+      "mean_absolute_prediction_change": 0.026357648216987866
+    },
+    {
+      "seed": 2,
+      "best_epoch": 2,
+      "direct_head": {
+        "mean_r2": 0.2710057894388835,
+        "r2": {
+          "valence": 0.4927244782447815,
+          "arousal": 0.23558884859085083,
+          "dominance": 0.08470404148101807
+        },
+        "mean_mae": 0.08228165159622829
+      },
+      "euclidean_knn": {
+        "mean_r2": 0.25696728868300817,
+        "r2": {
+          "valence": 0.4998697341065811,
+          "arousal": 0.20644958020980375,
+          "dominance": 0.06458255173263971
+        },
+        "mean_mae": 0.08191133550909425
+      },
+      "decoder_path_knn": {
+        "mean_r2": 0.2446953852971395,
+        "r2": {
+          "valence": 0.47291576862335205,
+          "arousal": 0.20358771085739136,
+          "dominance": 0.05758267641067505
+        },
+        "mean_mae": 0.08257546275854111
+      },
+      "metric_diagnostics": {
+        "training_points_checked": 5,
+        "smallest_singular_median": 1.6680940389633179,
+        "condition_number_median": 7.089697360992432
+      },
+      "mean_absolute_prediction_change": 0.02664547563721751
+    },
+    {
+      "seed": 3,
+      "best_epoch": 1,
+      "direct_head": {
+        "mean_r2": 0.2761547764142354,
+        "r2": {
+          "valence": 0.48990345001220703,
+          "arousal": 0.2380884885787964,
+          "dominance": 0.10047239065170288
+        },
+        "mean_mae": 0.08167873571316402
+      },
+      "euclidean_knn": {
+        "mean_r2": 0.23077581141816847,
+        "r2": {
+          "valence": 0.459797316315921,
+          "arousal": 0.20612216863624733,
+          "dominance": 0.02640794930233703
+        },
+        "mean_mae": 0.08375816279059374
+      },
+      "decoder_path_knn": {
+        "mean_r2": 0.2320453921953837,
+        "r2": {
+          "valence": 0.4630337357521057,
+          "arousal": 0.18245172500610352,
+          "dominance": 0.050650715827941895
+        },
+        "mean_mae": 0.08370443433523178
+      },
+      "metric_diagnostics": {
+        "training_points_checked": 5,
+        "smallest_singular_median": 1.3005003929138184,
+        "condition_number_median": 7.620059013366699
+      },
+      "mean_absolute_prediction_change": 0.028743467666224126
+    }
+  ],
+  "mean_dev_r2": {
+    "direct_head": 0.27663190497292417,
+    "euclidean_knn": 0.24503654169277544,
+    "decoder_path_knn": 0.24225405189726087
+  }
+}

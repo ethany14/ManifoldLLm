@@ -1,0 +1,193 @@
+{
+  "question": "Predict the next Big Five personality-state rating after ten prior observations of a new person",
+  "status": "exploratory first-stage pilot; no text, LLM, behavior outcome, or manifold model",
+  "source_url": "https://osf.io/download/byr4u/",
+  "source_sha256": "3b6c8ba9d02a57ac23e590e5db9b5a20c97c78531ce68e130a203315ac8cdbd1",
+  "data_rows_complete": 1844,
+  "participants": 60,
+  "history_observations": 10,
+  "seed": 45,
+  "split": {
+    "train": {
+      "participants": 36,
+      "examples": 733,
+      "person_ids": [
+        201,
+        203,
+        205,
+        207,
+        210,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        221,
+        225,
+        226,
+        227,
+        228,
+        231,
+        234,
+        235,
+        236,
+        238,
+        239,
+        242,
+        244,
+        245,
+        249,
+        250,
+        251,
+        253,
+        254,
+        256,
+        257,
+        260,
+        261,
+        263,
+        264
+      ]
+    },
+    "dev": {
+      "participants": 12,
+      "examples": 263,
+      "person_ids": [
+        206,
+        209,
+        222,
+        229,
+        230,
+        233,
+        240,
+        241,
+        243,
+        246,
+        255,
+        258
+      ]
+    },
+    "test": {
+      "participants": 12,
+      "examples": 248,
+      "person_ids": [
+        200,
+        202,
+        211,
+        218,
+        223,
+        224,
+        232,
+        237,
+        247,
+        252,
+        259,
+        262
+      ]
+    }
+  },
+  "features": "prior state, prefix mean, log time gap, target time-of-day; no target state",
+  "metrics": {
+    "dev": {
+      "persistence": {
+        "mean_mae_0_to_100": 14.3129,
+        "mean_rmse_0_to_100": 20.035,
+        "mean_r2": -0.265,
+        "trait_mae_0_to_100": {
+          "O": 15.3631,
+          "C": 11.5665,
+          "E": 20.9905,
+          "A": 10.4525,
+          "N": 13.192
+        }
+      },
+      "person_running_mean": {
+        "mean_mae_0_to_100": 11.8377,
+        "mean_rmse_0_to_100": 15.7531,
+        "mean_r2": 0.2025,
+        "trait_mae_0_to_100": {
+          "O": 11.7271,
+          "C": 10.6636,
+          "E": 17.0392,
+          "A": 8.1398,
+          "N": 11.6186
+        }
+      },
+      "ridge": {
+        "mean_mae_0_to_100": 11.522,
+        "mean_rmse_0_to_100": 15.4409,
+        "mean_r2": 0.2408,
+        "trait_mae_0_to_100": {
+          "O": 11.4207,
+          "C": 9.902,
+          "E": 16.8835,
+          "A": 8.0415,
+          "N": 11.3626
+        }
+      },
+      "nonlinear_mlp": {
+        "mean_mae_0_to_100": 11.8043,
+        "mean_rmse_0_to_100": 15.6452,
+        "mean_r2": 0.2204,
+        "trait_mae_0_to_100": {
+          "O": 11.8118,
+          "C": 10.2839,
+          "E": 17.3097,
+          "A": 8.3959,
+          "N": 11.22
+        }
+      }
+    },
+    "test": {
+      "persistence": {
+        "mean_mae_0_to_100": 13.356,
+        "mean_rmse_0_to_100": 19.21,
+        "mean_r2": -0.3289,
+        "trait_mae_0_to_100": {
+          "O": 11.9254,
+          "C": 11.4294,
+          "E": 19.6855,
+          "A": 11.25,
+          "N": 12.4899
+        }
+      },
+      "person_running_mean": {
+        "mean_mae_0_to_100": 12.237,
+        "mean_rmse_0_to_100": 15.9118,
+        "mean_r2": 0.0825,
+        "trait_mae_0_to_100": {
+          "O": 11.1753,
+          "C": 9.7282,
+          "E": 17.7637,
+          "A": 10.0299,
+          "N": 12.4881
+        }
+      },
+      "ridge": {
+        "mean_mae_0_to_100": 11.8597,
+        "mean_rmse_0_to_100": 15.4707,
+        "mean_r2": 0.1309,
+        "trait_mae_0_to_100": {
+          "O": 11.249,
+          "C": 9.6977,
+          "E": 17.2384,
+          "A": 9.5166,
+          "N": 11.5969
+        }
+      },
+      "nonlinear_mlp": {
+        "mean_mae_0_to_100": 12.2513,
+        "mean_rmse_0_to_100": 15.8846,
+        "mean_r2": 0.0769,
+        "trait_mae_0_to_100": {
+          "O": 11.5162,
+          "C": 10.6522,
+          "E": 17.5592,
+          "A": 9.9088,
+          "N": 11.6202
+        }
+      }
+    }
+  }
+}

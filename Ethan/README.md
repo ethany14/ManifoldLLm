@@ -71,7 +71,7 @@ The scripts record aggregate results under ignored `Ethan/artifacts/psycharchive
 2. [Trait, window-matching, and component checks](PSYCHARCHIVES_EVALUATION_12_RESULTS.md)
 3. [Corrected geometry-training comparison](PSYCHARCHIVES_GEOMETRY_TRAINING_RESULTS.md)
 4. [Feature-group sensitivity and simple baseline](PSYCHARCHIVES_FEATURE_GROUP_RESULTS.md)
-5. [Supervisor report focused on the HOW](output/pdf/PSYCHARCHIVES_CORE_METHOD_REPORT_EN.pdf)
+5. [Final report](output/pdf/PSYCHARCHIVES_CORE_METHOD_REPORT_EN.pdf)
 
 The corresponding `*_PROTOCOL.md` files record fixed design choices and corrections. In particular, `PSYCHARCHIVES_GEOMETRY_TRAINING_PROTOCOL.md` is a superseded numerical pilot; the corrected comparison uses `PSYCHARCHIVES_GEOMETRY_TRAINING_PROTOCOL_V2.md`.
 

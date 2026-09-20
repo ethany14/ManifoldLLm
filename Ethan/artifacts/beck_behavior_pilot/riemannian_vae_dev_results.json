@@ -1,0 +1,253 @@
+{
+  "status": "exploratory development-only slow/fast VAE and metric-readout prototype",
+  "limitations": [
+    "Beck outcome is next-prompt self-reported studying, not independent behavior.",
+    "The existing participant split has been inspected during previous development.",
+    "Geometry enters the neighbor readout after joint VAE training; this is not an end-to-end geometry-aware M1 training objective.",
+    "Graph topology is Euclidean kNN; only edge lengths differ.",
+    "One fixed reference state/time (zero after standardization) defines the metric; sensitivity is untested."
+  ],
+  "protocol": {
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "max_epochs": 300,
+    "patience": 40,
+    "train_people": 105,
+    "dev_people": 35,
+    "train_pairs": 2680,
+    "dev_pairs": 871,
+    "state_columns": [
+      "mating",
+      "positivity",
+      "intellect",
+      "negativity",
+      "adversity",
+      "sociality",
+      "duty",
+      "deception",
+      "guilty",
+      "attentive",
+      "angry",
+      "content",
+      "goal_directed",
+      "happy",
+      "afraid",
+      "proud",
+      "excited",
+      "purposeful",
+      "in_class",
+      "late",
+      "sick",
+      "procrastinating",
+      "bored_schoolwork",
+      "excited_schoolwork",
+      "anxious_schoolwork",
+      "internet",
+      "tired",
+      "sleeping",
+      "studying"
+    ],
+    "time_columns": [
+      "history_rate",
+      "hour_sin",
+      "hour_cos",
+      "day_of_week"
+    ],
+    "neighbors": 8,
+    "readout_mix": 0.2,
+    "path_steps": 8,
+    "reconstruction_weight": 0.05,
+    "kl_weight": 0.002,
+    "selection": "base predictor development Brier; identical checkpoint for both readouts"
+  },
+  "audit": {
+    "source_rows": 8672,
+    "source_people": 199,
+    "eligible_people_min_15_prompts": 177,
+    "pairs_after_calibration_gap_and_target_rules": 4355,
+    "pair_people": 176,
+    "personality_item_columns": [
+      "optimistic_setback",
+      "talkative",
+      "difficulty_starting",
+      "sad",
+      "curious",
+      "persistent",
+      "worries",
+      "inventive",
+      "starts_arguments",
+      "depressed",
+      "less_active",
+      "assumes_best",
+      "relaxed",
+      "rarely_excited",
+      "fascinated_art",
+      "assertive",
+      "careless",
+      "finds_fault",
+      "controls_emotions",
+      "values_beauty",
+      "moody",
+      "messy",
+      "others_charge",
+      "poetry_boring",
+      "compassionate",
+      "neat_tidy",
+      "enthusiastic",
+      "reliable",
+      "rude",
+      "tense",
+      "little_creativity",
+      "energetic",
+      "quiet",
+      "original",
+      "dependable",
+      "lazy",
+      "deep_thinker",
+      "forgiving",
+      "helpful",
+      "emotionally_stable",
+      "polite",
+      "difficulty_imagining",
+      "little_sympathy",
+      "dominant",
+      "influence_hard",
+      "efficient",
+      "outgoing",
+      "secure_comfortable",
+      "avoids_intellectual",
+      "disorganized",
+      "few_artistic",
+      "suspicious",
+      "respectful",
+      "systematic",
+      "little_abstract",
+      "rarely_anxious",
+      "temperamental",
+      "shy",
+      "cold",
+      "irresponsible"
+    ],
+    "personality_item_nonmissing_fraction": 0.19944808487401514,
+    "gap_hours_median": 3.9833333333333334,
+    "target_is_self_report": true
+  },
+  "runs": [
+    {
+      "seed": 1,
+      "best_epoch": 64,
+      "checkpoint": "riemannian_vae_models\\seed_1.pt",
+      "base_vae": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.1841196371597432,
+        "log_loss": 0.5446890396014736,
+        "auprc": 0.3811500524677324,
+        "auroc": 0.6784569315980464
+      },
+      "euclidean_readout": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18294506927065743,
+        "log_loss": 0.5451578157549614,
+        "auprc": 0.3822193148640049,
+        "auroc": 0.6738867970860276
+      },
+      "riemannian_readout": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18247254146353634,
+        "log_loss": 0.5438716031517457,
+        "auprc": 0.3861391493176497,
+        "auroc": 0.6767857630078307
+      },
+      "delta_riemannian_minus_euclidean_brier": -0.0004725278071210694,
+      "person_readout_mean_absolute_difference": 0.021790143889371852,
+      "metric_diagnostics": {
+        "n_people_checked": 30,
+        "min_singular_median": 0.11233004927635193,
+        "condition_median": 3.1976776123046875
+      }
+    },
+    {
+      "seed": 2,
+      "best_epoch": 37,
+      "checkpoint": "riemannian_vae_models\\seed_2.pt",
+      "base_vae": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18350953400562764,
+        "log_loss": 0.5456308203712479,
+        "auprc": 0.37121566807930556,
+        "auroc": 0.6675806935690705
+      },
+      "euclidean_readout": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.1824571538833749,
+        "log_loss": 0.545697081313024,
+        "auprc": 0.3775126361490867,
+        "auroc": 0.6702068156394095
+      },
+      "riemannian_readout": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18242758256241842,
+        "log_loss": 0.5457268669844114,
+        "auprc": 0.37832669883281567,
+        "auroc": 0.6699339717879458
+      },
+      "delta_riemannian_minus_euclidean_brier": -2.9571320956476557e-05,
+      "person_readout_mean_absolute_difference": 0.014566936388598881,
+      "metric_diagnostics": {
+        "n_people_checked": 30,
+        "min_singular_median": 0.10393016040325165,
+        "condition_median": 3.0559334754943848
+      }
+    },
+    {
+      "seed": 3,
+      "best_epoch": 39,
+      "checkpoint": "riemannian_vae_models\\seed_3.pt",
+      "base_vae": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18452253243605407,
+        "log_loss": 0.5460951873162145,
+        "auprc": 0.37671734941748625,
+        "auroc": 0.6701795312542632
+      },
+      "euclidean_readout": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18315560413247067,
+        "log_loss": 0.5452802203390418,
+        "auprc": 0.37486213947426866,
+        "auroc": 0.6693200731221522
+      },
+      "riemannian_readout": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18317142553818286,
+        "log_loss": 0.5449859360973085,
+        "auprc": 0.3738044243498472,
+        "auroc": 0.6695792747810428
+      },
+      "delta_riemannian_minus_euclidean_brier": 1.582140571218611e-05,
+      "person_readout_mean_absolute_difference": 0.023227554454482116,
+      "metric_diagnostics": {
+        "n_people_checked": 30,
+        "min_singular_median": 0.1365494728088379,
+        "condition_median": 2.9917800426483154
+      }
+    }
+  ],
+  "mean_dev_brier": {
+    "base_vae": 0.18405056786714166,
+    "euclidean_readout": 0.18285260909550102,
+    "riemannian_readout": 0.18269051652137921
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "question": "Predict the next Big Five personality-state rating after ten prior observations of a new person",
+  "status": "exploratory first-stage pilot; no text, LLM, behavior outcome, or manifold model",
+  "source_url": "https://osf.io/download/byr4u/",
+  "source_sha256": "3b6c8ba9d02a57ac23e590e5db9b5a20c97c78531ce68e130a203315ac8cdbd1",
+  "data_rows_complete": 1844,
+  "participants": 60,
+  "history_observations": 10,
+  "seed": 42,
+  "split": {
+    "train": {
+      "participants": 36,
+      "examples": 742,
+      "person_ids": [
+        201,
+        202,
+        209,
+        211,
+        212,
+        213,
+        216,
+        217,
+        218,
+        222,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        236,
+        239,
+        241,
+        242,
+        243,
+        245,
+        246,
+        249,
+        252,
+        254,
+        256,
+        258,
+        260,
+        261,
+        264
+      ]
+    },
+    "dev": {
+      "participants": 12,
+      "examples": 255,
+      "person_ids": [
+        205,
+        207,
+        215,
+        221,
+        237,
+        238,
+        247,
+        250,
+        251,
+        253,
+        257,
+        263
+      ]
+    },
+    "test": {
+      "participants": 12,
+      "examples": 247,
+      "person_ids": [
+        200,
+        203,
+        206,
+        210,
+        214,
+        223,
+        235,
+        240,
+        244,
+        255,
+        259,
+        262
+      ]
+    }
+  },
+  "features": "prior state, prefix mean, log time gap, target time-of-day; no target state",
+  "metrics": {
+    "dev": {
+      "persistence": {
+        "mean_mae_0_to_100": 14.3204,
+        "mean_rmse_0_to_100": 19.8711,
+        "mean_r2": -0.334,
+        "trait_mae_0_to_100": {
+          "O": 15.4627,
+          "C": 11.8588,
+          "E": 19.8608,
+          "A": 11.9157,
+          "N": 12.5039
+        }
+      },
+      "person_running_mean": {
+        "mean_mae_0_to_100": 12.5548,
+        "mean_rmse_0_to_100": 16.5957,
+        "mean_r2": 0.0897,
+        "trait_mae_0_to_100": {
+          "O": 12.4819,
+          "C": 9.4371,
+          "E": 19.0262,
+          "A": 9.9888,
+          "N": 11.8402
+        }
+      },
+      "ridge": {
+        "mean_mae_0_to_100": 12.1059,
+        "mean_rmse_0_to_100": 16.1063,
+        "mean_r2": 0.1388,
+        "trait_mae_0_to_100": {
+          "O": 12.208,
+          "C": 9.5853,
+          "E": 18.204,
+          "A": 9.6086,
+          "N": 10.9237
+        }
+      },
+      "nonlinear_mlp": {
+        "mean_mae_0_to_100": 12.3414,
+        "mean_rmse_0_to_100": 16.3948,
+        "mean_r2": 0.1035,
+        "trait_mae_0_to_100": {
+          "O": 12.4943,
+          "C": 9.9685,
+          "E": 18.1217,
+          "A": 10.0478,
+          "N": 11.0747
+        }
+      }
+    },
+    "test": {
+      "persistence": {
+        "mean_mae_0_to_100": 14.7231,
+        "mean_rmse_0_to_100": 20.2449,
+        "mean_r2": -0.2568,
+        "trait_mae_0_to_100": {
+          "O": 15.3016,
+          "C": 12.1174,
+          "E": 20.2834,
+          "A": 12.7895,
+          "N": 13.1235
+        }
+      },
+      "person_running_mean": {
+        "mean_mae_0_to_100": 12.5492,
+        "mean_rmse_0_to_100": 16.4073,
+        "mean_r2": 0.1741,
+        "trait_mae_0_to_100": {
+          "O": 12.0013,
+          "C": 11.0714,
+          "E": 17.7478,
+          "A": 9.9721,
+          "N": 11.9533
+        }
+      },
+      "ridge": {
+        "mean_mae_0_to_100": 12.2426,
+        "mean_rmse_0_to_100": 16.1082,
+        "mean_r2": 0.1968,
+        "trait_mae_0_to_100": {
+          "O": 12.185,
+          "C": 10.7848,
+          "E": 16.88,
+          "A": 9.6972,
+          "N": 11.666
+        }
+      },
+      "nonlinear_mlp": {
+        "mean_mae_0_to_100": 12.4886,
+        "mean_rmse_0_to_100": 16.4115,
+        "mean_r2": 0.162,
+        "trait_mae_0_to_100": {
+          "O": 12.755,
+          "C": 11.057,
+          "E": 16.8534,
+          "A": 10.0021,
+          "N": 11.7755
+        }
+      }
+    }
+  }
+}
