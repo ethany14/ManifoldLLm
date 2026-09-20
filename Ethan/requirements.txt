@@ -7,3 +7,4 @@ scikit-learn>=1.5
 joblib>=1.4
 tqdm>=4.66
 pyarrow>=25.0
+openpyxl>=3.1

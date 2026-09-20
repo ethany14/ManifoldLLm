@@ -60,3 +60,32 @@ result alone would not establish a digital personality manifold.
 
 The per-seed CSV/JSON outputs are in `artifacts/dair_emotion/pilot_transfer*`.
 Reproduction commands and source hashes are in `REPRODUCIBILITY.md`.
+
+## Follow-up: bottleneck dimension ablation
+
+Holding the pilot data, representation-training settings, probe procedure, and
+three seeds fixed, we repeated the comparison at 32, 64, and 128 dimensions.
+The entries below are mean test macro-F1 ± sample SD across seeds 42–44.
+
+| Dimension | PCA | AE + VAD | AE + VAD + affective geometry |
+|---:|---:|---:|---:|
+| 16 | 0.239 ± 0.000 | 0.277 ± 0.037 | 0.258 ± 0.017 |
+| 32 | 0.297 ± 0.011 | 0.308 ± 0.049 | 0.283 ± 0.021 |
+| 64 | 0.351 ± 0.012 | 0.321 ± 0.030 | 0.371 ± 0.056 |
+| 128 | 0.386 ± 0.017 | 0.332 ± 0.016 | 0.362 ± 0.017 |
+| Raw Qwen (2,560) | 0.423 ± 0.000 | — | — |
+
+Increasing the bottleneck helps some methods, especially PCA, but the trend is
+not monotonic for the neural models. At 64 dimensions, affective geometry is
+above the no-geometry AE mean by 0.050 macro-F1, yet it varies substantially
+by seed (0.332, 0.434, 0.346). It is below the raw Qwen mean and does not
+retain the same advantage at 128 dimensions. The best compressed mean in this
+pilot is 128-dimensional PCA (0.386).
+
+These dimensions were inspected against the **same** 100-example test set after
+the initial experiment. Therefore this table is exploratory model development,
+not an independent final test or evidence that 64 is the true optimal dimension.
+Choose a small dimension grid using a validation set, then evaluate the selected
+configuration once on a larger, untouched test set. Compare same-dimensional
+methods and retain the uncompressed Qwen baseline. The full per-run outputs are
+in `artifacts/dair_emotion/dimension_ablation/dim_*_seed_*`.

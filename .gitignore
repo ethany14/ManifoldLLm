@@ -14,3 +14,8 @@ artifacts/**/model/*.pt
 .vscode/
 Ethan/data/dair_emotion/source/
 Ethan/data/dair_emotion/*.csv
+Ethan/data/persdyn/source/
+Ethan/data/person_situation/source/
+Ethan/data/psycharchives/
+Ethan/artifacts/psycharchives/
+**/artifacts/**/*.pt
