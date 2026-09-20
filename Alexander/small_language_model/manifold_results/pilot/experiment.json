@@ -1,0 +1,18 @@
+{
+  "csv": "Ethan/data/emobank/emobank_pilot_1000.csv",
+  "variants": [
+    "baseline",
+    "neighborhood",
+    "decoder",
+    "decoder_neighborhood"
+  ],
+  "seeds": [
+    42
+  ],
+  "epochs": 2,
+  "max_points": 32,
+  "grid_size": 11,
+  "evaluate_test": false,
+  "run_dir": "Alexander/small_language_model/artifacts/manifold_pilot",
+  "report_dir": "Alexander/small_language_model/manifold_results/pilot"
+}
