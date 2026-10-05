@@ -11,7 +11,7 @@ import sys
 import torch
 from torch.utils.data import DataLoader
 
-from Alexander.manifold_losses import LossWeights
+from .manifold_losses import LossWeights
 from .data import DEFAULT_CSV, TARGETS, load_emobank
 from .model import EmotionLanguageModel, generate, training_loss
 
@@ -68,7 +68,29 @@ def evaluate(model: EmotionLanguageModel, loader: DataLoader,
     }
 
 
-def main() -> None:
+def train_epoch(model: EmotionLanguageModel, loader: DataLoader,
+                optimizer: torch.optim.Optimizer, weights: LossWeights,
+                neighborhood_weight: float = 0.0) -> float:
+    """Update model weights once over the loader and return the mean sampled loss."""
+    model.train()
+    loss_sum, examples = 0.0, 0
+    for inputs, targets, vad in loader:
+        optimizer.zero_grad(set_to_none=True)
+        losses = training_loss(model(inputs, vad), targets, vad, weights, neighborhood_weight)
+        if not torch.isfinite(losses["total"]):
+            raise RuntimeError("Training produced a non-finite loss.")
+        losses["total"].backward()
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        optimizer.step()
+        loss_sum += float(losses["total"].detach()) * len(vad)
+        examples += len(vad)
+    if examples == 0:
+        raise ValueError("Training requires a nonempty dataset.")
+    return loss_sum / examples
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    """Parse and validate training options independently of model execution."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--csv", type=Path, default=DEFAULT_CSV)
     parser.add_argument("--epochs", type=int, default=20)
@@ -88,7 +110,7 @@ def main() -> None:
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--output-dir", type=Path,
                         default=Path(__file__).resolve().parent / "artifacts" / "emobank")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
     if args.epochs < 1 or args.patience < 1 or args.batch_size < 2:
         parser.error("epochs/patience must be positive and batch-size must be at least 2")
     if not math.isfinite(args.learning_rate) or args.learning_rate <= 0:
@@ -98,6 +120,11 @@ def main() -> None:
         args.neighborhood_weight
     )):
         parser.error("loss weights must be finite and nonnegative")
+    return args
+
+
+def main() -> None:
+    args = parse_args()
     torch.manual_seed(args.seed)
     torch.set_num_threads(1)
     corpus = load_emobank(args.csv, args.max_tokens, args.max_vocabulary, args.min_frequency)
@@ -119,25 +146,14 @@ def main() -> None:
     best_state = None
     history = []
     for epoch in range(1, args.epochs + 1):
-        model.train()
-        loss_sum, examples = 0.0, 0
-        for inputs, targets, vad in train_loader:
-            optimizer.zero_grad(set_to_none=True)
-            losses = training_loss(model(inputs, vad), targets, vad, weights, neighborhood_weight)
-            if not torch.isfinite(losses["total"]):
-                raise RuntimeError("Training produced a non-finite loss.")
-            losses["total"].backward()
-            torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
-            optimizer.step()
-            loss_sum += float(losses["total"].detach()) * len(vad)
-            examples += len(vad)
+        train_loss = train_epoch(model, train_loader, optimizer, weights, neighborhood_weight)
         dev_metrics = evaluate(model, dev_loader, weights, neighborhood_weight)
         score = dev_metrics["losses"]["selection_total"]
         if not math.isfinite(score):
             raise RuntimeError("Development evaluation produced a non-finite loss.")
-        history.append({"epoch": epoch, "train_sampled_total": loss_sum / examples,
+        history.append({"epoch": epoch, "train_sampled_total": train_loss,
                         "dev": dev_metrics})
-        print(f"epoch={epoch} train_sampled_total={loss_sum / examples:.4f} dev_selection={score:.4f}")
+        print(f"epoch={epoch} train_sampled_total={train_loss:.4f} dev_selection={score:.4f}")
         if score < best_score - 1e-6:
             best_score, best_epoch, stale = score, epoch, 0
             best_state = {name: value.detach().clone() for name, value in model.state_dict().items()}
@@ -168,7 +184,7 @@ def main() -> None:
     }
     provenance = {
         "article": "https://aclanthology.org/2026.acl-long.1929.pdf",
-        "registry": "Alexander/small_language_model/ARTICLE_DIFFERENCES.md",
+        "registry": "small_language_model/ARTICLE_DIFFERENCES.md",
         "variant": args.variant,
         "active_departures": ["A1", "A2", "A3", "A4", "A5"]
             + (["N1"] if neighborhood_weight else [])
@@ -178,7 +194,7 @@ def main() -> None:
         "source_hashes": {name: hashlib.sha256((Path(__file__).parent / name).read_bytes()).hexdigest()
                           for name in ("model.py", "geometry.py", "train.py", "data.py")},
         "paper_loss_source_sha256": hashlib.sha256(
-            (Path(__file__).parent.parent / "manifold_losses.py").read_bytes()).hexdigest(),
+            (Path(__file__).parent / "manifold_losses.py").read_bytes()).hexdigest(),
         "difference_registry_sha256": hashlib.sha256(
             (Path(__file__).parent / "ARTICLE_DIFFERENCES.md").read_bytes()).hexdigest(),
         "software": {"python": sys.version, "torch": str(torch.__version__)},

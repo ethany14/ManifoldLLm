@@ -37,7 +37,7 @@ def summarize(rows):
 
 
 def main():
-    root = Path(__file__).resolve().parents[2]
+    root = Path(__file__).resolve().parents[1]
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--csv", type=Path, default=DEFAULT_CSV)
     parser.add_argument("--variants", nargs="+", choices=VARIANTS, default=list(VARIANTS))
@@ -68,7 +68,7 @@ def main():
     for name in ("model.py", "train.py", "geometry.py", "data.py", "compare_manifold_variants.py",
                  "ARTICLE_DIFFERENCES.md", "requirements.txt"):
         shutil.copy2(package / name, archive / name)
-    shutil.copy2(package.parent / "manifold_losses.py", archive / "manifold_losses.py")
+    shutil.copy2(package / "manifold_losses.py", archive / "manifold_losses.py")
     shutil.copy2(package / "visualization" / "diagnose_geometry.py", archive / "diagnose_geometry.py")
     shutil.copy2(package / "visualization" / "plot_manifold.py", archive / "plot_manifold.py")
     shutil.copy2(package / "visualization" / "requirements.txt", archive / "visualization_requirements.txt")
@@ -79,7 +79,7 @@ def main():
     for seed in args.seeds:
         for variant in args.variants:
             run_dir = run_root / f"seed_{seed}" / variant
-            command = [sys.executable, "-m", "Alexander.small_language_model.train", "--csv", str(source),
+            command = [sys.executable, "-m", "small_language_model.train", "--csv", str(source),
                        "--variant", variant, "--seed", str(seed), "--epochs", str(args.epochs),
                        "--output-dir", str(run_dir)]
             if not args.evaluate_test:

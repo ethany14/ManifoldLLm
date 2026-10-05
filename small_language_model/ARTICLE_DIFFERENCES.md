@@ -23,7 +23,9 @@ the paper's results, training hyperparameters, or data are made.
 
 Factorization is a modeling assumption, not proof of learned independence.
 Shared/private terminology is retained, but text-only data cannot demonstrate
-modality invariance. The original `Alexander/manifold_losses.py` is unchanged.
+modality invariance. The original loss implementation was moved from
+`Alexander/manifold_losses.py` to [manifold_losses.py](manifold_losses.py) without
+changing its equations. Archived snapshots retain their original layout references.
 
 ## Existing Departures, Active in Every Variant
 

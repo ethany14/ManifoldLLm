@@ -6,24 +6,49 @@ not trained weights. Installing PyTorch requires package access; running the dem
 after installation is entirely offline. Only Ethan's EmoBank CSV is read; none of
 his code, Qwen embeddings, model weights, or manifold coordinates are used or changed.
 
+This is a shared package for all students, moved from Alexander's folder. Import
+it as `small_language_model`; no personal-folder imports are required.
+
+## Code Map
+
+Read the modules in this order to follow one training run:
+
+| Module | Responsibility |
+| --- | --- |
+| [data.py](data.py) | CSV validation, train-only vocabulary, tokenization, and splits |
+| [model.py](model.py) | GRU, affect/private codes, training losses, and generation |
+| [manifold_losses.py](manifold_losses.py) | Paper-derived mathematical loss helpers |
+| [train.py](train.py) | CLI parsing, one-epoch updates, evaluation, selection, and checkpoint saving |
+| [geometry.py](geometry.py) | Optional neighborhood loss and decoder geometry calculations |
+| [compare_manifold_variants.py](compare_manifold_variants.py) | Matched runs, source archives, and comparison summaries |
+| [visualization](visualization/README.md) | Coordinate plots and geometry diagnostics |
+
+`train.main` orchestrates a run; `parse_args`, `train_epoch`, and `evaluate` can be
+read and tested independently. Tests live beside the modules they exercise.
+
+`artifacts/` holds ignored local checkpoints. `manifold_results/` and the included
+visualization pilot folders hold saved research outputs, not executable source.
+Their historical metadata and `source_snapshot/` contents are preserved verbatim,
+including old Alexander paths; use the live package for new experiments.
+
 ## Run
 
-Run these commands from the repository root, using a Python environment with
-PyTorch installed:
+Run these commands from the repository root, using Python 3.10 or newer
+(validated with 3.13). See the root README for isolated environment setup:
 
 ```sh
-python -m pip install -r Alexander/small_language_model/requirements.txt
-python -m unittest Alexander.small_language_model.test_data Alexander.small_language_model.test_model Alexander.small_language_model.test_train -v
-python -m Alexander.small_language_model.train --epochs 20
+python -m pip install -r small_language_model/requirements.txt
+python -m unittest small_language_model.test_data small_language_model.test_model small_language_model.test_train small_language_model.test_manifold_losses -v
+python -m small_language_model.train --epochs 20
 ```
 
 The full EmoBank CSV is the default. For a quick pipeline check:
 
 ```sh
-python -m Alexander.small_language_model.train --csv Ethan/data/emobank/emobank_pilot_1000.csv --epochs 2 --output-dir Alexander/small_language_model/artifacts/pilot
+python -m small_language_model.train --csv Ethan/data/emobank/emobank_pilot_1000.csv --epochs 2 --skip-test --output-dir small_language_model/artifacts/pilot
 ```
 
-The default output directory is `Alexander/small_language_model/artifacts/emobank`.
+The default output directory is `small_language_model/artifacts/emobank`.
 `model.pt` stores the best development checkpoint, architecture, vocabulary,
 tokenization settings, loss weights, seed, and input CSV hash. `metrics.json`
 records development history, final test metrics, a training-mean VAD baseline,
@@ -39,6 +64,11 @@ EmoBank, CC BY-SA 4.0. Upstream source: https://github.com/JULIELab/EmoBank.
 Ethan's preprocessing removes one missing-text record and transforms official
 ratings using `(score - 3) / 2`. This loader validates [-1, 1] ratings but does
 not normalize them a second time.
+
+Other students can pass `--csv path/to/data.csv` with columns `id,text,valence,arousal,dominance,split`.
+IDs must be unique, VAD values finite and in [-1, 1], and each of the `train`, `dev`,
+and `test` splits nonempty. Current report attribution is EmoBank-specific; update
+the attribution if adapting the pipeline to a different source dataset.
 
 Official splits are retained: 8,062 train, 999 development, 1,000 test. The pilot
 has 800/100/100. Duplicate IDs, missing text, invalid ratings and empty splits are
@@ -67,7 +97,7 @@ Changing a changes token probabilities, not the stored weights themselves.
 Training updates W_a and the other weights by gradient descent.
 
 A masked mean of GRU states feeds separate Gaussian affect (3D) and private (8D)
-heads. We preserve and reuse `Alexander/manifold_losses.py`, including its
+heads. We preserve and reuse [manifold_losses.py](manifold_losses.py), including its
 reparameterization, reconstruction, anchoring, covariance, KL and total objective.
 
 $$q(z_a,z_p\mid h)=q(z_a\mid h)q(z_p\mid h),\qquad
@@ -168,9 +198,9 @@ stay active. Version-2 checkpoints without `conditioning_mode` load as baseline;
 new checkpoints store it explicitly. Use separate output folders for each variant.
 
 ```sh
-python -m pip install -r Alexander/small_language_model/visualization/requirements.txt
-python -m Alexander.small_language_model.train --variant decoder_neighborhood --epochs 20 --skip-test --output-dir Alexander/small_language_model/artifacts/decoder_neighborhood
-python -m Alexander.small_language_model.visualization.diagnose_geometry --checkpoint Alexander/small_language_model/artifacts/decoder_neighborhood/model.pt --output-dir Alexander/small_language_model/manifold_results/decoder_neighborhood
+python -m pip install -r small_language_model/visualization/requirements.txt
+python -m small_language_model.train --variant decoder_neighborhood --epochs 20 --skip-test --output-dir small_language_model/artifacts/decoder_neighborhood
+python -m small_language_model.visualization.diagnose_geometry --checkpoint small_language_model/artifacts/decoder_neighborhood/model.pt --output-dir small_language_model/manifold_results/decoder_neighborhood
 ```
 
 The diagnostics compute the full decoder Jacobian and metric, rank sensitivity to
@@ -182,7 +212,7 @@ marked; neither a curved surface nor full rank establishes emotional validity.
 Matched four-variant experiment, full dataset and repeated seeds:
 
 ```sh
-python -m Alexander.small_language_model.compare_manifold_variants --epochs 20 --seeds 1 7 42 --run-dir Alexander/small_language_model/artifacts/manifold_full --report-dir Alexander/small_language_model/manifold_results/full
+python -m small_language_model.compare_manifold_variants --epochs 20 --seeds 1 7 42 --run-dir small_language_model/artifacts/manifold_full --report-dir small_language_model/manifold_results/full
 ```
 
 For a quick check, add `--csv Ethan/data/emobank/emobank_pilot_1000.csv --epochs 2`.
@@ -202,17 +232,17 @@ random-decoder controls and independent generation evaluation remain to be run.
 Tests after installing the visualization dependencies:
 
 ```sh
-python -m unittest Alexander.small_language_model.test_data Alexander.small_language_model.test_model Alexander.small_language_model.test_train Alexander.small_language_model.test_geometry Alexander.small_language_model.test_experiments Alexander.small_language_model.visualization.test_plot_manifold -v
+python -m unittest discover -s small_language_model -t . -v
 ```
 
 ## Reload the Learned Model
 
 ```python
 import torch
-from Alexander.small_language_model.model import EmotionLanguageModel, generate
+from small_language_model.model import EmotionLanguageModel, generate
 
 checkpoint = torch.load(
-    "Alexander/small_language_model/artifacts/emobank/model.pt",
+    "small_language_model/artifacts/emobank/model.pt",
     map_location="cpu", weights_only=True,
 )
 model = EmotionLanguageModel(**checkpoint["config"])

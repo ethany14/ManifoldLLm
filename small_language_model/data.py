@@ -13,7 +13,7 @@ from torch.utils.data import TensorDataset
 
 SPECIAL_TOKENS = ["<pad>", "<unk>", "<bos>", "<eos>"]
 TARGETS = ["valence", "arousal", "dominance"]
-DEFAULT_CSV = Path(__file__).resolve().parents[2] / "Ethan" / "data" / "emobank" / "emobank_manifold.csv"
+DEFAULT_CSV = Path(__file__).resolve().parents[1] / "Ethan" / "data" / "emobank" / "emobank_manifold.csv"
 
 
 def tokenize(text: str) -> list[str]:
