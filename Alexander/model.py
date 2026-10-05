@@ -1,8 +1,10 @@
-"""Tiny causal GRU language model; no pretrained components or network access."""
+"""Affective-manifold model built on the shared scratch-trained language backbone."""
 
 import torch
 from torch import Tensor, nn
 from torch.nn import functional as functional
+
+from small_language_model.core import GRUBackbone
 
 from .geometry import decode_affect, neighborhood_loss
 from .manifold_losses import (
@@ -15,16 +17,14 @@ from .manifold_losses import (
 )
 
 
-class EmotionLanguageModel(nn.Module):
+class EmotionLanguageModel(GRUBackbone):
     def __init__(self, vocabulary_size: int, embedding_dim: int = 32,
                  hidden_dim: int = 64, private_dim: int = 8,
                  conditioning_mode: str = "linear"):
-        super().__init__()
         if conditioning_mode not in ("linear", "decoder"):
             raise ValueError("conditioning_mode must be linear or decoder")
+        super().__init__(vocabulary_size, embedding_dim, hidden_dim)
         self.conditioning_mode = conditioning_mode
-        self.embedding = nn.Embedding(vocabulary_size, embedding_dim, padding_idx=0)
-        self.recurrent = nn.GRU(embedding_dim, hidden_dim, batch_first=True)
         self.affect_head = nn.Linear(hidden_dim, 3)
         self.private_head = nn.Linear(hidden_dim, private_dim)
         self.affect_log_variance = nn.Linear(hidden_dim, 3)
@@ -37,7 +37,7 @@ class EmotionLanguageModel(nn.Module):
         self.token_head = nn.Linear(hidden_dim, vocabulary_size)
 
     def forward(self, tokens: Tensor, desired_vad: Tensor) -> dict[str, Tensor]:
-        hidden, _ = self.recurrent(self.embedding(tokens))
+        hidden = self.encode_tokens(tokens)
         mask = tokens.ne(0).unsqueeze(-1)
         pooled = (hidden * mask).sum(dim=1) / mask.sum(dim=1).clamp_min(1)
         if self.conditioning_mode == "decoder":

@@ -9,7 +9,7 @@ from pathlib import Path
 import torch
 from torch.utils.data import DataLoader
 
-from ..data import TARGETS, load_emobank
+from small_language_model.data import TARGETS, load_emobank
 from ..model import EmotionLanguageModel
 
 

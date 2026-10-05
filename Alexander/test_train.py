@@ -34,7 +34,7 @@ class TrainingTests(unittest.TestCase):
     def test_default_paths_resolve_after_package_move(self):
         args = parse_args([])
         self.assertTrue(args.csv.is_file())
-        self.assertEqual(args.output_dir.parent.parent.name, "small_language_model")
+        self.assertEqual(args.output_dir.parent.parent.name, "Alexander")
         self.assertEqual(args.variant, "baseline")
 
 

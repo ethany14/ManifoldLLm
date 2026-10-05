@@ -1,1 +1,1 @@
-"""An offline, randomly initialized language model for emotion experiments."""
+"""Shared scratch-trained language components, independent of manifold research."""

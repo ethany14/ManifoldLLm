@@ -6,12 +6,12 @@ posterior means. It does not use an LLM, PCA, Isomap, or invented surface geomet
 ## Run From the Repository Root
 
 ```sh
-python -m pip install -r small_language_model/visualization/requirements.txt
-python -m small_language_model.visualization.plot_manifold
+python -m pip install -r Alexander/visualization/requirements.txt
+python -m Alexander.visualization.plot_manifold
 ```
 
 The default checkpoint is `../artifacts/emobank/model.pt` relative to this folder.
-Train it first using `python -m small_language_model.train --epochs 20`,
+Train it first using `python -m Alexander.train --epochs 20`,
 or supply an existing checkpoint with `--checkpoint /path/to/model.pt`.
 The script uses the CSV and tokenization settings saved with that checkpoint.
 If the CSV has moved, pass `--csv /new/path/to/original.csv`; its hash must match.
@@ -52,7 +52,7 @@ The separate `diagnose_geometry` command computes decoder Jacobians, local rank,
 graph paths, and a fixed-private decoder slice projected onto training-feature PCA:
 
 ```sh
-python -m small_language_model.visualization.diagnose_geometry --checkpoint small_language_model/artifacts/emobank/model.pt --output-dir small_language_model/manifold_results/my_geometry
+python -m Alexander.visualization.diagnose_geometry --checkpoint Alexander/artifacts/emobank/model.pt --output-dir Alexander/manifold_results/my_geometry
 ```
 
 It writes `geometry_report.json`, `local_geometry.csv`, `decoder_slice.csv`,

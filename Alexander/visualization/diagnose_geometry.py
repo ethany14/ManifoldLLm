@@ -11,7 +11,7 @@ import torch
 from scipy.stats import spearmanr
 from torch.utils.data import DataLoader
 
-from ..data import TARGETS, load_emobank
+from small_language_model.data import TARGETS, load_emobank
 from ..geometry import decode_affect, decoder_geometry, graph_distances, segment_lengths
 from ..model import EmotionLanguageModel
 from .plot_manifold import extract_points

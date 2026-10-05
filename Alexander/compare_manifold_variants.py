@@ -11,7 +11,7 @@ import sys
 
 import torch
 
-from .data import DEFAULT_CSV, TARGETS
+from small_language_model.data import DEFAULT_CSV, TARGETS
 from .train import VARIANTS
 from .visualization.diagnose_geometry import diagnose
 
@@ -63,15 +63,20 @@ def main():
                 parser.error("A run checkpoint already exists; choose a new --run-dir")
     report_root.mkdir(parents=True, exist_ok=True)
     archive = report_root / "source_snapshot"
-    archive.mkdir()
+    research_archive = archive / "Alexander"
+    research_archive.mkdir(parents=True)
     package = Path(__file__).parent
-    for name in ("model.py", "train.py", "geometry.py", "data.py", "compare_manifold_variants.py",
-                 "ARTICLE_DIFFERENCES.md", "requirements.txt"):
-        shutil.copy2(package / name, archive / name)
-    shutil.copy2(package / "manifold_losses.py", archive / "manifold_losses.py")
-    shutil.copy2(package / "visualization" / "diagnose_geometry.py", archive / "diagnose_geometry.py")
-    shutil.copy2(package / "visualization" / "plot_manifold.py", archive / "plot_manifold.py")
-    shutil.copy2(package / "visualization" / "requirements.txt", archive / "visualization_requirements.txt")
+    for name in ("__init__.py", "model.py", "train.py", "geometry.py", "manifold_losses.py",
+                 "compare_manifold_variants.py", "ARTICLE_DIFFERENCES.md", "requirements.txt"):
+        shutil.copy2(package / name, research_archive / name)
+    visualization_archive = research_archive / "visualization"
+    visualization_archive.mkdir()
+    for name in ("__init__.py", "diagnose_geometry.py", "plot_manifold.py", "requirements.txt"):
+        shutil.copy2(package / "visualization" / name, visualization_archive / name)
+    shared_archive = archive / "small_language_model"
+    shared_archive.mkdir()
+    for name in ("__init__.py", "core.py", "data.py", "requirements.txt"):
+        shutil.copy2(root / "small_language_model" / name, shared_archive / name)
     config = {key: str(value) if isinstance(value, Path) else value for key, value in vars(args).items()}
     (report_root / "experiment.json").write_text(json.dumps(config, indent=2), encoding="utf-8")
     torch.set_num_threads(1)
@@ -79,7 +84,7 @@ def main():
     for seed in args.seeds:
         for variant in args.variants:
             run_dir = run_root / f"seed_{seed}" / variant
-            command = [sys.executable, "-m", "small_language_model.train", "--csv", str(source),
+            command = [sys.executable, "-m", "Alexander.train", "--csv", str(source),
                        "--variant", variant, "--seed", str(seed), "--epochs", str(args.epochs),
                        "--output-dir", str(run_dir)]
             if not args.evaluate_test:

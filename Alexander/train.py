@@ -12,7 +12,7 @@ import torch
 from torch.utils.data import DataLoader
 
 from .manifold_losses import LossWeights
-from .data import DEFAULT_CSV, TARGETS, load_emobank
+from small_language_model.data import DEFAULT_CSV, TARGETS, load_emobank
 from .model import EmotionLanguageModel, generate, training_loss
 
 VARIANTS = ("baseline", "neighborhood", "decoder", "decoder_neighborhood")
@@ -184,7 +184,7 @@ def main() -> None:
     }
     provenance = {
         "article": "https://aclanthology.org/2026.acl-long.1929.pdf",
-        "registry": "small_language_model/ARTICLE_DIFFERENCES.md",
+        "registry": "Alexander/ARTICLE_DIFFERENCES.md",
         "variant": args.variant,
         "active_departures": ["A1", "A2", "A3", "A4", "A5"]
             + (["N1"] if neighborhood_weight else [])
@@ -192,7 +192,12 @@ def main() -> None:
         "effective_neighborhood_weight": neighborhood_weight,
         "selection": "Development baseline objective, excluding N1 in every variant",
         "source_hashes": {name: hashlib.sha256((Path(__file__).parent / name).read_bytes()).hexdigest()
-                          for name in ("model.py", "geometry.py", "train.py", "data.py")},
+                          for name in ("model.py", "geometry.py", "train.py")},
+        "shared_source_hashes": {
+            name: hashlib.sha256(
+                (Path(__file__).parent.parent / "small_language_model" / name).read_bytes()
+            ).hexdigest() for name in ("core.py", "data.py")
+        },
         "paper_loss_source_sha256": hashlib.sha256(
             (Path(__file__).parent / "manifold_losses.py").read_bytes()).hexdigest(),
         "difference_registry_sha256": hashlib.sha256(
