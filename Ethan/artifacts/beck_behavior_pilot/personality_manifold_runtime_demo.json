@@ -1,0 +1,170 @@
+{
+  "status": "working inference demonstration, not a validated digital personality",
+  "initial_person_A": {
+    "record_label": "person_A_observation_1",
+    "checkpoint_seed": 1,
+    "slow_person_posterior": {
+      "mean": [
+        0.2756540775299072,
+        -0.44538262486457825,
+        0.033284831792116165,
+        -0.5766733884811401
+      ],
+      "std": [
+        0.8366596102714539,
+        0.8357427716255188,
+        0.8244031071662903,
+        0.9201806783676147
+      ]
+    },
+    "fast_state_posterior": {
+      "mean": [
+        0.08284760266542435,
+        0.8067901134490967,
+        0.01629456877708435,
+        1.1798259019851685
+      ],
+      "std": [
+        0.7832065224647522,
+        0.7876977920532227,
+        0.9043524265289307,
+        0.78938227891922
+      ]
+    },
+    "local_metric_eigenvalues": [
+      0.01263292133808136,
+      0.023439129814505577,
+      0.08801203966140747,
+      0.13006862998008728
+    ],
+    "predicted_next_self_reported_studying": 0.29992610216140747,
+    "scope": "Beck self-report prototype; not a validated personality identity"
+  },
+  "person_A_after_new_state": {
+    "record_label": "person_A_observation_2",
+    "checkpoint_seed": 1,
+    "slow_person_posterior": {
+      "mean": [
+        0.2756540775299072,
+        -0.44538262486457825,
+        0.033284831792116165,
+        -0.5766733884811401
+      ],
+      "std": [
+        0.8366596102714539,
+        0.8357427716255188,
+        0.8244031071662903,
+        0.9201806783676147
+      ]
+    },
+    "fast_state_posterior": {
+      "mean": [
+        1.5682951211929321,
+        2.5185365676879883,
+        -0.9106612205505371,
+        -0.49532461166381836
+      ],
+      "std": [
+        0.5618595480918884,
+        0.5556080341339111,
+        0.6526874899864197,
+        0.65434330701828
+      ]
+    },
+    "local_metric_eigenvalues": [
+      0.01263292133808136,
+      0.023439129814505577,
+      0.08801203966140747,
+      0.13006862998008728
+    ],
+    "predicted_next_self_reported_studying": 0.12442834675312042,
+    "scope": "Beck self-report prototype; not a validated personality identity",
+    "update_note": "Slow posterior held fixed; this is not a learned long-term update."
+  },
+  "person_B": {
+    "record_label": "person_B_observation_1",
+    "checkpoint_seed": 1,
+    "slow_person_posterior": {
+      "mean": [
+        0.3676149845123291,
+        -0.5300400257110596,
+        -0.0351058766245842,
+        -0.3314509391784668
+      ],
+      "std": [
+        0.8583073616027832,
+        0.7042828798294067,
+        0.8544121384620667,
+        0.8634681701660156
+      ]
+    },
+    "fast_state_posterior": {
+      "mean": [
+        0.7653146386146545,
+        1.1578755378723145,
+        -0.2671412229537964,
+        -0.6546903848648071
+      ],
+      "std": [
+        0.6981685161590576,
+        0.6711050868034363,
+        0.7889710068702698,
+        0.6978456377983093
+      ]
+    },
+    "local_metric_eigenvalues": [
+      0.012611022219061852,
+      0.024113154038786888,
+      0.08517951518297195,
+      0.13054658472537994
+    ],
+    "predicted_next_self_reported_studying": 0.2705115079879761,
+    "scope": "Beck self-report prototype; not a validated personality identity"
+  },
+  "person_A_B_distance": {
+    "approximate_graph_geodesic": 0.11003444530069828,
+    "straight_decoded_path_length": 0.08190003782510757,
+    "euclidean_coordinate_distance": 0.2836107015609741,
+    "reference_points": 105,
+    "neighbors": 12,
+    "units": "standardized decoder-output path length"
+  },
+  "llm_condition_example": {
+    "long_term_estimate": {
+      "mean": [
+        0.2756540775299072,
+        -0.44538262486457825,
+        0.033284831792116165,
+        -0.5766733884811401
+      ],
+      "std": [
+        0.8366596102714539,
+        0.8357427716255188,
+        0.8244031071662903,
+        0.9201806783676147
+      ]
+    },
+    "current_state_estimate": {
+      "mean": [
+        1.5682951211929321,
+        2.5185365676879883,
+        -0.9106612205505371,
+        -0.49532461166381836
+      ],
+      "std": [
+        0.5618595480918884,
+        0.5556080341339111,
+        0.6526874899864197,
+        0.65434330701828
+      ]
+    },
+    "uncertainty_is_explicit": true,
+    "usage_rule": "Treat as uncertain, revisable context; do not claim identity or inner experience."
+  },
+  "important_limits": [
+    "No text or actual LLM generation is used in this Beck demonstration.",
+    "Fast state is updated; slow personality is held fixed. Long-term online updating is not trained.",
+    "The graph geodesic is approximate and depends on the training-person reference graph.",
+    "All examples come from previously inspected development people."
+  ]
+}

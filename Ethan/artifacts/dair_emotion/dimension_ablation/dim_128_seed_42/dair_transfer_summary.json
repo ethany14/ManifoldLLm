@@ -1,0 +1,86 @@
+{
+  "settings": {
+    "emobank_csv": ".\\data\\emobank\\emobank_manifold.csv",
+    "emobank_embeddings": ".\\artifacts\\emobank_full\\embeddings.npy",
+    "dair_csv": ".\\data\\dair_emotion\\dair_pilot_1000.csv",
+    "dair_embeddings": ".\\artifacts\\dair_emotion\\pilot_embeddings.npy",
+    "output_dir": ".\\artifacts\\dair_emotion\\dimension_ablation\\dim_128_seed_42",
+    "seed": 42,
+    "dimensions": 128,
+    "epochs": 80,
+    "hidden_dim": 256,
+    "batch_size": 128,
+    "reconstruction_weight": 0.1,
+    "geometry_weight": 0.1
+  },
+  "results": [
+    {
+      "method": "Raw_Qwen",
+      "dimensions": 2560,
+      "selected_c": 0.01,
+      "dev_macro_f1": 0.5276839079656571,
+      "test_macro_f1": 0.4230538186093742,
+      "test_accuracy": 0.56,
+      "test_balanced_accuracy": 0.4175063442304822,
+      "per_class_f1": {
+        "0": 0.6181818181818182,
+        "1": 0.6172839506172839,
+        "2": 0.26666666666666666,
+        "3": 0.56,
+        "4": 0.47619047619047616,
+        "5": 0.0
+      }
+    },
+    {
+      "method": "EmoBank_PCA",
+      "dimensions": 128,
+      "selected_c": 0.1,
+      "dev_macro_f1": 0.47191014262155145,
+      "test_macro_f1": 0.40266621194336055,
+      "test_accuracy": 0.55,
+      "test_balanced_accuracy": 0.4012296611434542,
+      "per_class_f1": {
+        "0": 0.631578947368421,
+        "1": 0.6582278481012658,
+        "2": 0.4,
+        "3": 0.25,
+        "4": 0.47619047619047616,
+        "5": 0.0
+      }
+    },
+    {
+      "method": "AE_VAD_none",
+      "dimensions": 128,
+      "selected_c": 10.0,
+      "dev_macro_f1": 0.42702526941657376,
+      "test_macro_f1": 0.3163191202406888,
+      "test_accuracy": 0.42,
+      "test_balanced_accuracy": 0.3136195700850873,
+      "per_class_f1": {
+        "0": 0.48148148148148145,
+        "1": 0.5555555555555556,
+        "2": 0.35294117647058826,
+        "3": 0.2222222222222222,
+        "4": 0.2857142857142857,
+        "5": 0.0
+      }
+    },
+    {
+      "method": "AE_VAD_affective",
+      "dimensions": 128,
+      "selected_c": 1.0,
+      "dev_macro_f1": 0.35597268792484993,
+      "test_macro_f1": 0.3435761119971646,
+      "test_accuracy": 0.44,
+      "test_balanced_accuracy": 0.33353298999850717,
+      "per_class_f1": {
+        "0": 0.4727272727272727,
+        "1": 0.5454545454545454,
+        "2": 0.4,
+        "3": 0.2222222222222222,
+        "4": 0.42105263157894735,
+        "5": 0.0
+      }
+    }
+  ]
+}

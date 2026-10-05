@@ -1,0 +1,206 @@
+{
+  "status": "development-only deterministic engineering proxy; not full B1/B2/M1 VAE",
+  "config": {
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "k": 8,
+    "mix": 0.2,
+    "path_subdivisions": 6,
+    "state_columns": [
+      "mating",
+      "positivity",
+      "intellect",
+      "negativity",
+      "adversity",
+      "sociality",
+      "duty",
+      "deception",
+      "guilty",
+      "attentive",
+      "angry",
+      "content",
+      "goal_directed",
+      "happy",
+      "afraid",
+      "proud",
+      "excited",
+      "purposeful",
+      "in_class",
+      "late",
+      "sick",
+      "procrastinating",
+      "bored_schoolwork",
+      "excited_schoolwork",
+      "anxious_schoolwork",
+      "internet",
+      "tired",
+      "sleeping",
+      "studying"
+    ],
+    "time_columns": [
+      "history_rate",
+      "hour_sin",
+      "hour_cos",
+      "day_of_week"
+    ],
+    "dev_people": [
+      6,
+      8,
+      13,
+      17,
+      21,
+      31,
+      32,
+      35,
+      38,
+      56,
+      69,
+      70,
+      81,
+      82,
+      85,
+      86,
+      96,
+      101,
+      119,
+      132,
+      133,
+      136,
+      145,
+      147,
+      168,
+      171,
+      177,
+      179,
+      180,
+      189,
+      195,
+      205,
+      211,
+      214,
+      216
+    ],
+    "geometry": "decoder-induced lengths on kNN edges; shortest-path approximation"
+  },
+  "audit": {
+    "train_people": 105,
+    "dev_people": 35,
+    "train_pairs": 2680,
+    "dev_pairs": 871
+  },
+  "runs": [
+    {
+      "seed": 1,
+      "best_epoch": 50,
+      "metric_diagnostics": {
+        "sampled_people": 30,
+        "smallest_singular_median": 0.053599752485752106,
+        "condition_number_median": 4.636434555053711
+      },
+      "base_b2_proxy": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18595268881120386,
+        "log_loss": 0.5501201606306165,
+        "auprc": 0.3758987479869813,
+        "auroc": 0.6675261247987777
+      },
+      "euclidean_graph_readout": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18406481987414916,
+        "log_loss": 0.5487518261966486,
+        "auprc": 0.383121356264853,
+        "auroc": 0.6637881640337234
+      },
+      "decoder_metric_geodesic_readout": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18485935027879766,
+        "log_loss": 0.5507137653186535,
+        "auprc": 0.37833743445600554,
+        "auroc": 0.6593680936400099
+      },
+      "dev_brier_delta_manifold_minus_euclidean": 0.000794530404648473,
+      "person_rate_readout_mean_absolute_difference": 0.028240623930728775
+    },
+    {
+      "seed": 2,
+      "best_epoch": 36,
+      "metric_diagnostics": {
+        "sampled_people": 30,
+        "smallest_singular_median": 0.08978250622749329,
+        "condition_number_median": 4.933728218078613
+      },
+      "base_b2_proxy": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18547129787233174,
+        "log_loss": 0.5483583337601377,
+        "auprc": 0.3752187660302939,
+        "auroc": 0.6709503151346483
+      },
+      "euclidean_graph_readout": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.1845439962148742,
+        "log_loss": 0.5499171898466109,
+        "auprc": 0.3738041690156291,
+        "auroc": 0.6672464598510273
+      },
+      "decoder_metric_geodesic_readout": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.1842894299105558,
+        "log_loss": 0.5494779913812545,
+        "auprc": 0.37647643233887296,
+        "auroc": 0.668699353360072
+      },
+      "dev_brier_delta_manifold_minus_euclidean": -0.00025456630431840746,
+      "person_rate_readout_mean_absolute_difference": 0.03159854770573484
+    },
+    {
+      "seed": 3,
+      "best_epoch": 60,
+      "metric_diagnostics": {
+        "sampled_people": 30,
+        "smallest_singular_median": 0.07748308777809143,
+        "condition_number_median": 12.829246520996094
+      },
+      "base_b2_proxy": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.1859109972781606,
+        "log_loss": 0.549795649969168,
+        "auprc": 0.37684466996678995,
+        "auroc": 0.672560093858285
+      },
+      "euclidean_graph_readout": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.18420837806981186,
+        "log_loss": 0.5490655256019424,
+        "auprc": 0.378242153235973,
+        "auroc": 0.66539794275736
+      },
+      "decoder_metric_geodesic_readout": {
+        "n": 871,
+        "prevalence": 0.2617680826636051,
+        "brier": 0.1839460393253533,
+        "log_loss": 0.548114252206441,
+        "auprc": 0.37730965450757337,
+        "auroc": 0.6673419551990396
+      },
+      "dev_brier_delta_manifold_minus_euclidean": -0.0002623387444585409,
+      "person_rate_readout_mean_absolute_difference": 0.0346349163555178
+    }
+  ],
+  "mean_dev_brier": {
+    "base_b2_proxy": 0.18577832798723207,
+    "euclidean_graph_readout": 0.18427239805294507,
+    "decoder_metric_geodesic_readout": 0.18436493983823557
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "status": "working variable-history manifold inference demo; development people only",
+  "before": {
+    "record_label": "person_A_prefix",
+    "checkpoint_seed": 1,
+    "slow_person_posterior": {
+      "mean": [
+        0.5327213406562805,
+        -1.0257407426834106,
+        0.45842427015304565,
+        -0.7277147769927979
+      ],
+      "std": [
+        0.7827823758125305,
+        0.910765528678894,
+        0.7735795974731445,
+        0.8784965872764587
+      ]
+    },
+    "fast_state_posterior": {
+      "mean": [
+        -0.1381622850894928,
+        0.3592621982097626,
+        0.11755567789077759,
+        0.2431483417749405
+      ],
+      "std": [
+        0.9932004809379578,
+        0.9487178921699524,
+        0.9815338253974915,
+        0.9629751443862915
+      ]
+    },
+    "local_metric_eigenvalues": [
+      0.02191537618637085,
+      0.028678838163614273,
+      0.0639173835515976,
+      0.11180537194013596
+    ],
+    "predicted_next_self_reported_studying": 0.28178372979164124,
+    "scope": "Beck self-report prototype; not a validated personality identity",
+    "history_observation_count": 10,
+    "history_accumulator": {
+      "sum": [
+        16.0,
+        22.0,
+        10.0,
+        20.0,
+        10.0,
+        14.0,
+        19.0,
+        10.0,
+        30.0,
+        32.0,
+        24.0,
+        36.0,
+        30.0,
+        30.0,
+        25.0,
+        21.0,
+        29.0,
+        33.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        5.0,
+        4.0,
+        3.0,
+        0.0,
+        3.0
+      ],
+      "count": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ]
+    },
+    "update_note": "Slow and fast posteriors re-estimated from the enlarged observed history."
+  },
+  "after_one_more_prompt": {
+    "record_label": "person_A_one_more_prompt",
+    "checkpoint_seed": 1,
+    "slow_person_posterior": {
+      "mean": [
+        0.5421220064163208,
+        -1.1188997030258179,
+        0.5402158498764038,
+        -0.7991610169410706
+      ],
+      "std": [
+        0.7895955443382263,
+        0.9314976930618286,
+        0.7631348967552185,
+        0.8765699863433838
+      ]
+    },
+    "fast_state_posterior": {
+      "mean": [
+        0.17794984579086304,
+        0.8191680908203125,
+        0.07697764039039612,
+        -0.4130607545375824
+      ],
+      "std": [
+        0.9204286932945251,
+        0.966161847114563,
+        0.9224591851234436,
+        0.7765076160430908
+      ]
+    },
+    "local_metric_eigenvalues": [
+      0.021888036280870438,
+      0.02854105830192566,
+      0.06202436983585358,
+      0.11155020445585251
+    ],
+    "predicted_next_self_reported_studying": 0.21955154836177826,
+    "scope": "Beck self-report prototype; not a validated personality identity",
+    "history_observation_count": 11,
+    "history_accumulator": {
+      "sum": [
+        17.0,
+        25.0,
+        13.0,
+        23.0,
+        11.0,
+        17.0,
+        20.0,
+        11.0,
+        34.0,
+        36.0,
+        27.0,
+        38.0,
+        33.0,
+        34.0,
+        29.0,
+        23.0,
+        32.0,
+        35.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        5.0,
+        4.0,
+        3.0,
+        0.0,
+        3.0
+      ],
+      "count": [
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        10.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        10.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0
+      ]
+    },
+    "update_note": "Slow and fast posteriors re-estimated from the enlarged observed history."
+  },
+  "other_person": {
+    "record_label": "person_B_prefix",
+    "checkpoint_seed": 1,
+    "slow_person_posterior": {
+      "mean": [
+        0.46889621019363403,
+        -0.48615026473999023,
+        0.25264111161231995,
+        -0.41156983375549316
+      ],
+      "std": [
+        0.8673404455184937,
+        0.8370053172111511,
+        0.8736099004745483,
+        0.9149799942970276
+      ]
+    },
+    "fast_state_posterior": {
+      "mean": [
+        0.2508288621902466,
+        0.7375801801681519,
+        0.12668617069721222,
+        -0.3272400200366974
+      ],
+      "std": [
+        0.9017685651779175,
+        0.8784016370773315,
+        0.9076017737388611,
+        0.8036323189735413
+      ]
+    },
+    "local_metric_eigenvalues": [
+      0.021892137825489044,
+      0.02909397892653942,
+      0.0711938813328743,
+      0.11407166719436646
+    ],
+    "predicted_next_self_reported_studying": 0.30984118580818176,
+    "scope": "Beck self-report prototype; not a validated personality identity",
+    "history_observation_count": 11,
+    "history_accumulator": {
+      "sum": [
+        11.0,
+        29.0,
+        18.0,
+        14.0,
+        11.0,
+        21.0,
+        22.0,
+        11.0,
+        21.0,
+        41.0,
+        25.0,
+        41.0,
+        42.0,
+        36.0,
+        22.0,
+        36.0,
+        30.0,
+        40.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        2.0,
+        2.0,
+        4.0
+      ],
+      "count": [
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0
+      ]
+    },
+    "update_note": "Slow and fast posteriors re-estimated from the enlarged observed history."
+  },
+  "slow_posterior_mean_change": 0.14339244096255147,
+  "raw_history_preprocessing_probability_difference": 0.0,
+  "updated_person_to_other_graph_distance": {
+    "approximate_graph_geodesic": 0.21936456114053726,
+    "straight_decoded_path_length": 0.2060299962759018,
+    "euclidean_coordinate_distance": 0.7991620898246765,
+    "reference_points": 105,
+    "neighbors": 12,
+    "units": "standardized decoder-output path length"
+  },
+  "llm_condition_example": {
+    "long_term_estimate": {
+      "mean": [
+        0.5421220064163208,
+        -1.1188997030258179,
+        0.5402158498764038,
+        -0.7991610169410706
+      ],
+      "std": [
+        0.7895955443382263,
+        0.9314976930618286,
+        0.7631348967552185,
+        0.8765699863433838
+      ]
+    },
+    "current_state_estimate": {
+      "mean": [
+        0.17794984579086304,
+        0.8191680908203125,
+        0.07697764039039612,
+        -0.4130607545375824
+      ],
+      "std": [
+        0.9204286932945251,
+        0.966161847114563,
+        0.9224591851234436,
+        0.7765076160430908
+      ]
+    },
+    "uncertainty_is_explicit": true,
+    "usage_rule": "Treat as uncertain, revisable context; do not claim identity or inner experience."
+  },
+  "limits": [
+    "The history encoder sees prefix feature means, not raw text or a full sequence model.",
+    "One new prompt changes the slow estimate numerically; its psychological calibration is unproven.",
+    "All data are Beck self-reports and the demonstration uses previously inspected development people."
+  ]
+}

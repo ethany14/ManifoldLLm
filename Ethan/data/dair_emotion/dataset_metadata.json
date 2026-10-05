@@ -1,0 +1,18 @@
+{
+  "rows": 20000,
+  "split_counts": {
+    "train": 16000,
+    "dev": 2000,
+    "test": 2000
+  },
+  "labels": {
+    "0": "sadness",
+    "1": "joy",
+    "2": "love",
+    "3": "anger",
+    "4": "fear",
+    "5": "surprise"
+  },
+  "source": "https://huggingface.co/datasets/dair-ai/emotion",
+  "purpose": "external categorical-emotion validation"
+}
