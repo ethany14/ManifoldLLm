@@ -10,7 +10,7 @@ import unittest
 import torch
 
 from .compare_manifold_variants import summarize
-from .data import load_emobank
+from small_language_model.data import load_emobank
 from .model import EmotionLanguageModel
 from .visualization.diagnose_geometry import diagnose
 

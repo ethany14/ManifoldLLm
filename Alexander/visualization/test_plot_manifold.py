@@ -8,7 +8,7 @@ import unittest
 
 import torch
 
-from ..data import load_emobank
+from small_language_model.data import load_emobank
 from ..model import EmotionLanguageModel
 from .plot_manifold import extract_points, render
 
