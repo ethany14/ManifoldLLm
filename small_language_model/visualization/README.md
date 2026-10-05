@@ -1,17 +1,17 @@
 # Learned Affective Space
 
-This folder generates a PNG from the scratch-trained model's actual 3D affect
+The `plot_manifold` command generates a PNG from the scratch-trained model's actual 3D affect
 posterior means. It does not use an LLM, PCA, Isomap, or invented surface geometry.
 
 ## Run From the Repository Root
 
 ```sh
-python -m pip install -r Alexander/small_language_model/visualization/requirements.txt
-python -m Alexander.small_language_model.visualization.plot_manifold
+python -m pip install -r small_language_model/visualization/requirements.txt
+python -m small_language_model.visualization.plot_manifold
 ```
 
 The default checkpoint is `../artifacts/emobank/model.pt` relative to this folder.
-Train it first using `python -m Alexander.small_language_model.train --epochs 20`,
+Train it first using `python -m small_language_model.train --epochs 20`,
 or supply an existing checkpoint with `--checkpoint /path/to/model.pt`.
 The script uses the CSV and tokenization settings saved with that checkpoint.
 If the CSV has moved, pass `--csv /new/path/to/original.csv`; its hash must match.
@@ -45,3 +45,18 @@ A compact cloud can indicate weak predictions or collapse, not successful
 disentanglement. These plots show samples of a learned representation, not proof
 of a smooth or scientifically validated manifold. No interpolated surface is drawn.
 Data credit: EmoBank, Buechel and Hahn (2017), CC BY-SA 4.0.
+
+## Decoder Geometry
+
+The separate `diagnose_geometry` command computes decoder Jacobians, local rank,
+graph paths, and a fixed-private decoder slice projected onto training-feature PCA:
+
+```sh
+python -m small_language_model.visualization.diagnose_geometry --checkpoint small_language_model/artifacts/emobank/model.pt --output-dir small_language_model/manifold_results/my_geometry
+```
+
+It writes `geometry_report.json`, `local_geometry.csv`, `decoder_slice.csv`,
+`geometry_arrays.pt`, and `decoder_geometry.png`. Unlike the point-cloud command,
+this diagnostic samples a decoder surface. Full local rank does not prove emotional
+validity, and graph paths approximate rather than solve continuous geodesics.
+See the [research methods register](../ARTICLE_DIFFERENCES.md) for the assumptions.

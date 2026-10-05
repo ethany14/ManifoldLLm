@@ -4,7 +4,7 @@ import unittest
 
 import torch
 
-from manifold_losses import (
+from .manifold_losses import (
     LossWeights,
     cross_covariance,
     disentanglement_loss,

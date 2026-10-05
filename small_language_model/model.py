@@ -5,7 +5,7 @@ from torch import Tensor, nn
 from torch.nn import functional as functional
 
 from .geometry import decode_affect, neighborhood_loss
-from Alexander.manifold_losses import (
+from .manifold_losses import (
     LossWeights,
     disentanglement_loss,
     gaussian_kl,

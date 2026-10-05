@@ -7,9 +7,35 @@ import torch
 from torch.nn import functional as functional
 from torch.utils.data import DataLoader, TensorDataset
 
-from Alexander.manifold_losses import LossWeights
+from .manifold_losses import LossWeights
 from .model import EmotionLanguageModel
-from .train import evaluate
+from .train import evaluate, parse_args, train_epoch
+
+
+class TrainingTests(unittest.TestCase):
+    def test_epoch_updates_weights_and_rejects_empty_loader(self):
+        torch.manual_seed(42)
+        model = EmotionLanguageModel(12)
+        inputs = torch.tensor([[2, 4, 5], [2, 6, 0]])
+        targets = torch.tensor([[4, 5, 3], [6, 3, 0]])
+        vad = torch.zeros(2, 3)
+        dataset = TensorDataset(inputs, targets, vad)
+        optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+        before = model.token_head.weight.detach().clone()
+        model.eval()
+        loss = train_epoch(model, DataLoader(dataset, batch_size=2), optimizer, LossWeights())
+        self.assertTrue(model.training)
+        self.assertTrue(torch.isfinite(torch.tensor(loss)))
+        self.assertFalse(torch.equal(before, model.token_head.weight))
+        empty = TensorDataset(inputs[:0], targets[:0], vad[:0])
+        with self.assertRaisesRegex(ValueError, "nonempty"):
+            train_epoch(model, DataLoader(empty), optimizer, LossWeights())
+
+    def test_default_paths_resolve_after_package_move(self):
+        args = parse_args([])
+        self.assertTrue(args.csv.is_file())
+        self.assertEqual(args.output_dir.parent.parent.name, "small_language_model")
+        self.assertEqual(args.variant, "baseline")
 
 
 class EvaluationTests(unittest.TestCase):
