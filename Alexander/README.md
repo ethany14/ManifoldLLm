@@ -7,6 +7,11 @@ package does not import Alexander or any manifold mathematics.
 
 ## Where to Make Math Changes
 
+Start with the [step-by-step math walkthrough and diagrams](MATH_WALKTHROUGH.md)
+for the connection between the code, loss equations, and candidate manifold geometry.
+For the shared encoder, its gate equations, and a comparison of implemented and
+proposed methods, read [GRU backbone and method choices](GRU_AND_METHODS.md).
+
 | File | Owns |
 | --- | --- |
 | [manifold_losses.py](manifold_losses.py) | Reconstruction, VAD anchoring helpers, covariance, KL, and weighted paper objective |
