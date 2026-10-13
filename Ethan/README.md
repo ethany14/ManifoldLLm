@@ -2,7 +2,22 @@
 
 This folder contains the current person-level method and its exploratory evaluation. The research question is **how to use manifold geometry to form a revisable digital-personality state**, not simply whether a nonlinear embedding improves one score.
 
-## Current answer and status
+## Start here: selected method report
+
+[Read the English report: Learned Manifolds for Digital Personality - Method and Rationale (PDF)](output/pdf/LEARNED_MANIFOLD_METHOD_AND_RATIONALE_EN.pdf)
+
+The 14-page illustrated report presents the selected **nonlinear encoder-decoder with decoder-induced Riemannian geometry**. It covers:
+
+- Why this architecture fits the digital-personality research question.
+- Foundations in Isomap, variational autoencoders and *Latent Space Oddity*, and how the components are adapted to personality observations.
+- The model, training objective, local metric and path-length formulation, with LaTeX-style equations.
+- IPIP-NEO-300 preprocessing, 8/16/32D comparisons and the 16D geometry-objective ablation.
+- Model-flow diagrams and result charts, plus actual trained-model 3D decoder slices and an aggregated coordinate-distribution plot. Projection variance and interpretation limits are stated explicitly.
+- The concrete pathway from high-dimensional evidence to coordinates, geometry and future personality-conditioned behavior.
+
+**Current decision:** use 16D provisionally for geometry-focused implementation, while retaining 32D as a capacity comparison. This is not an intrinsic-dimension finding or proof of predictive dominance. The current system learns a personality representation; it does not yet implement a validated personality-conditioned language model or optimized geodesic solver.
+
+## Earlier longitudinal prototype and status
 
 For each participant, a causal encoder reads ordered observations and estimates a slowly changing person posterior `q(phi | history)` and a fast state `q(z | current observation, phi)`. A nonlinear decoder `g(phi, z)` reconstructs observable cues. On a prespecified fast-state slice, the decoder Jacobian defines the local person-space metric
 
@@ -12,11 +27,7 @@ G(phi) = J_phi g(phi, 0)^T J_phi g(phi, 0) + 1e-4 I
 
 Geometry becomes operational when decoded path length is used for person similarity or inside the same-person contrastive training loss. The current implementation uses a sampled straight coordinate path, **not an optimized geodesic**. It does not use Isomap coordinates as targets. The model can re-estimate `phi` and `z` after a new observation.
 
-The method is implemented, but the current development results do **not** establish that nonlinear geometry beats a matched Euclidean identity objective, or that `phi` carries personality information beyond simple valence mean and variability. No LLM persona is trained here. See the [current method report](output/pdf/PSYCHARCHIVES_CORE_METHOD_REPORT_EN.pdf) for the literature lineage, exact interpretation, and next-stage roadmap.
-
-## Latest method report
-
-Read [Learned Manifolds for Digital Personality: Method and Rationale (English PDF)](output/pdf/LEARNED_MANIFOLD_METHOD_AND_RATIONALE_EN.pdf) for the selected encoder-decoder method, decoder-induced Riemannian geometry, literature foundations, IPIP comparisons, limitations, and implementation roadmap. Core equations are typeset with LaTeX-style notation. The 16D setting is provisional; the report does not claim predictive dominance or a completed personality-conditioned language model.
+The longitudinal prototype is implemented, but its development results do **not** establish that nonlinear geometry beats a matched Euclidean identity objective, or that `phi` carries personality information beyond simple valence mean and variability. No LLM persona is trained here. See the [earlier PsychArchives report](output/pdf/PSYCHARCHIVES_CORE_METHOD_REPORT_EN.pdf) for this prototype's literature lineage, exact interpretation and limitations. It is distinct from the cross-sectional IPIP representation in the latest report above.
 
 ## Current dataset and boundaries
 

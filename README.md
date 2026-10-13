@@ -2,12 +2,20 @@
 
 Research code for asking **how a manifold can represent an updateable digital-personality state** from repeated observations of the same people.
 
-The current person-level method is a longitudinal slow/fast generative model: an ordered history estimates a slow person coordinate `phi`, current cues estimate a fast state `z`, and a nonlinear decoder defines a local metric on the slow coordinate. Decoder-path distance has been tested inside a same-person contrastive objective. This is a working method prototype, **not** a validated digital personality or a demonstrated advantage over Euclidean geometry.
+Ethan's selected representation method is a learned nonlinear encoder-decoder with decoder-induced Riemannian geometry, evaluated on 300-item IPIP personality responses. A 16-dimensional coordinate is the provisional geometry-focused setting. The earlier longitudinal slow/fast model remains a separate temporal prototype. Neither is a validated digital personality or a demonstrated general advantage over Euclidean geometry.
+
+## Latest English Method Report
+
+[Read the report: Learned Manifolds for Digital Personality - Method and Rationale (PDF)](Ethan/output/pdf/LEARNED_MANIFOLD_METHOD_AND_RATIONALE_EN.pdf)
+
+This 14-page illustrated report explains why the encoder-decoder manifold was selected, its relationship to Isomap, variational autoencoders and decoder-induced Riemannian geometry, the mathematical specification, and the IPIP dimension and geometry-objective comparisons. It includes model-flow diagrams, result charts, actual trained-model 3D decoder slices and an aggregated personality-coordinate distribution. It concludes with the implementation pathway from personality evidence to learned coordinates, explicit geometry and a future personality-conditioned behavioral model. Core equations use LaTeX-style typesetting; projection variance and visualization limits are stated explicitly.
+
+The report distinguishes completed representation experiments from planned behavioral generation. The 16D choice is an engineering tradeoff, current paths are not optimized geodesics, and no personality-conditioned LLM has yet been validated.
 
 ## Person-Level Research
 
 - [Current method, commands, and data handling](Ethan/README.md)
-- [Final report (PDF)](Ethan/output/pdf/PSYCHARCHIVES_CORE_METHOD_REPORT_EN.pdf)
+- [Earlier longitudinal PsychArchives report (PDF)](Ethan/output/pdf/PSYCHARCHIVES_CORE_METHOD_REPORT_EN.pdf)
 - [PsychArchives implementation details](Ethan/PSYCHARCHIVES_MANIFOLD_IMPLEMENTATION.md)
 - [Geometry-training comparison](Ethan/PSYCHARCHIVES_GEOMETRY_TRAINING_RESULTS.md)
 - [Feature-group and simple-baseline check](Ethan/PSYCHARCHIVES_FEATURE_GROUP_RESULTS.md)
