@@ -1,0 +1,2 @@
+# Preserve PDF bytes; line-ending conversion invalidates PDF object offsets.
+*.pdf binary
