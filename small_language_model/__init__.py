@@ -1,0 +1,1 @@
+"""Shared scratch-trained language components, independent of manifold research."""

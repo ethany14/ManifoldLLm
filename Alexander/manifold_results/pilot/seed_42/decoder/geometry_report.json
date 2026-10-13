@@ -1,0 +1,411 @@
+{
+  "source": {
+    "checkpoint": "/Users/xander/Desktop/School_Work/ResearchProjects2026/ManifoldLLm/Alexander/small_language_model/artifacts/manifold_pilot/seed_42/decoder/model.pt",
+    "checkpoint_sha256": "1fd473d6b8033f7e27028619de08e2d34e2b602771be1016f65098ee2a8ffe36",
+    "csv": "/Users/xander/Desktop/School_Work/ResearchProjects2026/ManifoldLLm/Ethan/data/emobank/emobank_pilot_1000.csv",
+    "csv_sha256": "3805e5dbe56a1f74f4adf3675ced955dd3e1b7e574143f07a2ad7a86849422e3",
+    "split": "dev",
+    "rows": 100,
+    "best_epoch": 2,
+    "training_rows": 800,
+    "coordinates": "Deterministic 3D affect posterior means; no PCA/Isomap or smoothing",
+    "color": "Human-annotated valence, used for coloring only",
+    "note": "A point cloud of the learned representation, not proof of a recovered manifold",
+    "source": "EmoBank, Buechel and Hahn (2017)",
+    "license": "CC BY-SA 4.0"
+  },
+  "diagnostic_departures": [
+    "D1",
+    "D2",
+    "D3"
+  ],
+  "diagnostic_source_sha256": "0b902679e377263e68df4cb6e92d43dc982aafae3543f537356778eab3f38853",
+  "variant": "decoder",
+  "settings": {
+    "max_points": 32,
+    "grid_size": 11,
+    "neighbors": 8,
+    "seed": 42
+  },
+  "graph_node_ids": [
+    {
+      "split": "train",
+      "id": "SemEval_141"
+    },
+    {
+      "split": "train",
+      "id": "warner1_1303_1411"
+    },
+    {
+      "split": "train",
+      "id": "The_Black_Willow_1278_1348"
+    },
+    {
+      "split": "train",
+      "id": "lessig_blog-carbon_5410_5483"
+    },
+    {
+      "split": "train",
+      "id": "WhereToHongKong_35761_35826"
+    },
+    {
+      "split": "train",
+      "id": "NYTnewswire6_3460_3538"
+    },
+    {
+      "split": "train",
+      "id": "captured_moments_34463_34599"
+    },
+    {
+      "split": "train",
+      "id": "appalachian1_8314_8415"
+    },
+    {
+      "split": "train",
+      "id": "captured_moments_28728_28752"
+    },
+    {
+      "split": "train",
+      "id": "Ant_Robot_210_220"
+    },
+    {
+      "split": "train",
+      "id": "wsj_0157_4_173"
+    },
+    {
+      "split": "train",
+      "id": "anth_essay_4_10686_10866"
+    },
+    {
+      "split": "train",
+      "id": "appalachian1_4283_4400"
+    },
+    {
+      "split": "train",
+      "id": "Ohio_Steel_10791_10967"
+    },
+    {
+      "split": "train",
+      "id": "Black_and_white_6132_6219"
+    },
+    {
+      "split": "train",
+      "id": "Nathans_Bylichka_12486_12532"
+    },
+    {
+      "split": "train",
+      "id": "blog-new-year's-resolutions_5010_5074"
+    },
+    {
+      "split": "train",
+      "id": "20000410_nyt-NEW_568_743"
+    },
+    {
+      "split": "train",
+      "id": "How_soon-Lebron-James_2023_2147"
+    },
+    {
+      "split": "train",
+      "id": "hotel-california_6051_6071"
+    },
+    {
+      "split": "train",
+      "id": "Homosexuality_4528_4853"
+    },
+    {
+      "split": "train",
+      "id": "wsj_0127_599_801"
+    },
+    {
+      "split": "train",
+      "id": "Nathans_Bylichka_7597_7686"
+    },
+    {
+      "split": "train",
+      "id": "captured_moments_21147_21155"
+    },
+    {
+      "split": "train",
+      "id": "Nathans_Bylichka_10218_10234"
+    },
+    {
+      "split": "train",
+      "id": "Nathans_Bylichka_7259_7300"
+    },
+    {
+      "split": "train",
+      "id": "Nathans_Bylichka_36586_36605"
+    },
+    {
+      "split": "train",
+      "id": "WhereToHongKong_60718_60841"
+    },
+    {
+      "split": "train",
+      "id": "110CYL200_947_1076"
+    },
+    {
+      "split": "train",
+      "id": "Seedbombing_2745_2771"
+    },
+    {
+      "split": "train",
+      "id": "WhatToHongKong_14470_14489"
+    },
+    {
+      "split": "train",
+      "id": "A_defense_of_Michael_Moore_7890_7951"
+    },
+    {
+      "split": "dev",
+      "id": "20000419_apw_eng-NEW_95_111"
+    },
+    {
+      "split": "dev",
+      "id": "easy_money_10424_10432"
+    },
+    {
+      "split": "dev",
+      "id": "Nathans_Bylichka_14294_14314"
+    },
+    {
+      "split": "dev",
+      "id": "SemEval_229"
+    },
+    {
+      "split": "dev",
+      "id": "wsj_0106_194_273"
+    },
+    {
+      "split": "dev",
+      "id": "SemEval_1382"
+    },
+    {
+      "split": "dev",
+      "id": "HistoryLasVegas_12218_12346"
+    },
+    {
+      "split": "dev",
+      "id": "Black_and_white_6898_6942"
+    },
+    {
+      "split": "dev",
+      "id": "Bartok_3174_3210"
+    },
+    {
+      "split": "dev",
+      "id": "SemEval_1084"
+    },
+    {
+      "split": "dev",
+      "id": "aspca1_522_534"
+    },
+    {
+      "split": "dev",
+      "id": "110CYL071_2323_2391"
+    },
+    {
+      "split": "dev",
+      "id": "hotel-california_33964_33980"
+    },
+    {
+      "split": "dev",
+      "id": "wsj_0168_488_616"
+    },
+    {
+      "split": "dev",
+      "id": "SemEval_540"
+    },
+    {
+      "split": "dev",
+      "id": "Uprooted_Bike_4316_4386"
+    },
+    {
+      "split": "dev",
+      "id": "captured_moments_16856_16952"
+    },
+    {
+      "split": "dev",
+      "id": "WhereToHongKong_42102_42243"
+    },
+    {
+      "split": "dev",
+      "id": "SemEval_1245"
+    },
+    {
+      "split": "dev",
+      "id": "HistoryLasVegas_12075_12217"
+    },
+    {
+      "split": "dev",
+      "id": "Fermentation_HR5034_6323_6339"
+    },
+    {
+      "split": "dev",
+      "id": "captured_moments_11497_11701"
+    },
+    {
+      "split": "dev",
+      "id": "The_Black_Willow_3108_3169"
+    },
+    {
+      "split": "dev",
+      "id": "NWF1_1606_1664"
+    },
+    {
+      "split": "dev",
+      "id": "vampires_1777_1901"
+    },
+    {
+      "split": "dev",
+      "id": "20020731-nyt_25556_25589"
+    },
+    {
+      "split": "dev",
+      "id": "SemEval_528"
+    },
+    {
+      "split": "dev",
+      "id": "hotel-california_25160_25170"
+    },
+    {
+      "split": "dev",
+      "id": "Fermentation_HR5034_6278_6406"
+    },
+    {
+      "split": "dev",
+      "id": "blog-new-year's-resolutions_2191_2524"
+    },
+    {
+      "split": "dev",
+      "id": "SemEval_835"
+    },
+    {
+      "split": "dev",
+      "id": "hsus4_5287_5379"
+    }
+  ],
+  "rank_tolerances": {
+    "absolute": 1e-06,
+    "relative": 0.0001
+  },
+  "private_references": {
+    "train_mean": {
+      "private_code": [
+        2.240038803339448,
+        0.6877963410885886,
+        -1.7230027601929978,
+        1.9405585020917113,
+        -1.1861764898836926,
+        -0.08161894105327384,
+        -1.4959773823211442,
+        0.7596878162299855
+      ],
+      "full_rank_fraction": 1.0,
+      "median_singular_values": [
+        0.4174904655238265,
+        0.38725845655118335,
+        0.3628488513237571
+      ]
+    },
+    "train_example_q25": {
+      "private_code": [
+        2.3849827471709526,
+        0.7629670280972528,
+        -1.8515051176339075,
+        2.045927702346551,
+        -1.263037096244607,
+        -0.13643426409375178,
+        -1.575412932136165,
+        0.7788858811567936
+      ],
+      "full_rank_fraction": 1.0,
+      "median_singular_values": [
+        0.41856798406944185,
+        0.39486678875739956,
+        0.36920624568176236
+      ]
+    },
+    "train_example_q75": {
+      "private_code": [
+        2.6505907776684676,
+        0.802340405920031,
+        -2.006369158153572,
+        2.3145725591542776,
+        -1.3844452797585123,
+        -0.07377598746862817,
+        -1.7235984621405827,
+        0.8917935792579972
+      ],
+      "full_rank_fraction": 1.0,
+      "median_singular_values": [
+        0.42385243329943667,
+        0.40403809189340467,
+        0.37622775874603837
+      ]
+    }
+  },
+  "affect_std": {
+    "valence": 0.03012291867202091,
+    "arousal": 0.042435146061702955,
+    "dominance": 0.030629551520679397
+  },
+  "std_ratio_to_training_labels": {
+    "valence": 0.16893259986400125,
+    "arousal": 0.3224201669671519,
+    "dominance": 0.28728097492277277
+  },
+  "low_spread_warning": true,
+  "neighborhood_overlap": 0.26171875,
+  "pair_distances": {
+    "pairs": 496,
+    "finite_graph_pairs": 496,
+    "components": 1,
+    "euclidean_human_spearman": -0.02689552982386839,
+    "euclidean_human_spearman_same_finite_pairs": -0.02689552982386839,
+    "graph_human_spearman": -0.033963932366184994
+  },
+  "path": {
+    "nodes": [
+      32,
+      5,
+      34,
+      42
+    ],
+    "graph_length": 0.06444772218411071,
+    "straight_coordinate_path_length": 0.06139184003237708,
+    "straight_near_training_fraction": 0.7076923076923077,
+    "warning": "Graph path is sample-constrained, not an exact geodesic or guaranteed shorter than a continuous straight path"
+  },
+  "slice": {
+    "dominance": 0.05003213270761649,
+    "quantiles": [
+      [
+        -0.05812111918403728,
+        -0.03860316102746651,
+        -0.01584091078448511
+      ],
+      [
+        -0.00977583716696262,
+        0.0480296384302459,
+        0.05003213270761649
+      ],
+      [
+        0.045494656759686204,
+        0.09009770216396798,
+        0.07892550491226409
+      ]
+    ],
+    "support_threshold": 0.06213891395848568,
+    "near_training_fraction": 1.0,
+    "projection": "PCA fitted on training GRU features only; metrics use full feature space",
+    "projection_variance_fraction": 0.8900591176839566
+  },
+  "limits": [
+    "Local rank is not global injectivity or emotional validity",
+    "Support uses distances to a training subsample, not a density guarantee",
+    "Graph uses train and evaluation coordinates but no evaluation labels for edge construction; transductive diagnostic only",
+    "Private codes are not proven non-affective; two empirical references test sensitivity",
+    "Diagnostic thresholds are heuristics, not thresholds from the article"
+  ]
+}

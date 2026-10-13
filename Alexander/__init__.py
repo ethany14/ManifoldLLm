@@ -1,0 +1,1 @@
+"""Alexander's affective-manifold models, mathematical objectives, and experiments."""

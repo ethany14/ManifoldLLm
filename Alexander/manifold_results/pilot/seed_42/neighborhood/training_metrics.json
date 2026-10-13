@@ -1,0 +1,248 @@
+{
+  "provenance": {
+    "article": "https://aclanthology.org/2026.acl-long.1929.pdf",
+    "registry": "Alexander/small_language_model/ARTICLE_DIFFERENCES.md",
+    "variant": "neighborhood",
+    "active_departures": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "N1"
+    ],
+    "effective_neighborhood_weight": 0.1,
+    "selection": "Development baseline objective, excluding N1 in every variant",
+    "source_hashes": {
+      "model.py": "7518bab199f0e0c4ee03663434f21521cb015553e9a549c890a57de32ed1b028",
+      "geometry.py": "2bb6d3eaf1437c466a234c76dccc1bb93750c8f207760dff600530697d0ac021",
+      "train.py": "2bc54b593728e65eac144bb9452c80911b6d326a9c91229a788e4f08c09fc144",
+      "data.py": "dc0bfed26f6934b304982f5e9a2f41465581eed1db41544e51e390747560b824"
+    },
+    "paper_loss_source_sha256": "5f5192a51d02c7f01b0edfee89aaa65e374ede03f80248afdbd2353ea8d95fa4",
+    "difference_registry_sha256": "e819cab2d1c9ccb4a1eab23d60a3fbc2b3e7dc4b34dac65ffc668258b37e5441",
+    "software": {
+      "python": "3.13.9 (main, Oct 14 2025, 13:52:31) [Clang 17.0.0 (clang-1700.3.19.1)]",
+      "torch": "2.14.0"
+    }
+  },
+  "data": {
+    "csv": "/Users/xander/Desktop/School_Work/ResearchProjects2026/ManifoldLLm/Ethan/data/emobank/emobank_pilot_1000.csv",
+    "sha256": "3805e5dbe56a1f74f4adf3675ced955dd3e1b7e574143f07a2ad7a86849422e3",
+    "source": "EmoBank, Buechel and Hahn (2017)",
+    "license": "CC BY-SA 4.0",
+    "splits": {
+      "train": {
+        "rows": 800,
+        "retained_text_tokens": 14799,
+        "unknown_tokens": 2602,
+        "unknown_rate": 0.1758226907223461,
+        "truncated_rows": 5
+      },
+      "dev": {
+        "rows": 100,
+        "retained_text_tokens": 1651,
+        "unknown_tokens": 431,
+        "unknown_rate": 0.26105390672319806,
+        "truncated_rows": 1
+      },
+      "test": {
+        "rows": 100,
+        "retained_text_tokens": 1836,
+        "unknown_tokens": 489,
+        "unknown_rate": 0.26633986928104575,
+        "truncated_rows": 0
+      }
+    },
+    "tokenizer": "lowercase Unicode words and individual punctuation; train-only vocabulary",
+    "max_tokens": 64
+  },
+  "settings": {
+    "csv": "/Users/xander/Desktop/School_Work/ResearchProjects2026/ManifoldLLm/Ethan/data/emobank/emobank_pilot_1000.csv",
+    "epochs": 2,
+    "patience": 5,
+    "batch_size": 32,
+    "max_tokens": 64,
+    "max_vocabulary": 4000,
+    "min_frequency": 2,
+    "learning_rate": 0.001,
+    "supervision_weight": 5.0,
+    "disentanglement_weight": 0.1,
+    "kl_weight": 0.01,
+    "beta": 1.0,
+    "variant": "neighborhood",
+    "neighborhood_weight": 0.1,
+    "skip_test": true,
+    "seed": 42,
+    "output_dir": "/Users/xander/Desktop/School_Work/ResearchProjects2026/ManifoldLLm/Alexander/small_language_model/artifacts/manifold_pilot/seed_42/neighborhood"
+  },
+  "loss_weights": {
+    "cross": 0.0,
+    "supervision": 5.0,
+    "lexicon": 0.0,
+    "disentanglement": 0.1,
+    "kl": 0.01,
+    "beta": 1.0
+  },
+  "parameters": 159614,
+  "best_epoch": 2,
+  "initial_dev": {
+    "rows": 100,
+    "target_tokens": 1751,
+    "losses": {
+      "language": 7.236469498639241,
+      "anchor": 0.07386734828352928,
+      "decorrelation": 3.4029455273412166e-05,
+      "reconstruction": 1.7349994802474975,
+      "kl": 0.07669122099876403,
+      "cross": 0.0,
+      "lexicon": 0.0,
+      "neighborhood": 0.010338075309991836,
+      "total": 9.3426098429909,
+      "selection_total": 9.3415760354599
+    },
+    "vad_conditioned_perplexity": 1389.1807982898472,
+    "vad": {
+      "valence": {
+        "mae": 0.12301553040742874,
+        "rmse": 0.16455218195915222,
+        "r2": -0.18930708899550708
+      },
+      "arousal": {
+        "mae": 0.11843810975551605,
+        "rmse": 0.15015587210655212,
+        "r2": -0.7954795790666411
+      },
+      "dominance": {
+        "mae": 0.13258704543113708,
+        "rmse": 0.15570208430290222,
+        "r2": -2.2416906107880967
+      }
+    }
+  },
+  "dev": {
+    "rows": 100,
+    "target_tokens": 1751,
+    "losses": {
+      "language": 5.487851306004636,
+      "anchor": 0.048743612915277484,
+      "decorrelation": 0.001129186141770333,
+      "reconstruction": 2.6789391040802,
+      "kl": 12.394026641845704,
+      "cross": 0.0,
+      "lexicon": 0.0,
+      "neighborhood": 0.01296685952693224,
+      "total": 8.53585834564655,
+      "selection_total": 8.534561659693857
+    },
+    "vad_conditioned_perplexity": 241.7372290888563,
+    "vad": {
+      "valence": {
+        "mae": 0.11082706600427628,
+        "rmse": 0.15135759115219116,
+        "r2": -0.006225144868711396
+      },
+      "arousal": {
+        "mae": 0.10642913728952408,
+        "rmse": 0.12789040803909302,
+        "r2": -0.3024820820999088
+      },
+      "dominance": {
+        "mae": 0.07489805668592453,
+        "rmse": 0.09735776484012604,
+        "r2": -0.267429833980783
+      }
+    }
+  },
+  "test": null,
+  "history": [
+    {
+      "epoch": 1,
+      "train_sampled_total": 22.288603515625,
+      "dev": {
+        "rows": 100,
+        "target_tokens": 1751,
+        "losses": {
+          "language": 6.926446260825897,
+          "anchor": 0.0608799709379673,
+          "decorrelation": 4.844886942009907e-05,
+          "reconstruction": 4.832068557739258,
+          "kl": 0.7942527151107788,
+          "cross": 0.0,
+          "lexicon": 0.0,
+          "neighborhood": 0.01047536457888782,
+          "total": 12.071909581750932,
+          "selection_total": 12.070862045293042
+        },
+        "vad_conditioned_perplexity": 1018.8667516404263,
+        "vad": {
+          "valence": {
+            "mae": 0.1331007331609726,
+            "rmse": 0.16468364000320435,
+            "r2": -0.19120805886398795
+          },
+          "arousal": {
+            "mae": 0.12072771042585373,
+            "rmse": 0.15174482762813568,
+            "r2": -0.8336801936658744
+          },
+          "dominance": {
+            "mae": 0.07839428633451462,
+            "rmse": 0.10359913110733032,
+            "r2": -0.43514221536901365
+          }
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "train_sampled_total": 16.496324768066405,
+      "dev": {
+        "rows": 100,
+        "target_tokens": 1751,
+        "losses": {
+          "language": 5.487851306004636,
+          "anchor": 0.048743612915277484,
+          "decorrelation": 0.001129186141770333,
+          "reconstruction": 2.6789391040802,
+          "kl": 12.394026641845704,
+          "cross": 0.0,
+          "lexicon": 0.0,
+          "neighborhood": 0.01296685952693224,
+          "total": 8.53585834564655,
+          "selection_total": 8.534561659693857
+        },
+        "vad_conditioned_perplexity": 241.7372290888563,
+        "vad": {
+          "valence": {
+            "mae": 0.11082706600427628,
+            "rmse": 0.15135759115219116,
+            "r2": -0.006225144868711396
+          },
+          "arousal": {
+            "mae": 0.10642913728952408,
+            "rmse": 0.12789040803909302,
+            "r2": -0.3024820820999088
+          },
+          "dominance": {
+            "mae": 0.07489805668592453,
+            "rmse": 0.09735776484012604,
+            "r2": -0.267429833980783
+          }
+        }
+      }
+    }
+  ],
+  "test_training_mean_vad_baseline": null,
+  "emotion_weight_change_l2": 0.33559659123420715,
+  "decoder_weight_change_l2": 0.5993776917457581,
+  "inactive_paper_terms": {
+    "cross": "No paired modalities",
+    "lexicon": "No NRC-VAD pseudo-labels"
+  },
+  "evaluation": "Posterior means, not sampled ELBO; perplexity is VAD-conditioned and includes unknown tokens",
+  "generated": {
+    "positive": "\" , , , , , , , , , , , , , , ,",
+    "negative": "to to to to to to to to to to to to to to to to"
+  }
+}

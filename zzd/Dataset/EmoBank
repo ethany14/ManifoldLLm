@@ -1,0 +1,1001 @@
+id,text,valence,arousal,dominance,split,source
+20020731-nyt_34768_34960,"Carl McCall, Army lieutenant, state senator, ambassador to the United Nations, school board president, Citibank vice president, and one of the most effective comptrollers in New York history.""",0.125,0.06,0.06,train,EmoBank
+IntroDublin_6240_6470,"The beautiful Wicklow Mountains, and the Wicklow Mountains National Park provide a more rugged countryside, and the area has breathtaking houses and gardens such as Castletown, Mount Usher, and Powerscourt.",0.145,0.07,0.0,train,EmoBank
+SemEval_1044,Foreign minister of Colombia quits in scandal,-0.25,0.05,-0.15,train,EmoBank
+SemEval_979,Review: Nokia 5300 Xpress Music,0.05,-0.05,0.05,train,EmoBank
+captured_moments_30624_30634,"""Do that,""",0.06,0.0,0.19,train,EmoBank
+Anti-Terrorist_1902_1988,"But this claim is merely feel-good propaganda, intended to keep the neo-cons in power.",-0.05,0.1,0.0,train,EmoBank
+Ant_Robot_18352_18473,"Two simultaneously operated motors will open and close the grippers, emulating the grasping power of the ant’s mandibles.",0.0,0.05,0.0,train,EmoBank
+hotel-california_23704_23743,Sarah shrugged and sipped at her drink.,-0.1,-0.05,-0.05,train,EmoBank
+Nathans_Bylichka_33330_33387,"“My parents came over from Russia, just like your family.",0.055,0.0,-0.055,train,EmoBank
+Nathans_Bylichka_14074_14088,"“Oh, totally,”",0.06,0.0,0.0,train,EmoBank
+cable_spool_fort_4221_4311,They all stood around while the doctor made Roy shake and jerk and moan with a sick sound.,-0.375,0.31,-0.125,train,EmoBank
+wsj_0032_4_251,"Italian chemical giant Montedison S.p. A., through its Montedison Acquisition N.V. indirect unit, began its $37-a-share tender offer for all the common shares outstanding of Erbamont N.V., a maker of pharmaceuticals incorporated in the Netherlands",0.0,-0.1,0.05,train,EmoBank
+hotel-california_28834_28854,"“I don't know much,”",-0.2,-0.1,-0.15,train,EmoBank
+Fermentation_HR5034_1159_1406,"The recently launched www.hr5034.org website is the creation of the National Beer Wholesalers Association and and appears to be the repository all the misrepresentation, ignorance and misleading ideas supporters of H.R. 5034 could possibly muster.",-0.28,-0.055,0.11,train,EmoBank
+117CWL008_145_299,"The 9th annual JCC Auction will benefit the numerous scholarship programs of the Jewish Community Center of Indianapolis, a United Way agency.",0.28,0.0,0.0,train,EmoBank
+Seedbombing_4949_5056,I used to see this old scary dude walking around checking the trees in Griffith Park for Dutch Elm Disease.,-0.125,0.06,-0.06,train,EmoBank
+wsj_0120_1073_1128,PHOTOGRAPH COLLECTING gains new stature as prices rise.,0.145,0.07,0.145,train,EmoBank
+captured_moments_18094_18151,I am never so quick-witted in person as I am on the page.,-0.065,0.06,0.0,train,EmoBank
+SemEval_34,Martian Life Could Have Evaded Detection by Viking Landers,0.0,-0.135,0.09,train,EmoBank
+113CWL018_1344_1363,A United Way Agency,0.055,-0.165,0.0,train,EmoBank
+Fermentation_Eminent-Domain_6660_6699,I support the new labeling requirement.,0.165,0.0,0.22,train,EmoBank
+Ohio_Steel_19654_19778,"What happened in Youngstown may not seem significant on an international or even on a national level, and perhaps it is not.",-0.05,-0.05,0.05,train,EmoBank
+20020731-nyt_9106_9313,"U.S. Secretary of State Colin Powell arrived here on Tuesday night for meetings with fellow foreign ministers aimed at solidifying a second front, in Southeast Asia, in the campaign against global terrorism.",0.055,-0.055,0.0,train,EmoBank
+wwf12_1983_2401,"So in addition to our efforts to conserve wildlife preserves, we’ll escalate our trailblazing program to find alternatives for traditional tiger-based medicines ... rescue more rhinos in Kenya and Nepal through our ambitious translocation projects ... complete the first survey of China’s pandas in over a decade ... and fight to halt all commercial whaling, as well as the whale meat trade.",0.125,0.125,0.19,train,EmoBank
+Uprooted_Bike_4736_4798,"Tell the store owner what you like, and see if he'll carry it.",0.055,0.055,0.165,train,EmoBank
+wsj_0187_1629_1706,Waertsilae Marine's bankruptcy proceedings began Tuesday in a Helsinki court.,-0.05,-0.05,0.0,train,EmoBank
+Fermentation_Eminent-Domain_11222_11318,There are many reasons why the new labeling requirement makes sense from all these perspectives.,0.09,-0.18,0.09,train,EmoBank
+Uprooted_Farming-on-Sand_728_819,"He runs the Rock Spray nursery, a Certified Natural provider of evergreens and ornamentals.",0.0,-0.15,0.05,train,EmoBank
+warner1_2056_2069,No contracts.,-0.05,-0.15,-0.1,train,EmoBank
+Nathans_Bylichka_26029_26110,"“No, thank you,” said Nepthys, “we regret that we cannot take up your kind offer.",-0.25,-0.05,0.0,train,EmoBank
+Tupelo-Honey-Cafe_957_976,tupelohoneycafe.com,-0.05,-0.25,-0.05,train,EmoBank
+sucker_1739_1918,"The end result of such roundtables, one can only fear, could be that the only books depicting people of color that get published are those that do not challenge white assumptions.",-0.31,0.0,-0.06,train,EmoBank
+Seedbombing_2673_2744,"Seedbombing is a hit-or-miss way for change to take root, pun intended.",0.0,-0.05,0.0,train,EmoBank
+SemEval_629,Participant in water-drinking contest dies,-0.6,0.05,-0.3,train,EmoBank
+The_Black_Willow_2023_2197,The papers and the lantern's flame trembled as the thin fingers of a great black willow rapped gently on Allan's window and wall like a stranger knocking on his chamber door.,-0.11,0.165,-0.11,train,EmoBank
+captured_moments_17615_17622,"""What?""",-0.1,0.2,-0.05,train,EmoBank
+Madame_White_Snake_3192_3300,"In both incarnations of Madame White snake, the authors depict her as bewitchingly beautiful.",0.125,0.19,0.06,train,EmoBank
+NYTnewswire2_8049_8145,"She also apologized for not calling to thank him earlier, but that Gailhaguet had forbidden her.",-0.05,-0.05,-0.1,train,EmoBank
+SemEval_49,Bread-Heavy Diet Linked to Kidney Cancer,-0.2,-0.05,-0.15,train,EmoBank
+Nathans_Bylichka_6652_6942,"The church was completely different now: sunlight fell through the stained glass, catching dust that still hung in the air and sending a dry, healthy warmth into the edges of the room, through the stone and the powdery concrete that had been covered last night by flesh and flashing lights.",0.05,-0.1,0.0,train,EmoBank
+easy_money_7759_7815,He looked hurt and rapped on the ground with his finger.,-0.43,0.145,-0.145,train,EmoBank
+NYTnewswire3_4994_5218,"Because each of the hundreds of processing machines is self-enclosed, and essentially airtight, the uniforms operators wear are less constricting than in the previous generation of chip plants, which looked like space suits.",0.085,-0.165,0.0,train,EmoBank
+IntroDublin_465_551,Prosperity is in the air; the roar of the “Celtic Tiger” can clearly be heard.,0.19,0.19,0.25,train,EmoBank
+WhatToHongKong_4598_4714,Hong Kong is no longer a factory outlet center since much of its clothing manufacturing has moved elsewhere.,-0.1,-0.05,0.1,train,EmoBank
+blog-new-year's-resolutions_2526_2537,The studies,0.0,-0.1,0.0,train,EmoBank
+118CWL049_1513_1652,"This includes a volunteer screening process, orientation, training and ongoing supervision and support by a professional staff.",0.045,-0.135,0.09,train,EmoBank
+Ant_Robot_1686_1920,"The ants forage for more than 30 different varieties of seeds, many of which do not grow in the desert (Gordon, 54), where only a few varieties of small shrubs, small herbaceous flowering plants and short grasses do grow (Gordon, 51).",0.05,-0.1,0.15,train,EmoBank
+NYTnewswire2_1206_1435,"The Russian team of Yelena Berezhnaya and Anton Sikharulidze narrowly won the gold medal over the Canadians Jamie Sale and David Pelletier, who were later awarded a duplicate gold medal because of the ensuing judging controversy.",-0.15,0.2,-0.2,train,EmoBank
+A_defense_of_Michael_Moore_6_60,"A defense of Michael Moore and ""Bowling for Columbine""",-0.1,-0.1,-0.15,train,EmoBank
+NWF1_4559_4637,Your gift is needed now to support these critical projects and so many others.,0.0,0.1,0.05,train,EmoBank
+Nathans_Bylichka_23835_23918,Now: may we ask you a few questions about an individual we believe to be a vampire?,-0.225,0.275,-0.225,train,EmoBank
+wsj_0158_595_708,"In a telephone interview, Mr. Reupke said his departure was for ""personal reasons,"" which he declined to specify.",-0.2,-0.1,0.0,train,EmoBank
+hotel-california_11801_11839,Fact: It's easy to fall into patterns.,-0.06,0.0,0.0,train,EmoBank
+20020731-nyt_27765_27974,"But in 1933, President Franklin D. Roosevelt took the United States off the gold standard, and ordered all the 1933 saints already manufactured destroyed, save for two reserved for the Smithsonian Institution.",-0.1,-0.05,0.1,train,EmoBank
+Nathans_Bylichka_17606_17679,He took out the hunchback’s directions and glanced at an alley behind us.,-0.06,-0.185,-0.125,train,EmoBank
+SemEval_1367,U.S. commander: Iraq not hopeless,0.15,0.1,0.1,train,EmoBank
+SemEval_525,US Airways boosts bid for Delta,0.05,0.05,0.1,train,EmoBank
+hotel-california_21818_21847,"Some vital part broke, and...",-0.35,0.15,-0.25,train,EmoBank
+Nathans_Bylichka_31509_31531,He thought about that.,0.0,-0.11,0.0,train,EmoBank
+Nathans_Bylichka_40157_40312,"Nepthys lead us down a hallway that matched the building’s façade, a vaulted, ribbed intestine of a hallway, whose black walls looked unsettlingly organic.",0.0,0.05,0.05,train,EmoBank
+The_Black_Willow_10749_10795,"I would not be happy, thus separated from it.""",-0.4,0.1,-0.1,train,EmoBank
+hotel-california_15312_15364,"“Maybe the universe will end sooner than you think,”",-0.25,0.0,-0.06,train,EmoBank
+114CUL060_976_1129,The best indicator I can give you of the positive effect our year-round contact has is the growth in and deeds of the Youth Leadership teens.,0.25,0.15,0.2,train,EmoBank
+A_defense_of_Michael_Moore_24594_24739,"If these causes were addressed, gun ownership in the United States would not be a problem (but also unnecessary); just like it is in Switzerland.",-0.05,0.0,0.1,train,EmoBank
+blog-monastery_2298_2336,"""Only if you feel no regret,"" he said.",0.0,0.0,0.0,train,EmoBank
+NYTnewswire9_2597_2688,Karnes has never spoken publicly about his role as Tibbets' right-hand administrative aide.,0.0,-0.05,-0.05,train,EmoBank
+Nathans_Bylichka_37524_37677,"The vendor stared a little at Amy, his arms pausing in midair as he lit the stand’s little lamp, but we walked right around him and up the wooden stairs.",-0.15,-0.1,0.1,train,EmoBank
+SemEval_826,"For women, nothing's like the smell of men's sweat",0.1,0.05,0.0,train,EmoBank
+NWF1_480_629,The wrapping paper and matching gift cards feature delightful holiday wildlife images that will come in handy for wrapping your last minute presents.,0.44,0.31,0.25,train,EmoBank
+Nathans_Bylichka_21796_21808,“Thank you.”,0.45,0.05,0.1,train,EmoBank
+guidedogs1_2381_2582,"“I had never had a pet. Having Aries just makes life so much easier. For one thing, people are nicer to you. People love dogs. They can relate to him and feel they have something to talk to you about.”",0.2,0.05,0.05,train,EmoBank
+WhereToHongKong_41418_41532,"Gambling provides almost 40 percent of the government’s tax revenues, and is a major source of employment.",0.0,-0.1,-0.1,train,EmoBank
+NYTnewswire9_3036_3096,Next week marks the 57th anniversary of the atomic bombings.,-0.05,-0.1,0.05,train,EmoBank
+Nathans_Bylichka_36586_36605,‘What did you say?’,0.0,0.1,0.0,train,EmoBank
+Nathans_Bylichka_44413_44468,I hope that you can do a better job than the last lot.”,-0.2,0.2,0.05,train,EmoBank
+Nathans_Bylichka_57118_57175,I felt my head turn and something in my neck reconnected.,0.1,-0.05,0.0,train,EmoBank
+audubon2_3696_3790,Think of all the ways everyone in your household will benefit from your membership in Audubon.,0.11,0.11,0.28,train,EmoBank
+SemEval_831,Mancuso sparks U.S. celebrations,0.23,0.135,0.09,train,EmoBank
+SemEval_653,The energy challenge | Exotic visions: how to cool a planet (maybe),0.05,0.05,0.0,train,EmoBank
+guidedogs1_1577_1651,It’s the special bond — of a loving and working 24 hour a day partnership.,0.25,0.19,0.125,train,EmoBank
+Ohio_Steel_10791_10967,"However, to American companies already suffering financial setbacks, outdated machinery, and fierce competition, this lack of demand was an inconvenience they could not afford.",-0.35,0.05,-0.1,train,EmoBank
+115CVL035_1342_1444,The Summer Enrichment Program will conclude with a celebration that includes family and friends.,0.125,0.06,0.0,train,EmoBank
+Bartok_9409_9632,"This relationship is somewhat obscured by measures 51-57 however; while there is no clear tonal center for this section, G appears in the outer voices in measure 51, although the harmonic material is reminiscent of C minor.",0.0,-0.165,0.0,train,EmoBank
+Nathans_Bylichka_12551_12560,What up?”,0.055,0.055,0.055,train,EmoBank
+The_Black_Willow_8867_8961,"""I had a hunch you'd be at Arthur's today,"" said Nathan, ""so I thought I'd wait here for you.""",0.1,0.05,0.0,train,EmoBank
+appalachian1_8942_9025,Please join us in enjoying and protecting our special corner of planet Earth today.,0.2,0.0,0.1,train,EmoBank
+SemEval_830,Woman dies after water binge,-0.43,-0.145,-0.14,train,EmoBank
+hotel-california_15224_15283,"“Impossible,” said Zheng, sitting in the chair to her left.",0.0,-0.05,0.1,train,EmoBank
+hotel-california_28090_28330,"In one hand I balanced my plate of star-shaped crackers, globs of elegant dips and garnishes, little rolled balls of meats and cheeses stabbed through with spears of some pale green plant, and an array of other delectable, bite-sized items.",0.2,0.05,0.15,train,EmoBank
+easy_money_7695_7749,"""So you drew this?"" I asked vaguely, slow to catch on.",-0.165,-0.055,-0.22,train,EmoBank
+detroit_2597_2725,"Even in Chicago's South Side, where we counted five white people in an hour, I felt fine just driving around; not so in Detroit.",-0.2,0.1,0.0,train,EmoBank
+hotel-california_32662_32683,“Mind if I join you?”,0.05,0.05,-0.1,train,EmoBank
+wwf12_702_921,"In fact, I want to urge you to strengthen your dedication to saving life on Earth — by sending a generous leadership gift of $750 and becoming a member of World Wildlife Funds prestigious Living Planet Society.",0.165,0.22,0.22,train,EmoBank
+WhereToHongKong_41727_41764,The 40-mile trip takes about an hour.,0.085,-0.165,0.165,train,EmoBank
+NYTnewswire4_2831_2914,"But he said promotional material such as posters and CD-ROMs can be ""embarrassing.""",-0.06,-0.125,-0.125,train,EmoBank
+Nathans_Bylichka_39715_39725,“A Forest”,0.0,-0.05,-0.05,train,EmoBank
+WhereToHongKong_65394_65511,"Shenzhen is easy to reach — the KCR commuter train runs throughout the day, the trip taking about 40 minutes.",0.1,0.05,0.1,train,EmoBank
+Ant_Robot_30278_30411,This object detection process will be activated when the front bump sensor is stimulated or when both sonar detectors are stimulated.,0.05,0.0,0.15,train,EmoBank
+Fermentation_Eminent-Domain_5438_5532,I still don't know whose interests are being served by this useless piece of crap legislation.,-0.4,0.2,0.05,train,EmoBank
+blog-new-year's-resolutions_5010_5074,Self-efficacy did not have a significant effect on goal-setting.,-0.05,0.0,0.05,train,EmoBank
+Nathans_Bylichka_12259_12305,"Someone opened it a crack, then ushered us in.",-0.1,0.05,0.1,train,EmoBank
+114CUL058_2041_2136,"After we receive your commitment, we will contact you about picking up your contribution.",0.1,-0.2,0.0,train,EmoBank
+Uprooted_Farming-on-Sand_3863_3876,End of story.,-0.06,0.06,0.375,train,EmoBank
+Fermentation_Eminent-Domain_8646_8840,"Tom-- I wonder what the response would be in Napa and Sonoma if the vintners in Fresno convinced the state government to require ""California"" be put on all labels of wine made within California?",0.05,-0.2,0.0,train,EmoBank
+The_Black_Willow_17802_17945,"Passionate, fiery colors filled the western sky before him, though the sun itself had reached the trees and a few dark clouds circled overhead.",0.2,0.15,0.1,train,EmoBank
+20020731-nyt_9418_9646,"In meetings on Tuesday in Malaysia and Singapore before touching down in this oil-producing sultanate for two days of talks with members of the Association of South East Asian Nations, Powell said he repeatedly raised the issue.",-0.05,0.05,0.1,train,EmoBank
+WhereToHongKong_15694_15838,"The boats may appear deceptively primitive, but many of them have their own electric generators and all the modern conveniences.",0.055,0.0,0.0,train,EmoBank
+Fermentation_HR5034_5514_5526,"""food fight""",0.225,0.135,0.18,train,EmoBank
+wsj_0175_793_839,Both sides are in talks to settle the dispute.,0.1,0.1,0.0,train,EmoBank
+Nathans_Bylichka_25436_25608,"He took us to the door of a building like a short pagoda that had a sign hanging over it showing a face with hands uplifted, like a saint under G d’s light, and handcuffed.",0.0,0.05,-0.05,train,EmoBank
+wsj_0172_280_341,Midwest Financial has $2.3 billion in assets and eight banks.,0.0,0.0,0.11,train,EmoBank
+20020731-nyt_28182_28411,"But before these coins came to light, the royal legation of Egypt turned up with one at the Department of the Treasury, and somehow got an official to issue an export license for the coin to enhance the collection of King Farouk.",0.0,-0.165,0.0,train,EmoBank
+110CYL072_130_264,Their complaint: the system discourages working because unemployment provides benefits that many entry-level jobs don't include.,-0.2,0.0,-0.1,train,EmoBank
+wwf12_3287_3399,"However, I’m confident that by joining together again, we can make exciting progress in the year ahead.",0.25,0.15,0.3,train,EmoBank
+Nathans_Bylichka_15098_15112,"“Oh yeah, man.",0.285,-0.07,0.0,train,EmoBank
+Nathans_Bylichka_7597_7686,"My girlfriend has disappeared, I don’t even know where to start looking, and I need help!",-0.715,0.5,-0.43,train,EmoBank
+easy_money_12000_12039,So what does this have to do with gold?,-0.05,-0.05,0.05,train,EmoBank
+Bartok_26079_26300,"By applying our tonal system to music that slips outside of the tonal realm, we not only find the elements of tonality that do remain, but we also pinpoint exactly when and how this music breaks from previous conventions.",0.05,-0.15,0.15,train,EmoBank
+easy_money_2739_2752,First person?,0.0,0.0,0.0,train,EmoBank
+Black_and_white_11637_12033,"White clothing proved that someone was of a level of society in which they were not forced to work, for the clothing would immediately become soiled if not and thus the reason why women who were the ones to stay at home dressed in all white, while men who were the ones to go out and work wore black, for black did in fact hide stains.",0.05,-0.05,-0.05,train,EmoBank
+detroit_16358_16389,"Parker 15. May, 2010 at 6:56 am",0.0,-0.09,0.045,train,EmoBank
+anth_essay_4_1306_1704,"Language plays a complex and integral role in the development and redefinition of an identity, particularly when that identity has been oppressed and subsumed by a dominant other for as long as that of the indigenous peoples in Latin America has. In particular I will examine two divergent yet remarkably parallel cases, that of the Maya in Guatemala and the Nasa and Guambiano peoples of Colombia.",0.055,0.165,0.11,train,EmoBank
+114CUL060_628_782,"You're last gift of $50.00 helped make it possible for us to provide guidance, encouragement and fun to nearly 400 Indianapolis area children.",0.25,0.15,0.0,train,EmoBank
+Black_and_white_9081_9179,The forms stand out clearly; the impeccable construction displays all its boldness.,0.05,-0.05,0.0,train,EmoBank
+Bartok_25273_25588,"While we know from his writings that he often composed with a tonal centers and relationships in mind, and that he regularly applied tonal structures and forms to his compositions, by merely glancing at any one of his pieces we can see that tonality as it is understood in the common practice period is not at work.",0.05,0.05,0.05,train,EmoBank
+captured_moments_11404_11496,The Tasha in this file is not even the Tasha I loved and thought I knew.,-0.45,0.05,-0.05,train,EmoBank
+A_defense_of_Michael_Moore_22679_22760,Never mind that this is all documented on Michael Moore's website about the film.,0.0,-0.1,0.05,train,EmoBank
+118CWL050_3196_3320,"This fund will support the goal of having 550 mentoring relationships by the end of 1999 and 1,200 by the end of 2004.",0.1,0.1,0.05,train,EmoBank
+A_defense_of_Michael_Moore_21805_21833,8) Taliban and American aid.,0.0,-0.1,-0.1,train,EmoBank
+SemEval_980,'Can't do this anymore'? Not Jack,-0.25,0.15,0.2,train,EmoBank
+wsj_0124_429_587,"Separately, Citadel posted a third-quarter net loss of $2.3 million, or 68 cents a share, versus net income of $5.3 million, or $1.61 a share, a year earlier.",-0.1,0.0,0.05,train,EmoBank
+appalachian1_8314_8415,We have the largest and broadest library of outdoor publications in the Northeast of interest to you.,0.15,0.05,0.1,train,EmoBank
+NYTnewswire6_2352_2444,"She thinks it's selfish for people not to make arrangements for their old age in good time.""",-0.28,0.055,0.055,train,EmoBank
+NYTnewswire6_8821_9066,"Michael Chabon, author of Pulitzer Prize winner ""The Amazing Adventures of Kavalier & Clay"": ""All I think of when I think of her now is Dan Akroyd pretending to be her (on Saturday Night Live) and chopping his fingers off and bleeding all over.""",-0.055,0.055,0.0,train,EmoBank
+Ohio_Steel_3612_3754,"In fact, “More rail cars passed under the Center Street Bridge [a major bridge in Youngstown] per day than any other location in the country.”",0.05,0.0,0.0,train,EmoBank
+A_defense_of_Michael_Moore_4299_4354,Americans were gloating over this demented corpse show:,-0.3,0.15,0.05,train,EmoBank
+Ohio_Steel_12271_12379,"Marches, speeches, and letter writing were all employed to help stimulate the Campaign and rally the people.",0.1,0.05,0.1,train,EmoBank
+118CWL050_2158_2235,"In 1998, Big Sisters served 972 young people through its many programs.",0.165,0.055,0.055,train,EmoBank
+IntroDublin_969_1118,"And the old Dublin is with us, too — the irreverent city of wit and charm and that peculiar magic possessed by Ireland and the Irish.",0.2,0.15,0.05,train,EmoBank
+IntroDublin_2133_2193,"“ I never go north of the Liffey,” one man remarked.",0.0,-0.1,0.05,train,EmoBank
+Bartok_21387_21700,"The following section (measures 363-389) especially brings out the quartal harmonies within the pentatonic set, so much so that B♭ is obscured as tonal center which allows A♭ to emerge as the goal tone of this section—only to be immediately reinterpreted as a leading tone to the A that begins the recapitulation.",0.0,-0.225,0.0,train,EmoBank
+NYTnewswire2_2262_2423,"The Italian authorities provided the FBI with information from wiretaps of Tokhtakhounov's home telephone, part of an investigation into his criminal activities.",0.0,-0.045,0.045,train,EmoBank
+Ant_Robot_210_220,Background,0.0,-0.2,-0.05,train,EmoBank
+hsus4_223_411,Your name -- and the name of The Humane Society of the United States (HSUS) -- are very important to the well-being of all animals because together we can prevent suffering and save lives.,0.11,0.0,0.11,train,EmoBank
+WhatToHongKong_18352_18434,"Joe Bananas, 23 Luard Road, is a Wan Chai mainstay for all-night partying.",0.15,0.2,0.1,train,EmoBank
+captured_moments_3807_3939,"The rental agent, an attractive N'apulcan named Tasha Cortez, was not mood-sensitive either.",-0.1,-0.05,-0.05,train,EmoBank
+detroit_16897_16903,Peace.,0.3,-0.05,0.05,train,EmoBank
+20020731-nyt_24556_24835,"In an unprecedented move, the auction proceeds were split by the U.S. Mint and a London coin dealer, Stephen Fenton, who had won that right in court after having been arrested by Secret Service agents for trying to sell the coin in the Waldorf-Astoria Hotel in Manhattan in 1996.",0.0,0.125,0.06,train,EmoBank
+SemEval_16,Bad reasons to be good,-0.2,-0.15,-0.05,train,EmoBank
+NYTnewswire2_3753_3987,"Maxwell Miller, Le Gougne's lawyer in Salt Lake City, said no evidence of organized crime influence came up in her suspension hearings before the ISU ""I think this situation vindicates the argument that we've made all along,"" he said.",0.0,0.0,0.045,train,EmoBank
+115CVL036_1074_1315,"With this in mind, I am asking each one of you to make a personal contribution of $50, $100 or even $1,000 to show that you believe in the work that we do and are willing to support it with both your time and your finances.",0.15,0.15,0.2,train,EmoBank
+The_Black_Willow_13707_13709,"?""",0.0,0.0,-0.05,train,EmoBank
+Uprooted_Bike_1313_1423,"When Andrew decided to leave town for a few years' schooling in NYC, friends and cohorts took over operations.",0.05,-0.05,0.0,train,EmoBank
+WhatToHongKong_7205_7222,Carpets and Rugs.,0.0,-0.125,-0.06,train,EmoBank
+hotel-california_2088_2134,The first words they said to me meant nothing.,-0.15,-0.05,-0.05,train,EmoBank
+blog-monastery_5363_5373,Never done,-0.21,-0.165,-0.165,train,EmoBank
+audubon1_6598_6715,That’s why we’re expanding our network of Audubon Centers to reach children and adults in every corner of the nation.,0.165,0.11,0.22,train,EmoBank
+Anti-Terrorist_4282_4370,The moral and religious theories which support terrorism are quite faulty and erroneous.,-0.15,0.05,0.1,train,EmoBank
+Nathans_Bylichka_17729_17755,There’s no time to waste.”,0.0,0.1,0.1,train,EmoBank
+cable_spool_fort_3696_3783,Pop had given Chad the sideways glance that promised hard labor when they made it home.,-0.1,0.0,-0.15,train,EmoBank
+NYTnewswire5_1330_1409,"As it ripens, it gets progressively more bitter due to the quinine it contains.",-0.15,-0.1,-0.1,train,EmoBank
+Nathans_Bylichka_23730_23760,"“Please, accept our apologies.",-0.3,-0.25,-0.2,train,EmoBank
+WhatToHongKong_20245_20306,"They are very crowded, especially on summer weekends.",-0.05,0.15,0.0,train,EmoBank
+captured_moments_10426_10488,I can remember similar things with others.,0.0,0.0,0.06,train,EmoBank
+20020731-nyt_25143_25174,"""I am thrilled with the price.""",0.78,0.5,0.39,train,EmoBank
+A_defense_of_Michael_Moore_4356_4478,"""They squealed like little piggies too, so you'll have to make do with 'oink, oink, squeeeeeeeallll' for their last words.",-0.05,0.05,0.1,train,EmoBank
+Fermentation_HR5034_5550_5708,Better to call the introduction of H.R. 5034 what it is: an attack on the entire alcohol industry and consumers for the sake of protecting wholesaler profits.,-0.125,0.125,0.06,train,EmoBank
+20020731-nyt_17241_17272,The Red Sox signed him in 1999.,0.0,-0.125,0.0,train,EmoBank
+20020731-nyt_38342_38510,The majority opinion Tuesday said the court would impose higher standards in capital cases when reviewing prosecutors' conduct and possibly ambiguous jury instructions.,0.05,0.05,0.25,train,EmoBank
+SemEval_1269,Work starts on Arctic seed vault,0.05,-0.2,0.0,train,EmoBank
+Bartok_174_297,"Before beginning an analysis of any piece by Béla Bartók, one must first decide to what degree tonal analysis will be used.",0.0,0.0,0.0,train,EmoBank
+hotel-california_6747_6837,"I must have consumed it, too, because later on, the plates and the bottle were both empty.",0.0,0.0,-0.125,train,EmoBank
+wsj_0120_4316_4362,"""We're gaining 1,200 new customers each week,""",0.445,0.22,0.39,train,EmoBank
+Black_and_white_15404_15803,"This led to the idea of writing = rationality = production that confined images, especially images in color, to the emerging field of “art”, which was understood as an essential activity but one that was essentially unproductive, while it assigned to the two-toned and orderly world of printed paper the role of a daily guide to existence”",0.0,-0.05,0.0,train,EmoBank
+hotel-california_29325_29505,"The next time the captain stopped by our group, Tiffany tagging along (pretending that she, too, was a social butterfly who could mingle equally well with everyone), we were ready.",0.0,0.05,0.05,train,EmoBank
+SemEval_1185,Japan: Whaling activists 'terrorists',-0.44,0.19,0.25,train,EmoBank
+20000415_apw_eng-NEW_1351_1507,The sanctions cannot be lifted until U.N. inspectors certify that Iraq has eliminated its weapons of mass destruction and the means to produce them.,-0.09,0.0,0.135,train,EmoBank
+WhereToHongKong_39498_39545,No less impressive were the secular challenges.,0.055,0.11,0.055,train,EmoBank
+captured_moments_30692_30723,"Emil asked, ""You're all right?""",-0.1,0.05,-0.05,train,EmoBank
+WhereToHongKong_18477_18568,"Though much smaller than Hong Kong Island, Kowloon has almost twice the population.",0.0,-0.165,0.055,train,EmoBank
+Uprooted_Bike_5243_5299,"It's cheaper, and much better for the local flora&fauna.",0.15,0.05,0.05,train,EmoBank
+captured_moments_36465_36482,I did not listen.,-0.335,0.085,0.25,train,EmoBank
+blog-new-year's-resolutions_3681_3741,"When lay theories were assessed first, this result reversed.",0.0,-0.05,0.0,train,EmoBank
+20000410_nyt-NEW_568_743,"Iraq has been under economic sanctions since the war ended, which some say have thwarted the country's ability to recover from the devastation of the bombing campaign.",-0.2,0.05,-0.05,train,EmoBank
+SemEval_1315,Swingers more common than most think,0.0,0.0,0.0,train,EmoBank
+Nathans_Bylichka_36468_36478,"“Name me,”",0.05,0.0,0.3,train,EmoBank
+Tupelo-Honey-Cafe_3533_3694,"I can't guarantee it'll work, but I personally will do it againand probably back it up with a stellar review, just like the one I've given the Tupelo Honey Cafe.",0.07,0.07,0.145,train,EmoBank
+The_Black_Willow_19052_19147,He turned to regard the pillar still rising behind his house and ran to see what had been done.,-0.15,0.25,-0.05,train,EmoBank
+SemEval_1041,Iran reneges on nuclear payments to Russia,-0.07,0.0,0.07,train,EmoBank
+hotel-california_21554_21574,How were you found?”,0.1,0.15,0.1,train,EmoBank
+WhereToHongKong_66114_66187,"Some places take credit cards, but cash is better for bargaining.",0.15,0.05,0.05,train,EmoBank
+NYTnewswire7_6211_6363,"More than 600,000 of the cards and seafood guides have been distributed since 2000, said Jennifer Dianto, Seafood Watch program manager at the aquarium.",0.0,-0.215,0.0,train,EmoBank
+SemEval_1372,Petraeus takes command in Iraq,-0.165,0.0,0.22,train,EmoBank
+NYTnewswire1_1631_1745,"""From a realistic standpoint, were we going to find an outfielder that pushed one of our outfielders to the bench?",-0.05,0.1,0.05,train,EmoBank
+NYTnewswire9_4654_4741,Tibbets quickly returned to Wendover after that first visit to set up his headquarters.,0.045,-0.135,0.09,train,EmoBank
+SemEval_960,Panda cub makes her debut,0.1,0.15,0.05,train,EmoBank
+WhereToHongKong_44963_45069,The rest of the building and an adjoining college were destroyed in a typhoon-fanned fire in 1835.,-0.1,0.0,0.1,train,EmoBank
+HistoryLasVegas_13172_13286,"There was no longer any question: when you wanted some unbridled adult fun, Las Vegas was the place to be.",0.055,0.0,0.055,train,EmoBank
+SemEval_991,"Russia plans new ICBMs, nuclear subs",-0.2,0.05,-0.1,train,EmoBank
+The_Black_Willow_3755_3831,They took their seats within the car and his driver set the horses trotting.,0.0,-0.05,-0.05,train,EmoBank
+The_Black_Willow_20156_20176,But he did not weep.,-0.09,-0.135,0.045,train,EmoBank
+Nathans_Bylichka_35204_35346,"The stone was as warm as human flesh now, and there was a sort of glow that might have been light or just the stone’s soft heat, I don’t know.",0.1,-0.05,0.0,train,EmoBank
+WhatToHongKong_11283_11365,There are still a great many factory outlet stores with reasonable prices.,0.2,0.05,0.1,train,EmoBank
+captured_moments_19935_19939,"""Ah.",0.0,-0.165,0.055,train,EmoBank
+captured_moments_12848_12889,Truth is always more boring than fiction.,-0.1,-0.15,0.1,train,EmoBank
+cable_spool_fort_138_216,"He wished Roy wouldn't fall for that gag every time, ""get me a big rock, Roy.""",0.0,-0.055,0.055,train,EmoBank
+113CWL018_55_152,"Kids today face overwhelming pressures, everything from trouble at home to gangs and drugs.",-0.4,0.0,-0.1,train,EmoBank
+wwf12_4173_4229,"Sincerely, Kathryn S. Fuller President",0.06,-0.125,0.0,train,EmoBank
+A_defense_of_Michael_Moore_11530_11594,"When Heston mentions the mayor of Denver, the crowd boos loudly.",-0.25,0.1,-0.1,train,EmoBank
+Fermentation_HR5034_6492_6807,"It is the intent of this language to make clear the congressional support for the holding in Granholm-prohibiting state laws that allow an in-state winery to do something a similarly situated out-of-state winery cannot do. Language that bars facial discrimination is included in the bill to codify this prohibition""",0.05,-0.05,-0.05,train,EmoBank
+wildelifewatch1_3793_3823,We look forward to your reply.,0.07,0.0,0.0,train,EmoBank
+captured_moments_28882_28898,This is torture.,-0.665,0.335,-0.28,train,EmoBank
+113CWL017_604_681,That's why I want you to learn more about the Super Summer Safari Camp.,0.07,0.0,0.0,train,EmoBank
+Bartok_10000_10121,"Paul Wilson describes the transition from the Introduction to the Exposition as “quite abrupt and seemingly unmotivated,”",-0.15,0.05,-0.3,train,EmoBank
+SemEval_240,Griffiths scorns Withnail 'play',-0.355,-0.07,0.0,train,EmoBank
+easy_money_11643_11753,I looked down and saw he was pointing to another marker just slightly different from the one we had just left.,0.05,-0.05,0.0,train,EmoBank
+A_defense_of_Michael_Moore_3923_4198,"In a weaker sense, the same message is projected to American children, who grow up being told that it is not acceptable to be violent to one another, but who simultaneously have to endure corporal punishment and media messages about how ""the enemies of freedom"" are punished.",-0.2,0.05,0.05,train,EmoBank
+Fermentation_Eminent-Domain_8517_8592,The issue of the costs to vintners is non-trivial too as you can see above.,0.0,-0.1,0.0,train,EmoBank
+vampires_557_657,Then it jumped the shark with the Tom Cruise-Brad Pitt movie (based on the Anne Rice novel) in 1994.,0.0,0.0,0.0,train,EmoBank
+WhereToHongKong_61747_61931,"A former Confucian temple is presently the home of the historic National Peasant Movement Institute, where the Chinese Communist Party trained its leaders in the 1920s.",0.11,0.055,0.11,train,EmoBank
+NWF1_3826_3897,And it’s a great way to show your commitment to conservation every day.,0.05,-0.1,0.15,train,EmoBank
+Nathans_Bylichka_19846_19924,"The blood flashed into flames as soon as it hit the ground, and I jumped back.",-0.2,0.15,-0.1,train,EmoBank
+Nathans_Bylichka_36468_36488,"“Name me,” she said.",0.0,0.06,0.19,train,EmoBank
+captured_moments_27913_27975,"He spoke quickly, prepared to be rejected.",-0.375,0.25,-0.125,train,EmoBank
+A_defense_of_Michael_Moore_3005_3266,"Moore's hypothesis (which apparently comes at least in part from the book ""Culture of Fear"" by Barry Glassner, also advertised on Moore's website) is that the constant bombardment with messages of fear can incite paranoia, which itself can lead to violent acts.",-0.1,0.0,0.1,train,EmoBank
+NYTnewswire7_4938_5179,"The conservation groups providing information to chefs and retailers and lists of environmentally appropriate seafoods to consumers are the same groups working to affect fisheries management on the political and regulatory level, Moore said.",0.0,0.0,0.05,train,EmoBank
+The_Black_Willow_9628_9676,Never again shall it see the rosy-fingered dawn!,-0.1,0.3,0.0,train,EmoBank
+110CYL068_31_156,A few months ago you received a letter from me telling the success stories of people who got jobs with Goodwill's help.,0.2,0.0,0.05,train,EmoBank
+hotel-california_23542_23568,Adrienne focused on Zheng.,-0.06,-0.125,0.0,train,EmoBank
+hotel-california_20095_20120,"“You can try to hold on,”",-0.1,0.15,0.05,train,EmoBank
+Nathans_Bylichka_53830_53936,I called out to Amy to shut the door in case the vampire had any friends who might be trying to follow us.,-0.125,0.185,0.125,train,EmoBank
+WhatToHongKong_15153_15370,"Larger arenas, including the Queen Elizabeth Stadium, the Hong Kong Coliseum, and the Ko Shan Theater in Kowloon play host to various concerts, pop concerts, sporting events, and variety shows.",0.15,0.05,0.05,train,EmoBank
+Nathans_Bylichka_7403_7443,"…But, sir, this is an unusual situation.",-0.15,0.0,0.0,train,EmoBank
+Seedbombing_457_490,The first step to seedbombing is:,0.0,-0.135,0.045,train,EmoBank
+anth_essay_4_10686_10866,Illiteracy rates are in fact correlated with the Mayan language itself: those who speak Spanish are more likely to be literate than those who speak Mayan alone (England 2003: 733).,-0.05,0.0,-0.05,train,EmoBank
+Nathans_Bylichka_10218_10234,“Tell me anyway.,0.0,0.125,0.31,train,EmoBank
+The_Black_Willow_8867_8910,"""I had a hunch you'd be at Arthur's today,""",0.1,0.1,0.05,train,EmoBank
+aspca1_1491_1554,"When our officers arrived, Astro was too weak to even stand up.",-0.185,0.0,-0.185,train,EmoBank
+cable_spool_fort_6035_6148,Chad tried to tell his arms to lift him and let him reach for the tumbleweed to prove he wasn't a baby to Tucker.,-0.06,0.125,-0.125,train,EmoBank
+hotel-california_15779_16051,"“Also impossible. Even if we were traveling at ninety-nine percent of the speed of light—that's assuming you ignore science and pretend that such a thing is possible, because it isn't—we'd still age. We'd just appear to age slower than people not traveling as fast as us.”",-0.1,0.25,-0.1,train,EmoBank
+WhereToHongKong_28565_28724,The house was built in 1865 by a member of the Man clan who achieved the rank of tai fu (mandarin) by doing well in the Imperial Exam­inations.,0.1,0.1,0.1,train,EmoBank
+20020731-nyt_26508_26592,"The sale price of $6.6 million, when added to the commission, totaled $7.59 million.",0.15,0.05,0.05,train,EmoBank
+WhatToHongKong_14470_14489,The Performing Arts,0.11,0.0,0.0,train,EmoBank
+The_Black_Willow_21070_21151,"And without that torturous willow, he might be free to write whatever he saw fit.",-0.15,-0.05,0.0,train,EmoBank
+110CYL070_1221_1263,Please continue our important partnership.,0.0,0.0,0.0,train,EmoBank
+The_Black_Willow_7903_7938,"""but I fear for what would remain.""",-0.375,0.185,0.0,train,EmoBank
+Nathans_Bylichka_53713_53829,"He ran down a hallway and slipped behind one of the doors, but Nepthys was close behind him and left it open for me.",0.0,-0.1,0.0,train,EmoBank
+captured_moments_20053_20081,I did that in a comedy once.,0.0,0.0,0.0,train,EmoBank
+wsj_0150_4_160,"A.L. Williams Corp. was merged into Primerica Corp., New York, after a special meeting of Williams shareholders cleared the transaction, the companies said.",0.055,0.11,0.0,train,EmoBank
+Madame_White_Snake_3342_3369,“Lust of the White Serpant”,0.0,0.0,0.0,train,EmoBank
+Nathans_Bylichka_56759_56816,I thought I heard Rachel’s voice blearily calling for me.,-0.125,0.0,0.0,train,EmoBank
+hotel-california_16100_16146,"Besides, I wouldn't mind being around forever.",0.2,0.1,0.1,train,EmoBank
+appalachian1_8808_8916,May we look for the enclosed AMO Membership Acceptance with your tax-deductible contribution by return mail?,0.055,-0.165,0.0,train,EmoBank
+Nathans_Bylichka_56280_56354,"Two points of fire opened in my throat for an instant, then all went numb.",-0.3,0.1,-0.15,train,EmoBank
+IntroDublin_384_464,At night the streets are crowded with people bent on having a good time.,0.3,0.3,0.15,train,EmoBank
+How_soon-Fans_1752_1761,How come?,-0.07,0.07,-0.145,train,EmoBank
+Bartok_16513_16528,The Development,0.09,-0.135,0.0,train,EmoBank
+Nathans_Bylichka_47619_47666,"“I know a quick way to Dvorov’s,” said Nepthys.",0.0,-0.1,0.05,train,EmoBank
+A_defense_of_Michael_Moore_21165_21248,"That's because while there is a so-called war on drugs, there is no war on poverty.",-0.25,0.05,-0.1,train,EmoBank
+118CWL048_1437_1492,Early adolescence is the most vulnerable age for youth.,0.0,-0.05,-0.05,train,EmoBank
+wsj_0161_167_431,"The Oklahoma City energy and defense concern said it will record a $7.5 million reserve for its defense group, including a $4.7 million charge related to problems under a fixed-price development contract and $2.8 million in overhead costs that won't be reimbursed.",0.0,-0.18,0.0,train,EmoBank
+detroit_3925_3986,"It ""needed some work, a hole patched, some windows replaced.""",-0.15,0.05,0.05,train,EmoBank
+lw1_4061_4181,"Tara would not let giddy hopes drag them onto a rock that would spell the end for the project, and the Arrallin species.",0.0,0.145,0.145,train,EmoBank
+wsj_0168_207_383,"The McAlpine family, which operates a number of multinational companies, including a London-based engineering and construction company, also lent to Meridian National $500,000.",0.11,0.0,0.055,train,EmoBank
+A_defense_of_Michael_Moore_12213_12277,"The rally took place on October 17, the shooting on February 29.",-0.22,0.0,0.0,train,EmoBank
+hotel-california_31136_31243,"I shifted my feet in the plush green carpeting of the Emerald Lounge, looking out the windows at the stars.",0.25,-0.1,0.0,train,EmoBank
+wsj_0135_149_310,"The Rockford, Ill., maker of fasteners also said it expects to post sales in the current fiscal year that are ""slightly above"" fiscal 1989 sales of $155 million.",0.05,0.05,0.0,train,EmoBank
+detroit_5174_5222,"But right now, the NYT's story reeks of Shinola.",-0.2,0.1,0.05,train,EmoBank
+vampires_341_362,"""Love at First Bite """,0.5,0.44,0.19,train,EmoBank
+The_Black_Willow_20325_20450,"Leaving the circle of ashes, he stood and turned towards the woods, in which it was his habit to walk when in a pensive mood.",-0.2,0.0,0.0,train,EmoBank
+Fermentation_Eminent-Domain_2563_2658,"""This moment ...marks the beginning of a stronger Sonoma County brand for generations to come.""",0.15,0.1,0.05,train,EmoBank
+SemEval_1016,Iraqi sunni lands show new oil and gas promise,0.2,-0.05,0.2,train,EmoBank
+Fermentation_Eminent-Domain_10303_10323,JohnLopresti said...,0.0,-0.05,-0.1,train,EmoBank
+Ant_Robot_28951_29112,"Each of Antie’s eight bump sensors will cause the robot to rotate a different amount, and the sonar will cause it to rotate 90 degrees in the opposite direction.",0.0,-0.1,0.05,train,EmoBank
+blog-monastery_3154_3251,She said philosophy and epistemology were doing it right: looking at experiences from the inside.,0.0,-0.125,-0.04,train,EmoBank
+110CYL200_947_1076,"Unemployed, homeless and with a prison record, Jerry now faced going back to prison for failure to pay child support.",-0.4,0.0,-0.35,train,EmoBank
+Madame_White_Snake_152_377,"The Chinese legend of Madame White Snake, the snake demon that takes human form and becomes the wife of a man, has exerted a lasting influence over East Asian folktales and fiction for centuries.",0.0,0.0,0.0,train,EmoBank
+The_Black_Willow_3832_3938,"For a few yards, they kicked up dust along the roadway; then they raised their hooves and took to the air.",0.07,0.07,0.07,train,EmoBank
+Nathans_Bylichka_8204_8285,Walking didn’t build up much heat; it just moved the air enough to chill me more.,-0.125,0.0,0.0,train,EmoBank
+NYTnewswire2_8260_8291,"""was involved with the results""",0.0,0.0,0.0,train,EmoBank
+Anti-Terrorist_2933_3013,"Without motivation, terrorism will quickly die down, like a plant without water.",-0.05,0.0,0.05,train,EmoBank
+Homosexuality_2229_2381,"At this point in time, Karl Maria Kertbeny used the word in a pamphlet which fought to repeal the current antihomosexual laws of Prussia.",-0.05,-0.15,0.05,train,EmoBank
+detroit_11974_11991,Europe's follies?,-0.1,-0.15,-0.05,train,EmoBank
+WhatToHongKong_8948_8999,Hollywood Road has several furniture shops.,0.1,0.2,0.15,train,EmoBank
+WhereToHongKong_37029_37115,There are also several open-air restaurants where you can enjoy fresh seafood.,0.22,0.165,0.22,train,EmoBank
+IntroDublin_5560_5713,"Dublin has international restaurants galore, and the New Irish Cuisine is built upon fresh products of Ireland’s seas, rivers, and farms.",0.19,0.125,0.06,train,EmoBank
+SemEval_209,Commentary: Minutemen have a right to be idiotic,-0.11,0.22,0.055,train,EmoBank
+20000415_apw_eng-NEW_1583_1631,At least one other congressman has visited Iraq.,0.05,0.05,0.05,train,EmoBank
+wsj_0157_4_173,Tony Lama Co. said that Equus Investment II Limited Partnership has proposed changing the offer for the company to $13.65 in cash and stock from an all-cash transaction.,0.05,-0.15,-0.05,train,EmoBank
+SemEval_531,Really?: The claim: the pill can make you put on weight,-0.2,0.15,0.0,train,EmoBank
+wwf12_932_1053,"With your increased commitment, we can move forward to thwart the most serious threats to endangered ecosystems.",0.215,0.355,0.145,train,EmoBank
+115CVL036_795_983,The community initiatives committee is working with our development office to put together a long-range fundraising plan that will ultimately bring more money into our centers.,0.3,0.05,0.0,train,EmoBank
+20020731-nyt_28490_28588,"In 1954, after the king was deposed, his coins were sold at auction and the double eagle vanished.",-0.06,0.0,-0.06,train,EmoBank
+guidedogs1_1099_1233,"The only way we can continue to provide guide dogs, at no cost, to someone who is blind or visually impaired, is through your support.",0.05,0.05,0.05,train,EmoBank
+Nathans_Bylichka_30875_30908,“and a Bloody Mary for my friend.,0.05,-0.1,0.15,train,EmoBank
+WhatToHongKong_19904_19984,There are more than 40 beaches in Hong Kong that are free to the public.,0.15,0.1,0.15,train,EmoBank
+lessig_blog-carbon_1404_1440,"Comments (14) April 27, 2009 9:42 AM",0.0,-0.25,0.05,train,EmoBank
+Fermentation_Eminent-Domain_4473_4487,I love it Tom.,0.555,0.39,0.11,train,EmoBank
+Bartok_22435_22598,"It is worth pointing out that the arrival on G at measure 425 is led into by D, which constitutes another “filling in” of the whole-step by the intervening fourth.",0.0,0.0,0.0,train,EmoBank
+20020731-nyt_32360_32622,"After evaluating the extensive body of evidence before it and your testimony, the committee is troubled by incongruities, inconsistencies and conflicts, particularly concerning actions taken by you which were or could have been of potential benefit to Mr. Chang.",-0.11,0.055,0.055,train,EmoBank
+detroit_9467_9479,"""solidarity""",0.1,0.2,0.25,train,EmoBank
+20020731-nyt_10070_10259,The United States cut virtually all military links with Indonesia in 1999 after its forces were implicated in the violence that swept East Timor after that territory voted for independence.,-0.125,0.06,0.0,train,EmoBank
+110CYL069_1968_1985,I know you can...,0.06,0.0,0.185,train,EmoBank
+SemEval_546,Essay: about that mean streak of yours: psychiatry can do only so much,0.0,-0.215,0.07,train,EmoBank
+Nathans_Bylichka_41366_41433,"I took it and, dropping to one knee, gave her fingers a small kiss.",0.25,0.35,0.15,train,EmoBank
+captured_moments_6291_6300,I stared.,0.0,0.0,0.1,train,EmoBank
+lessig_blog-carbon_6147_6274,I would gladly accept the sum of fifteen thousand dollars from Prof Lessig or anyone else to offset his carbon heavy lifestyle.,0.22,0.165,0.22,train,EmoBank
+A_defense_of_Michael_Moore_7890_7951,Even Lockheed did not believe the public to be that gullible.,0.0,0.0,0.05,train,EmoBank
+aspca1_4202_4248,He is the pride and joy of this loving family!,0.5,0.285,0.145,train,EmoBank
+Fermentation_HR5034_6867_6908,But this goes beyond even my expectation.,0.05,0.1,-0.1,train,EmoBank
+A_defense_of_Michael_Moore_8200_8400,"Of course, critics have conveniently ignored the fact that Lockheed Martin does supply weapons of mass destruction to the US military, and that the company is the nation's largest military contractor.",-0.05,0.1,-0.05,train,EmoBank
+A_defense_of_Michael_Moore_22121_22267,"Never mind that they did so not out of some humanitarian motivation, but because of the Taliban's violent enforcement of the ban on opium poppies.",-0.15,0.05,0.1,train,EmoBank
+SemEval_680,NFL team's fan of the year: 'Flag Lady',0.1,0.1,0.05,train,EmoBank
+110CYL071_42_48,"Dear ,",0.0,0.0,0.0,train,EmoBank
+vampires_3755_3902,"I don't know about Pirate Zombies v. Ninja Vampires, but there is a game where you can play to become Zombies, Ninjas, Pirates, and Mad Scientists.",0.05,0.05,0.0,train,EmoBank
+The_Black_Willow_18956_19051,"When they had gone, he remained, stunned, until the scent of woodsmoke recalled him to himself.",-0.215,0.0,-0.145,train,EmoBank
+Nathans_Bylichka_44157_44260,"When I had told her all that I could remember, she blinked her black lashes and said, “I remember him.”",0.05,0.1,0.1,train,EmoBank
+hotel-california_24247_24312,Mission accomplished: Our routine insouciance had been disrupted.,0.215,0.215,0.355,train,EmoBank
+SemEval_45,US Troops Killed In October In Iraq,-0.45,0.05,-0.15,train,EmoBank
+A_defense_of_Michael_Moore_21249_21387,"Poverty is frequently portrayed as natural, and the poor in America are seen by conservatives as VCR-owners who are just too lazy to work.",-0.25,0.125,0.0,train,EmoBank
+SemEval_950,North Korea ready to discuss nuke disarmament,0.0,0.07,0.0,train,EmoBank
+The_Black_Willow_3483_3551,"""Where I am to take you, one need never think of those left behind.""",0.11,0.055,0.335,train,EmoBank
+118CWL050_140_228,"""The urgency you feel to make changes is just the extent that change will be made.",0.1,0.15,0.1,train,EmoBank
+119CWL041_1456_1479,"Richard H. Gilbert, Jr.",0.0,-0.1,0.0,train,EmoBank
+WhatToHongKong_19985_20087,"Most have lifeguards on duty from April to October, changing rooms, toilets, and snack stands.",0.1,0.0,0.05,train,EmoBank
+20020731-nyt_44811_44937,and the Port Authority should offer some bigger ideas about how to connect the downtown area better to the rest of the region.,-0.1,-0.05,0.05,train,EmoBank
+Nathans_Bylichka_48179_48204,"“Anyway, long time, man.”",-0.05,0.0,0.0,train,EmoBank
+114CUL057_430_532,"For this event, when you purchase a corporate picnic table, you will be able to bring 16 people.",0.15,0.0,0.1,train,EmoBank
+defenders5_2343_2463,"And they didn’t listen to the recommendations of the Alaska Department of Fish and Game, which opposed this legislation!",-0.2,0.3,0.1,train,EmoBank
+easy_money_11504_11518,It was a moai.,0.0,-0.1,0.0,train,EmoBank
+Seedbombing_2745_2771,It's chlorophyll graffiti.,-0.1,-0.05,-0.05,train,EmoBank
+audubon2_4027_4059,"Sincerely, John Flicker",0.055,-0.11,0.11,train,EmoBank
+wsj_0127_346_473,"While there were no one-time gains or losses in the latest period, there was a one-time gain of #18 million in the 1988 period.",0.05,-0.15,0.1,train,EmoBank
+NYTnewswire6_6403_6538,"When Child was asked some years back what she would order for her last meal, she ended the list with ""something chocolate for dessert.""",0.125,0.125,0.19,train,EmoBank
+Fermentation_HR5034_4278_4343,"""Fact v. Fiction page ( http://www.hr5034.org/fact-vs-fiction ) """,0.0,0.0,0.0,train,EmoBank
+captured_moments_26947_27027,He spoke of his art with the enthusiasm of a seven-year-old.,0.4,0.25,0.05,train,EmoBank
+SemEval_1357,Samsung settles price-fixing lawsuit,-0.1,-0.05,-0.15,train,EmoBank
+easy_money_240_287,"He said he had a ""business proposition"" for me.",0.15,0.0,0.05,train,EmoBank
+hotel-california_20161_20239,"Repeat stories to yourself in the artificial night, sketch faces in your mind.",0.0,0.05,0.05,train,EmoBank
+A_defense_of_Michael_Moore_6240_6355,"Moore's detractors have sometimes extended those 7-10 days to several weeks, contradicting the bank's own estimate.",0.0,0.0,0.05,train,EmoBank
+Ant_Robot_19822_19838,Common Behaviors,0.0,0.05,0.0,train,EmoBank
+20020731-nyt_15160_15309,"But Microsoft's potential advantage, analysts say, is its ability to link its cell phone software to its desktop PC software, a Microsoft stronghold.",0.2,0.05,0.25,train,EmoBank
+SemEval_1482,Study: More kids exposed to online porn,-0.3,0.0,-0.05,train,EmoBank
+Nathans_Bylichka_26416_26439,"Please, walk this way.”",0.0,0.05,0.05,train,EmoBank
+Nathans_Bylichka_26578_26735,"The next room had mosaics of what could have been Rome, with men in simple tunics working in a vineyard on one wall and men in odd, floppy hats on the other.",0.125,-0.125,0.125,train,EmoBank
+hotel-california_21304_21317,she asked me.,0.05,0.05,0.05,train,EmoBank
+Homosexuality_7635_8028,"The American Psychological Association further reiterated this belief when an overwhelming majority of the Council of Representatives adopted the Resolution on Appropriate Therapeutic Responses to Sexual Orientation in 1997, which publicly chastised those who attempted to “cure” homosexuality by means of various forms of treatment.",0.0,0.05,-0.05,train,EmoBank
+lessig_blog-carbon_425_520,One reason we're late (other than the obvious) is the insane complexity in calculating it well.,-0.045,-0.045,0.045,train,EmoBank
+anth_essay_4_8621_8850,"A major success in the Colombian saga is the revamped constitution of 1991, which includes a section on indigenous rights, as the Congress which drafted it included representatives from native groups (Gow and Rappaport 2002: 57).",0.06,-0.125,0.06,train,EmoBank
+Nathans_Bylichka_50933_51041,"A bleeding, eyeless thing shuddered and beat its arms against me, but I ducked around it and toward the bar.",-0.15,0.15,0.05,train,EmoBank
+112C-L013_2235_2311,"Please ""help good kids get better"" by sending us a contribution today.",0.1,0.3,0.05,train,EmoBank
+SemEval_1106,Small-business owners find Bush health plan appealing,0.09,0.0,0.09,train,EmoBank
+IntroDublin_4462_4636,"Traditional Irish music is also alive and well, especially in the pubs, and there has been a revival of storytelling, poetry reading, and traditional dancing.",0.25,0.25,0.06,train,EmoBank
+detroit_1252_1295,So how can you buy an actual home for $100?,0.0,0.2,-0.05,train,EmoBank
+audubon1_4359_4461,"And with a donation of $15 or more, you’ll receive a FREE Birdfeeder in appreciation for your concern.",0.15,0.05,0.05,train,EmoBank
+hotel-california_3392_3417,“What about my crewmates?,0.0,-0.06,-0.06,train,EmoBank
+Fermentation_Eminent-Domain_548_595,"Yet, the law does nothing to educate consumers.",-0.3,0.0,0.0,train,EmoBank
+captured_moments_33045_33103,That was easier than despising myself.,-0.06,0.0,0.06,train,EmoBank
+20020731-nyt_19976_20030,He was recently named one of the 70 greatest Redskins.,0.07,0.07,0.0,train,EmoBank
+Acephalous-Internet_2486_2550,"I didn't remember that I remember that, but now that I do, I do.",0.05,0.05,0.05,train,EmoBank
+Ohio_Steel_7722_7787,The petition was lost among paperwork and bureaucratic procedure.,-0.25,-0.1,0.0,train,EmoBank
+Nathans_Bylichka_39614_39634,His eyes were white.,-0.09,-0.09,-0.045,train,EmoBank
+Nathans_Bylichka_42854_42890,She has good blood under her cheeks.,0.11,-0.055,0.055,train,EmoBank
+captured_moments_20936_20941,"""Oh?""",-0.05,0.2,0.15,train,EmoBank
+hotel-california_29208_29251,He said something about a wreck going well.,0.0,0.05,0.05,train,EmoBank
+NWF1_1802_1847,"“the world’s most beautiful nature magazine,”",0.44,0.06,0.0,train,EmoBank
+WhereToHongKong_56447_56683,"This waterway accounts for much of the local charm and excitement, as the daily drama of the ferryboats, junks, sampans, freighters — and even small tankers and big gunboats — unfolds right in the center of town.",0.22,0.11,0.055,train,EmoBank
+wsj_0152_656_806,"Dow Jones publishes The Wall Street Journal, Barron's magazine, and community newspapers and operates financial news services and computer data bases.",0.05,0.05,0.05,train,EmoBank
+NYTnewswire9_827_884,"""Who says this?"" another commanding officer asked Karnes.",0.0,-0.07,0.07,train,EmoBank
+wsj_1640_3107_3213,"Under Mr. Gorbachev, Mr. Goode said, the Soviets are openly stealing Western corporate communications.",-0.07,0.0,0.14,train,EmoBank
+captured_moments_26497_26547,"Tasha said, ""A little fellow with big, furry feet.",0.125,-0.125,0.125,train,EmoBank
+Anti-Terrorist_4412_4509,"If the terrorist loses faith in the righteousness of his acts, he is less likely to perform them.",-0.05,0.0,0.05,train,EmoBank
+NYTnewswire8_2118_2310,"Critics say that is not nearly enough compared with other prescribers, such as M.D. psychiatrists or nurse practitioners who have at least six years' medical education and clinical experience.",0.0,0.0,0.0,train,EmoBank
+hotel-california_24845_24857,A long time.,0.0,0.0,-0.05,train,EmoBank
+Black_and_white_1580_1790,"“Intelligent beings have a language represented by articulate sounds; organized beings, like all animals and vegetables, express themselves by cries or forms, contour or carriage.",0.045,0.185,0.135,train,EmoBank
+WhereToHongKong_66329_66402,Shenzhen’s main tourist attractions are its enormous theme parks.,0.2,0.05,0.0,train,EmoBank
+cable_spool_fort_5158_5209,"Roy!"" Chad called, but his voice would only whisper",-0.15,0.2,-0.15,train,EmoBank
+WhereToHongKong_23184_23381,"The market runs all the way up to Tin Hau Temple, where you will find fortune tellers’ tables (some speak English) and possibly street performers singing Chinese opera or pop songs.",0.125,0.065,0.125,train,EmoBank
+appalachian1_9397_9531,"P.P.S. Check out our website at www.outdoors.org for up-to-date information and hot tips on where to go, what to do, and what to take!",0.1,0.2,0.1,train,EmoBank
+captured_moments_24294_24324,"""All of it outrageous praise?""",0.05,0.3,0.0,train,EmoBank
+Nathans_Bylichka_36361_36438,"As soon as I touched her, her eyes opened into mine and she grabbed my wrist.",0.05,0.2,0.0,train,EmoBank
+Bartok_24020_24261,"In addition to the “mode”-shift, we notice that the metric dissonance shown in Examples 9 and 10 no longer appears (notice how regular the rhythm of the accompanying figure is in Example 19) and also that the written meter no longer changes.",0.05,-0.1,0.05,train,EmoBank
+20020731-nyt_43240_43381,"It is the right message, sent while it is still early enough to do something constructive about the disappointing quality of the work so far.",-0.285,0.07,0.0,train,EmoBank
+SemEval_1271,"Beauticians cut, curl, offer stroke-prevention info",0.07,0.0,0.07,train,EmoBank
+115CVL037_1098_1141,Stopover crises counseling for youth.,-0.1,0.0,-0.05,train,EmoBank
+WhereToHongKong_55046_55196,"Cheoc Van and Hac Sa (“Black Sands”) are both popular resort areas, with lifeguards on duty in summer and windsurfing boards for rent.",0.0,-0.15,-0.05,train,EmoBank
+hotel-california_33157_33182,Our instinct was to hide.,-0.1,0.05,-0.1,train,EmoBank
+WhatToHongKong_1555_1568,Buyer Beware.,-0.25,0.15,0.1,train,EmoBank
+captured_moments_21821_21890,"And I invite a neighbor, one nice, lonely man --""",0.3,0.0,0.2,train,EmoBank
+detroit_1544_1618,"I saw community gardens, art parks, a grassroots transformation of a city.",0.25,0.05,-0.05,train,EmoBank
+captured_moments_28728_28752,"""My God, yes, yes, yes!""",0.65,0.7,0.2,train,EmoBank
+Fermentation_Eminent-Domain_6560_6580,JohnLopresti said...,0.0,0.0,0.0,train,EmoBank
+detroit_12427_12552,"Did the tools of production really get sold, to the shareholders benefit, leaving the worker without means to defend himself?",-0.2,-0.05,-0.1,train,EmoBank
+WhereToHongKong_20285_20431,"Its futuristic dome design is striking; inside are interactive exhibits, including one in which you can experience weightlessness.",0.055,0.0,0.0,train,EmoBank
+NYTnewswire9_10457_10490,"""Those hospitals were not for us.",-0.3,0.15,-0.1,train,EmoBank
+NYTnewswire4_2523_2590,"""and he said he felt like he was having an out-of-body experience.""",-0.05,0.35,-0.2,train,EmoBank
+hotel-california_17658_17784,“The captain selected us for a reason. He has inside intelligence—how else would he know where to find us? He knows about us.”,0.05,0.05,-0.1,train,EmoBank
+The_Black_Willow_9502_9550,"Leaning against his tree, Nathan shook his head.",-0.05,-0.15,-0.05,train,EmoBank
+118CWL048_475_637,"Big Sisters are mentors and friends who empower girls to more fully reach their potential, experience life's opportunities and perhaps begin to dream.",0.25,0.15,0.15,train,EmoBank
+HistoryLasVegas_16237_16341,"They can no longer be just a box filled with gaming tables, restaurants, and a showroom.",-0.05,0.05,0.1,train,EmoBank
+The_Black_Willow_19205_19305,"A mass of flaming wood stood before him, heat singeing him and sparks flying too close to his house.",-0.165,0.28,-0.11,train,EmoBank
+Nathans_Bylichka_54832_54840,“Nathan!,0.135,0.5,0.09,train,EmoBank
+Nathans_Bylichka_22599_22669,"Frankly, I don’t know if we can even doing anything against a vampire.",-0.145,0.0,-0.07,train,EmoBank
+sucker_195_321,"First the holocaust survivor who said she was literally raised by wolves turns out to be just a regular, if depressed, person.",-0.25,-0.05,0.0,train,EmoBank
+SemEval_597,Stenson defends his title at Dubai,0.06,0.06,0.06,train,EmoBank
+Nathans_Bylichka_39564_39568,“he”,0.0,-0.1,0.0,train,EmoBank
+Nathans_Bylichka_55278_55366,"He leapt over the pews, soaring like a grasshopper, and drew a gleaming knife in midair.",-0.125,0.06,-0.06,train,EmoBank
+Nathans_Bylichka_235_544,"It came in through my mother's blood; my Russian grandmother would always tell me stories, bylichkas, of ancestors with the ""second sight"", stupid mill owners who discovered bags of gold after letting a special fish off their hooks, and dark strangers who used to appear to help or interfere at crucial times.",-0.045,0.045,0.135,train,EmoBank
+captured_moments_22958_22972,"""Interesting.""",0.15,0.2,0.0,train,EmoBank
+118CWL050_3659_3849,"For a minimum contribution of $250, you become eligible for a 50% Indiana state tax credit through the Indiana Department of Commerce Neighborhood Assistance Program (NAP).",0.05,-0.15,0.0,train,EmoBank
+captured_moments_12778_12786,I asked.,0.0,-0.125,0.19,train,EmoBank
+Bartok_22748_22868,"Rather than resolve this D back to G, however, Bartók shifts briefly to F♯ in measure 456 and leads to E in measure 467.",0.05,0.05,0.15,train,EmoBank
+hotel-california_31244_31446,"Times like that, running on less sleep than I should, alone because everyone else had had the sense to retire for the night, I had a tendency to get all meditative about the universe and my place in it.",0.0,-0.22,-0.11,train,EmoBank
+captured_moments_10925_10932,Enough.,-0.11,0.055,0.11,train,EmoBank
+The_Black_Willow_14499_14620,"How could any writer accommodate the edicts of popular literature with the very forces of nature knocking upon his door?""",0.0,0.2,-0.05,train,EmoBank
+Nathans_Bylichka_56887_57054,"I was content to let myself drift away, and I had almost forgotten the body lying with broken neck on the cathedral’s hard tiles when I felt a warm touch on its cheek.",-0.15,0.15,0.05,train,EmoBank
+20020731-nyt_35252_35325,This advertisement is long on introductions and short on claims of merit.,-0.07,0.07,0.07,train,EmoBank
+Fermentation_Eminent-Domain_12251_12269,Johnonwine said...,0.0,-0.06,0.06,train,EmoBank
+WhereToHongKong_9664_9878,Visitors entering the temple are confronted by a dense pall of smoke from all the burning joss sticks and the incense coils hanging from the ceiling (these will burn for as long as a month).,0.06,0.0,0.125,train,EmoBank
+easy_money_14994_15070,I'm just wondering what they'll think when they open that vault in Kentucky.,0.05,0.1,-0.1,train,EmoBank
+WhatToHongKong_18065_18235,"In Tsim Sha Tsui, Ned Kelly’s Last Stand on Ashley Road is an Aussie institution; Delaney’s, 71-77 Peking Road, is one of Hong Kong’s enduring Irish pubs.",0.0,-0.11,0.0,train,EmoBank
+Uprooted_Farming-on-Sand_1443_1533,Last season it was a fertile veggie bed -- but it was left un-fertilized as an experiment.,0.06,0.0,-0.06,train,EmoBank
+hotel-california_21524_21574,“What did you do before this? How were you found?”,0.0,0.0,0.1,train,EmoBank
+Nathans_Bylichka_36983_37139,"“You awaken a magical being of unknown power from an enchanted stone, having purchased her with your own blood from a slave dealer, and you name her ‘Amy’?”",0.055,0.11,0.055,train,EmoBank
+Uprooted_Bike_5804_5844,"Karen Turnbull 01. Oct, 2009 at 12:54 pm",0.0,-0.225,0.045,train,EmoBank
+WhereToHongKong_44716_44872,"Macau’s most memorable monument is the Baroque façade of the ruins of São Paulo, the only remains of a beautiful 17th-century Jesuit church.",0.1,0.1,0.0,train,EmoBank
+118CWL049_305_337,It's even harder when she isn't.,-0.215,0.07,0.0,train,EmoBank
+Fermentation_HR5034_7463_7479,"""justifications""",-0.05,-0.15,0.05,train,EmoBank
+WhatToHongKong_1033_1180,Large shops on the fashionable thoroughfares tend to be more expensive than smaller “family” shops tucked away in the side streets.,0.055,0.0,0.055,train,EmoBank
+easy_money_3727_3752,It never failed to amaze.,0.5,0.125,0.19,train,EmoBank
+IFAW1_4664_4733,And please use the enclosed 2001 Calendar Reply when writing me back.,0.0,0.0,0.0,train,EmoBank
+NYTnewswire6_6377_6402,He could hardly go wrong.,0.0,-0.05,0.0,train,EmoBank
+SemEval_1144,Arthurs upsets Robredo in first round at the St. Petersburg Open,-0.1,0.0,0.0,train,EmoBank
+captured_moments_19868_19900,"""You've no memory left, old one.",-0.25,-0.05,-0.05,train,EmoBank
+captured_moments_28262_28266,"""Oh?",0.0,0.05,0.05,train,EmoBank
+detroit_10731_10825,Thank you for the opportunity to see post-BushCo era Detroit through the prism of your vision.,0.3,0.15,0.05,train,EmoBank
+captured_moments_39435_39467,I am ready for the mindwipe now.,-0.055,0.055,0.11,train,EmoBank
+easy_money_15382_15465,I figure it can't be worse than the lethal injection that's waiting for me at dawn.,-0.5,0.15,-0.5,train,EmoBank
+captured_moments_29619_29685,"She had studied it in school, so she thought herself as an expert.",0.05,-0.05,-0.05,train,EmoBank
+WhereToHongKong_32330_32480,Excursion companies sell a variety of orientation cruises of Hong Kong harbor that include a look at some of its 235 outlying islands.,0.15,0.1,0.0,train,EmoBank
+NYTnewswire4_3852_3930,"""If you look down the road too far, you get your feet cut out from under you.""",-0.3,0.05,0.0,train,EmoBank
+SemEval_125,Marathon victory comes at heavy cost,-0.25,0.06,0.0,train,EmoBank
+Nathans_Bylichka_16931_17051,"At this point, we have removed ourselves so fully from quotidian human existence that we are understood to be fictional.",-0.1,0.1,-0.05,train,EmoBank
+SemEval_82,Breast Cancer Awareness is Important,0.0,0.2,0.1,train,EmoBank
+WhatToHongKong_22246_22317,There are 13 public courts at Victoria Park Tennis Centre (Tel.,0.0,-0.1,-0.05,train,EmoBank
+Black_and_white_2354_2495,"In the Far East, reaching a state of colorless-ness is associated with the highest state of spiritual being, the state of Zen.",0.0,-0.1,-0.05,train,EmoBank
+wsj_1640_324_609,"""Hostile and even friendly nations routinely steal information from U.S. companies and share it with their own companies,"" said Noel D. Matchett, a former staffer at the federal National Security Agency and now president of Information Security Inc., Silver Spring, Md.",-0.15,0.05,0.05,train,EmoBank
+audubon2_2681_2858,"You’ll be supporting sanctuaries, field research, environmental education and legislation and many other vital efforts critical to the protection of wildlife and their habitats.",0.215,0.145,0.285,train,EmoBank
+SemEval_1000,Terror officials see Al Qaeda chiefs regaining power,-0.5,0.31,-0.125,train,EmoBank
+WhereToHongKong_59961_60016,The center of the park is the Five Rams Statue.,0.145,-0.07,0.0,train,EmoBank
+WhatToHongKong_15551_15616,The Hong Kong Philharmonic Orchestra was founded in 1975.,0.0,-0.2,-0.05,train,EmoBank
+The_Black_Willow_8360_8423,"""So dear a friend is always welcome to my counsel and my home,""",0.285,-0.145,0.145,train,EmoBank
+littleshelter2_1448_1478,Happy Holidays from all of us!,0.685,0.685,0.09,train,EmoBank
+The_Black_Willow_6288_6393,"You know I do not wish to make my stories thus; but it is my nemesis, confronting me anew at every turn!""",-0.315,0.125,-0.125,train,EmoBank
+Nathans_Bylichka_37905_37920,"“But …but sir,”",-0.15,0.05,-0.15,train,EmoBank
+Nathans_Bylichka_19626_19694,"“Okay, you might feel silly, but just turn three times to your left.",0.0,0.1,0.1,train,EmoBank
+SemEval_1148,One search does not fit all,-0.165,-0.055,0.0,train,EmoBank
+Nathans_Bylichka_12486_12532,Then I looked down and saw what had let us in.,0.0,-0.05,0.05,train,EmoBank
+Ohio_Steel_6100_6241,Meetings of union officials and mill bosses were hurriedly set up in an attempt to persuade the powers that be to reconsider their statement.,0.0,0.085,0.165,train,EmoBank
+SemEval_1130,Sony apologizes for battery recall,-0.1,-0.1,0.0,train,EmoBank
+Italy_1655_1718,(The De Landa seems to have become an unwitting theme of late.),-0.05,-0.1,0.0,train,EmoBank
+easy_money_3626_3667,I had been an amateur magician for years.,0.1,0.1,0.1,train,EmoBank
+detroit_7435_7578,"You're liable to see families picnicking, bums gathering bottles and cans, geese foraging, and deer cautiously wandering the edge of the woods.",0.1,-0.1,0.0,train,EmoBank
+guidedogs1_800_871,And our dogs are specially bred for temperament and physical soundness.,0.0,-0.215,0.215,train,EmoBank
+The_Black_Willow_1349_1398,"Besides, the public liked a good, simple romance.",0.25,0.1,0.05,train,EmoBank
+116CUL033_1062_1241,It is our goal that every young person in Marion County have access to the programs and services that can best assist them in their growth toward a positive adulthood.,0.15,0.0,0.1,train,EmoBank
+NYTnewswire9_2772_2887,"War is hell, he says, and when it was over, he wanted to come home and rejoin his young family and not dwell on it.",-0.1,0.05,0.05,train,EmoBank
+Uprooted_Farming-on-Sand_3238_3353,"Provincetown's official population of 3,500 supports a tourism industry that serves millions of visitors each year.",0.07,0.0,0.215,train,EmoBank
+113CWL018_1192_1222,The kids are depending on you.,0.05,0.1,0.2,train,EmoBank
+Uprooted_Farming-on-Sand_1570_1645,"""You have to keep feeding it organic material, or it turns back into sand.""",0.0,-0.1,0.05,train,EmoBank
+WhereToHongKong_35761_35826,The island has a checkered past of smuggling and pira cy.,-0.2,0.0,-0.15,train,EmoBank
+SemEval_984,Somali refugees cut off from aid,-0.25,0.15,-0.1,train,EmoBank
+Nathans_Bylichka_5101_5184,"When she hadn’t come back halfway through the next song, I glanced over at the bar.",0.0,0.0,-0.065,train,EmoBank
+defenders5_6739_6798,Please help save Alaska’s wolves by doing these two things:,0.05,0.1,0.0,train,EmoBank
+The_Black_Willow_8012_8120,"""You might find that some time in an honest occupation would ground you somewhat, improve your disposition.""",0.06,0.125,0.06,train,EmoBank
+lw1_2207_2308,"She seemed so depthless - self conscious and shallow on the outside, but having that incredible gift.",-0.15,0.1,-0.15,train,EmoBank
+110CYL069_1561_1631,You and I know that solutions to difficult problems don't just happen.,-0.15,-0.1,0.2,train,EmoBank
+detroit_3416_3554,"Earp and I have each lived happily in the wilds of West Oakland, but the danger I felt in Detroit was like nothing I'd experienced before.",-0.3,0.25,-0.05,train,EmoBank
+captured_moments_22463_22573,"Months earlier, we might have sought a bed, a couch, or a comfortable chair at this point.",0.05,-0.15,0.0,train,EmoBank
+hotel-california_10118_10195,"I could have started asking questions, but I wanted to get my bearings first.",-0.06,-0.06,0.25,train,EmoBank
+Nathans_Bylichka_9054_9070,"“No thanks, sir!",-0.185,0.25,0.06,train,EmoBank
+SemEval_744,Tests of drug to block H.I.V. infection are halted over safety,-0.375,0.19,-0.06,train,EmoBank
+Nathans_Bylichka_19482_19553,"Then I’m going to shed a little blood, but don’t worry, none of yours.”",0.0,0.215,0.215,train,EmoBank
+HistoryLasVegas_905_1010,These springs fed a network of streams draining through the Las Vegas Wash to the Colorado River.,0.0,-0.165,0.055,train,EmoBank
+SemEval_1319,'Blazing Angels' for PS3 fails to soar,-0.145,-0.215,-0.285,train,EmoBank
+SemEval_232,Alaska town cut off from rest of state by flood,-0.35,0.15,-0.15,train,EmoBank
+captured_moments_34463_34599,The part of my mind that remembered four months in NorAm during the Great Cleaning sent me rolling across the floor.,-0.22,0.11,0.055,train,EmoBank
+captured_moments_13277_13416,"I made some small joke afterward, about approving of her firm's business incentives, and she cried.",-0.25,0.125,0.06,train,EmoBank
+Black_and_white_8471_8631,"Just as those from the Far East, the purity of white implies what has been washed away and thus makes the white glitter even more.",-0.06,0.06,0.185,train,EmoBank
+110CYL070_1013_1100,And there are a lot of people who face these challenges every day of their lives.,-0.05,0.05,0.05,train,EmoBank
+Nathans_Bylichka_41116_41202,"“This man is here in search of his lover, who was stolen from him in the human world,”",-0.05,0.05,0.05,train,EmoBank
+easy_money_328_425,"He sounded surprised and said no, he needed me to help him get rid of ""a large quantity of gold.""",0.125,0.315,0.185,train,EmoBank
+Nathans_Bylichka_23200_23324,Now can you tell me what your master plan of attack will be before we go spinning counterclockwise into an Anne Rice novel?”,-0.05,0.0,0.0,train,EmoBank
+NYTnewswire1_1764_1816,He accepts his role with a club and he's a team guy.,0.2,0.05,0.0,train,EmoBank
+Seedbombing_1517_1550,You're going to be throwing them.,0.0,0.06,0.25,train,EmoBank
+115CVL035_93_342,"CCI is a federation of 13 neighborhood-based multi-service centers whose mission is to identify and meet the human service needs of residents throughout Marion County in the most effective, efficient and comprehensive way possible.",0.06,-0.06,0.125,train,EmoBank
+captured_moments_20356_20376,We lunched together.,0.285,0.0,0.07,train,EmoBank
+captured_moments_14475_14602,"I had impressed her because I was famous and amusing and not, as I had hoped, because I was a great artist.",0.2,0.1,0.15,train,EmoBank
+WhatToHongKong_22477_22684,"The racing schedule is September to June, and Hong Kong maintains two tracks — the older Happy Valley course on Hong Kong Island and the striking Sha Tin track in the New Territories.",0.05,-0.05,0.05,train,EmoBank
+NYTnewswire3_3001_3093,"In June, IBM announced that it was taking a charge of more than $2 billion against earnings.",0.0,0.215,0.36,train,EmoBank
+detroit_6688_6728,There's a lot more to Detroit than that.,0.0,0.1,0.15,train,EmoBank
+SemEval_797,Bill would strip convicted legislators of pensions,-0.11,0.11,0.0,train,EmoBank
+SemEval_746,Europe take big Royal Trophy lead,0.225,-0.055,0.055,train,EmoBank
+SemEval_698,Friendly fire pilot 'experienced',0.0,0.05,0.0,train,EmoBank
+hotel-california_3257_3280,"“So, I'm on a ship now?",0.0,0.165,0.0,train,EmoBank
+SemEval_639,Injured Sarwan to miss one-dayers,-0.3,-0.05,-0.05,train,EmoBank
+NYTnewswire7_7215_7344,"Le Bernardin's menu also informs diners that the restaurant will not serve swordfish to support efforts ""to recover the species.""",-0.05,-0.1,-0.05,train,EmoBank
+SemEval_641,Studios sign off on movie downloads,0.05,0.15,0.15,train,EmoBank
+aspca1_2163_2235,"Every day, the ASPCA gets reports of animal cruelty, abuse, and neglect.",-0.445,0.11,0.055,train,EmoBank
+Black_and_white_6132_6219,It strays from reason in the way which it consumes and manipulates life.,-0.25,0.125,0.0,train,EmoBank
+SemEval_958,Ex-suspect slams anti-terror laws,-0.15,0.05,0.1,train,EmoBank
+defenders5_2633_2819,"In the name of “wolf control,” wolf killers will predictably once again use aircraft to hunt wolves to the point of exhaustion, so that the wolves have, literally, no chance of survival.",-0.43,0.285,0.0,train,EmoBank
+Seedbombing_97_216,"Somewhere in California, a blighted, mosquito-vector abandoned property is about to get an echinacea dose via seedbomb.",-0.05,0.0,-0.1,train,EmoBank
+Madame_White_Snake_7666_7766,"If they were, Madame White Snake would be unmistakably depicted as an evil character.",0.06,0.06,0.125,train,EmoBank
+NYTnewswire7_4648_4770,"When there's a boycott, Lassen said, ""it's not environmentalists or chefs making the sacrifice, it's coastal communities.""",-0.215,-0.07,0.07,train,EmoBank
+wsj_0068_426_473,The company also adopted an anti-takeover plan.,0.05,0.0,0.05,train,EmoBank
+A_defense_of_Michael_Moore_27846_28014,"The shrill (and remarkably unsuccessful) Internet campaign to ""revoke"" his award seems to be motivated more by jealousy than by real concerns about the film's accuracy.",-0.25,0.1,-0.05,train,EmoBank
+blog-monastery_2298_2327,"""Only if you feel no regret,""",0.0,0.0,0.05,train,EmoBank
+NYTnewswire2_3145_3210,The ISU later suspended Le Gougne and Gailhaguet for three years.,-0.15,-0.1,-0.05,train,EmoBank
+20020731-nyt_47130_47268,"But some regulations, aimed at specific regional problems that nationwide trading alone is unable to address, cannot lightly be abandoned.",-0.125,0.0,0.06,train,EmoBank
+20020731-nyt_34963_35020,"The candidate says: ""I grew up poor with a single mother.",-0.07,0.07,-0.07,train,EmoBank
+hsus4_1192_1202,“milk-fed”,0.0,0.0,0.0,train,EmoBank
+SemEval_170,"Seduced by Snacks? No, Not You",0.0,0.07,0.07,train,EmoBank
+hotel-california_6051_6071,Fact: I wasn't dead.,0.05,0.05,0.05,train,EmoBank
+SemEval_566,'Stomp' steps to No. 1 at box office,0.2,0.15,0.05,train,EmoBank
+110CYL071_1231_1280,"Every year, thousands of people come to Goodwill.",0.06,0.125,0.06,train,EmoBank
+littleshelter2_48_133,SAVE A LIFE Little ShelterAND GET OUR33 Warner RoadNEWSLETTERHuntington NY 11743-0830,-0.05,0.0,0.0,train,EmoBank
+602CZL285_1661_1739,A Second Century Society response card and return envelope are enclosed.,-0.05,-0.1,0.0,train,EmoBank
+detroit_12553_12770,"Have the great fortunes earned in trust as ""American"" for American investment here in America, really migrated to the Beijing, Shanghai, and Hang-Seng markets, converted to safer ""Yuan"" and invested in China's wealth?",-0.15,0.05,-0.1,train,EmoBank
+Homosexuality_12475_12505,‘My child’s going to be gay!”’,0.0,0.56,-0.065,train,EmoBank
+SemEval_71,Apple set for massive market gains,0.25,0.2,0.05,train,EmoBank
+NWF1_4379_4549,Building on our success of reintroducing the gray wolves to Yellowstone National Park by expanding gray wolf recovery into suitable habitat in the United States.,0.0,0.06,0.06,train,EmoBank
+SemEval_1129,Enron boss gets 24-year sentence,0.0,0.1,0.2,train,EmoBank
+A_defense_of_Michael_Moore_17849_18037,"From this, you construct an obscure conspiracy of ""re-enactment"": ""For all we can tell, Moore could have shouted 'Hey!' to make Heston turn around and then remained silent as Heston left.""",0.0,0.0,0.06,train,EmoBank
+WhatToHongKong_11366_11449,You’ll also find bargain clothes for sale at the markets and on push-carts.,0.05,0.05,0.1,train,EmoBank
+SemEval_523,BB star Jackson denies Goody comments,-0.05,-0.1,-0.05,train,EmoBank
+Uprooted_Bike_6278_6423,One of my dear friends who can't drive to due to combat injuries had her ride stolen while we were sharing a beer in broad daylight last weekend.,-0.3,0.1,-0.3,train,EmoBank
+Fermentation_HR5034_7585_7715,"in other words, discrimination is ok as long as the discrimination is written into the state's alcohol beverage distribution laws.",-0.25,0.1,-0.05,train,EmoBank
+wsj_0127_599_801,"Pretax profit fell 3.7% to #128 million from #133 million and was below analysts' expectations of #130 million to #135 million, but shares rose 6 pence to 388 pence in early trading yesterday in London.",0.0,-0.15,-0.05,train,EmoBank
+captured_moments_7041_7094,"Reluctantly, I released her hand.",-0.3,0.2,-0.15,train,EmoBank
+112C-L013_1592_1655,In 1995 we will serve over 850 children and 340 families.,0.25,0.0,0.125,train,EmoBank
+hotel-california_16271_16338,"“No one's immortal. In fact, the opposite: We're all going to die.”",-0.3,0.05,-0.05,train,EmoBank
+A_defense_of_Michael_Moore_1685_1721,"""Moore's resolution is questionable.",-0.2,-0.05,0.05,train,EmoBank
+NYTnewswire5_166_318,"CHRON EDITORS NOTE: Each week, The Chronicle offers readers a look at the more unusual fruits, vegetables and herbs of each season and how to use them.",0.07,0.07,0.145,train,EmoBank
+112C-L013_842_966,"and John H., a recovering alcoholic, rebuilding a relationships with his family so they can live together again.",0.165,0.0,-0.11,train,EmoBank
+Fermentation_HR5034_11572_11627,"I enjoyed reading your post. July 17, 2010 at 12:35 PM",0.3,0.1,0.05,train,EmoBank
+A_defense_of_Michael_Moore_24951_25019,He buys several boxes of ammunition without a question being raised.,0.0,0.1,0.0,train,EmoBank
+cable_spool_fort_116_125,You suck.,-0.7,0.45,0.3,train,EmoBank
+att2_348_421,Please see your card carrier for additional information and instructions.,0.0,-0.125,0.0,train,EmoBank
+WhatToHongKong_20088_20244,"On Hong Kong Island, Repulse Bay is the most popular; others are Shek O on the east coast and Stanley and Deep Water Bay on the south coast.",0.055,-0.055,0.11,train,EmoBank
+Nathans_Bylichka_9268_9290,He met my eyes coolly.,-0.05,-0.05,0.0,train,EmoBank
+Black_and_white_2628_2757,This is apparent through Japanese haiku as well as the art of ink painting in both China and Japan.,0.0,-0.2,0.05,train,EmoBank
+hotel-california_2933_2955,I was now one of them.,0.06,0.06,0.0,train,EmoBank
+WhereToHongKong_52578_52722,"However, you are not likely to find bargains, and you should be aware that unless you are an expert, you can end up with a fake.",-0.1,0.05,-0.05,train,EmoBank
+aspca1_3704_3907,Your contribution will help us rescue more animals like Astro ... make sure the perpetrators of cruelty are brought to justice ... nurse abused animals back to health and find them loving adoptive homes.,0.215,0.215,0.0,train,EmoBank
+Fermentation_HR5034_8628_8718,Judges merely tell the state when they have reached beyond what the 21st Amendment allows.,0.0,-0.125,0.0,train,EmoBank
+Nathans_Bylichka_32175_32190,Not in America.,-0.19,-0.06,0.19,train,EmoBank
+A_defense_of_Michael_Moore_6418_6522,The bank does exactly what it advertises: It hands out guns from its vault to those who open an account.,-0.15,0.15,0.05,train,EmoBank
+NYTnewswire6_8795_8815,"I love butter, too.""",0.4,0.15,0.05,train,EmoBank
+Nathans_Bylichka_7173_7258,"Standing in the center of the church, I took out my cell phone and called the police.",-0.1,0.1,0.05,train,EmoBank
+118CWL050_769_810,"With your help, we can change that.",0.1,0.1,0.1,train,EmoBank
+Uprooted_Farming-on-Sand_4189_4311,"If the young farmers and foodies of Truro can organize, they might just be able to get local agriculture back on its feet.",0.11,-0.11,0.165,train,EmoBank
+SemEval_893,Prehistoric Romeo and Juliet discovered,0.07,0.145,0.0,train,EmoBank
+detroit_2786_2871,It was about driving down streets where we truly did not belong and were not welcome.,-0.3,0.05,-0.1,train,EmoBank
+wsj_0132_534_629,The charges were offset in part by a gain from the sale of the company's construction division.,0.0,0.07,0.07,train,EmoBank
+SemEval_1244,Tourism lags in Bush's hometown,-0.3,0.0,-0.1,train,EmoBank
+Uprooted_Farming-on-Sand_2104_2194,"Salt marsh hay has no weed seeds, and it doesn't compact as heavily as other types of hay.",0.05,-0.15,0.05,train,EmoBank
+easy_money_6933_6988,"A low, black hill blocked the sky right in front of us.",-0.1,-0.05,-0.05,train,EmoBank
+hotel-california_33220_33246,In her hands was a bottle.,-0.04,-0.04,0.125,train,EmoBank
+wsj_0136_382_602,"Oshkosh Truck attributed the downturn in its earnings to higher start-up costs of its new chassis division, a softer motor-home market and higher administrative costs of compliance with government contractor regulations.",-0.055,-0.11,0.0,train,EmoBank
+captured_moments_22242_22253,She smiled.,0.5,0.25,-0.05,train,EmoBank
+easy_money_12229_12347,"You could step three feet to the right and do the same thing, and you would end up buried alive in a nearby rock face.",-0.15,0.1,0.05,train,EmoBank
+SemEval_1350,"African-Americans are organ donors these days, but what about bone marrow?",-0.06,0.0,0.06,train,EmoBank
+lw1_329_457,she suppressed the surge of annoyance that ran through her as she contemplated the psi's gift of getting all the hot news first.,-0.125,0.06,-0.06,train,EmoBank
+Seedbombing_3854_3940,There is one over-riding message to this -- Quit being such a goddamned perfectionist.,-0.35,0.3,0.25,train,EmoBank
+Black_and_white_9388_9543,"We need this opposition between color and ‘non-color’ to make distinction between the two, otherwise neither would hold such significance.",-0.05,0.0,-0.05,train,EmoBank
+WhatToHongKong_3286_3409,"If the goods are very valuable or fragile, it is a good idea to buy an all-risk insurance for the shipment.",0.05,-0.2,0.15,train,EmoBank
+Ant_Robot_233_338,Science fiction writers have been anticipating humanoid androids that could pass a Turing Test for years.,0.05,0.0,0.0,train,EmoBank
+anth_essay_4_4995_5152,"By the 1970s the need to assert a cause separate from the general left was seen, and indigenous rights movements formed (Warren 2003: 174, Jackson 2002: 82).",-0.05,-0.1,0.05,train,EmoBank
+Nathans_Bylichka_8652_8742,"The man looked over forty, and he was driving a car I’d be afraid to drive on this street.",-0.25,0.05,-0.15,train,EmoBank
+IntroHongKong_4384_4536,"Sightseeing in Hong Kong starts at sea level with the enthralling water traffic — a mix of freighters, ferries, tugs, junks, and yachts.",0.11,0.165,0.0,train,EmoBank
+20000415_apw_eng-NEW_662_840,"During his four days in Iraq, Hall said he wanted to investigate reports from relief agencies that a quarter of Iraqi children may be suffering from chronic malnutrition.",-0.4,0.1,0.05,train,EmoBank
+hotel-california_22906_22944,I looked at Ray and raised an eyebrow.,-0.05,0.05,0.1,train,EmoBank
+20020731-nyt_33862_33896,"""His resume is an American dream,""",0.15,0.0,0.1,train,EmoBank
+Anti-Terrorist_4513_4550,"EXAMPLE 1: ""Terrorists Offend Allah.""",-0.2,0.1,0.1,train,EmoBank
+WhatToHongKong_15396_15550,The Hong Kong Chinese Orchestra performs new and traditional works; a wide assortment of traditional and Chinese instruments are featured.,0.1,0.1,0.0,train,EmoBank
+wsj_0173_747_858,"But Coleco bounced back with the introduction of the Cabbage Patch dolls, whose sales hit $600 million in 1985.",0.06,-0.06,0.0,train,EmoBank
+A_defense_of_Michael_Moore_22762_22779,9) Gun homicides.,-0.4,0.15,0.1,train,EmoBank
+hotel-california_24548_24764,"The question, previously posed to me, was presented to the rest of our group (excluding Ray; Adrienne had been tactful enough to wait until he had gone for a refill, recalling the last time the subject was broached).",-0.125,0.06,-0.06,train,EmoBank
+detroit_13423_13501,"Where did the great society for all, the one we were told we were building go?",-0.3,-0.05,-0.2,train,EmoBank
+wsj_0184_830_871,"""an effective headcount-control program.""",0.055,-0.055,0.0,train,EmoBank
+SemEval_718,Police probe 2 church fires half mile apart,-0.15,0.1,0.0,train,EmoBank
+vampires_2216_2393,"So what sort of matrix board do you have to create to know that a NC-17 comedy horror Zombie video game will work, but a PG-13 young adult time-travelling Vampire TV show won't?",-0.05,0.05,0.0,train,EmoBank
+blog-monastery_2477_2497,This struck a chord.,-0.15,0.15,0.0,train,EmoBank
+SemEval_1167,Fortune: India the Superpower? Think again,-0.05,0.05,0.1,train,EmoBank
+HistoryLasVegas_6292_6355,Stewart sold 99.5 percent of her ranch to the railroad.,0.1,-0.05,0.1,train,EmoBank
+captured_moments_25242_25291,Tasha snatched it from him to rip away the paper.,-0.25,0.15,0.1,train,EmoBank
+blog-monastery_2160_2165,"""So,""",0.0,-0.15,0.0,train,EmoBank
+SemEval_701,"Congolese soldiers riot, loot over pay issue",-0.3,0.0,-0.2,train,EmoBank
+Anti-Terrorist_4872_4990,"Is this ""negotiating with terrorists"" or ""trying to appease the terrorists,"" as some Israeli/NeoCons would try to say?",-0.15,0.1,0.1,train,EmoBank
+anth_essay_4_15508_15642,"Many native peoples in Colombia are monolingual Spanish speakers, raising the question of the practicality of indigenous language use.",-0.05,0.05,-0.05,train,EmoBank
+116CUL034_18_33,"October 7, 1996",0.0,-0.15,0.0,train,EmoBank
+SemEval_1119,Some cocoa may improve brain blood flow,0.0,0.0,0.0,train,EmoBank
+The_Black_Willow_8133_8152,"""Perhaps it would,""",0.06,-0.06,0.06,train,EmoBank
+NYTnewswire2_3216_3378,"The federal complaint did not describe the possibility of a wider conspiracy or any contact between Tokhtakhounov, or his unnamed co-conspirators, with Le Gougne.",-0.05,-0.05,-0.05,train,EmoBank
+hsus4_6321_6361,Registration does not imply endorsement.,-0.1,0.0,0.1,train,EmoBank
+appalachian1_4283_4400,Why not come horseback riding with AMC in the Catskills—exploring the foothills and spending the night at a campsite?,0.0,-0.15,-0.05,train,EmoBank
+captured_moments_18397_18412,"""Imagine that.""",0.0,-0.2,0.05,train,EmoBank
+A_defense_of_Michael_Moore_4427_4456,"'oink, oink, squeeeeeeeallll'",0.25,0.315,0.06,train,EmoBank
+appalachian1_4444_4459,Prowl for owls.,-0.05,0.1,0.05,train,EmoBank
+SemEval_905,Apple: no iTunes for you if you have Vista!,-0.15,0.1,0.05,train,EmoBank
+SemEval_576,Teacher charged with sex assault,-0.5,0.1,-0.15,train,EmoBank
+A_defense_of_Michael_Moore_2070_2259,"If, as Moore implies (although never states as fact), video games and violent movies are relatively harmless, it does not logically follow that all types of media presentation are harmless.",-0.1,0.0,0.1,train,EmoBank
+NYTnewswire1_2167_2245,"""Coming in, they've got three great outfielders. I knew that from the get-go.""",0.22,0.28,0.28,train,EmoBank
+WhatToHongKong_16824_17043,"The classic Chinese puppet is the shadow puppet, manipulated behind a screen by three rods, but hand puppet and marionette shows are also on offer, often for free at public parks and playgrounds.",0.2,0.05,0.05,train,EmoBank
+hotel-california_28693_28757,"I wasn't, not really, but I'd lie to get the conversation going.",0.06,0.0,0.125,train,EmoBank
+Nathans_Bylichka_17695_17728,We should get started right away.,0.055,0.165,0.11,train,EmoBank
+20020731-nyt_13469_13724,"The United States once distanced itself from Mahathir for strong-arm tactics with political rivals, and human rights groups criticize him for arresting and jailing scores of suspected militants, including some who may be linked to al-Qaida, without trial.",-0.15,0.0,-0.05,train,EmoBank
+easy_money_6832_6932,When he killed the headlights there was no light but moonlight and stars on a light dusting of snow.,-0.1,-0.1,-0.05,train,EmoBank
+20020731-nyt_21950_22050,"Edward Jewell, 56, retired from his job as a copyright assistant at the Library of Congress in 1993.",0.0,-0.19,0.0,train,EmoBank
+HistoryLasVegas_4091_4325,"Bestowed with plenty of the invaluable pioneer spirit that characterizes Las Vegas to this day, Gass redirected his life by picking up where the Mormons left off — at least when it came to ranching and farming.",0.0,-0.11,0.055,train,EmoBank
+Fermentation_HR5034_5709_5907,"It's no coincidence that brewers large and small, wineries, spirit producers and importers, retailers, wine education organizations, wine consumers and free trade organizations all oppose H.R. 5034.",-0.05,0.0,0.1,train,EmoBank
+WhereToHongKong_51913_51955,It is famous for its gold jewelry.,0.1,-0.05,0.15,train,EmoBank
+captured_moments_28995_29344,"Let me abuse the playwright and dismiss the penultimate scene in a few sentences: After giving Emil full rights to a sculpture of Tasha and me, we had a good dinner of curried clam chowder, lobsters boiled on Terra and unstopped still steaming on N'Apulco, and cinnamon custard for desert.",0.0,-0.15,0.0,train,EmoBank
+112C-L014_1614_1624,"Sincerely,",0.1,-0.15,0.0,train,EmoBank
+A_defense_of_Michael_Moore_25983_26139,"While this can in part be explained with his age and mental condition, if he is unable to defend the interests of the NRA, he should not be their spokesman.",-0.05,-0.1,-0.05,train,EmoBank
+20020731-nyt_42070_42132,But so far he has pushed the point only with the Palestinians.,-0.06,-0.125,0.0,train,EmoBank
+warner1_1303_1411,"DTV allows you to receive up to 29 channels of HBO, SHOWTIME, CINEMAX, THE MOVIE CHANNEL, STARZ! and ENCORE.",0.15,0.2,0.05,train,EmoBank
+wsj_0151_896_923,"""the company is on a roll.""",0.3,0.35,0.2,train,EmoBank
+SemEval_1003,Princess and heir of Franz Ferdinand fights to repeal a law and gain a castle,-0.145,-0.07,0.145,train,EmoBank
+hotel-california_15157_15176,I watched Adrienne.,0.06,-0.125,0.25,train,EmoBank
+Nathans_Bylichka_28928_28948,"“As if I wanted it,”",-0.2,0.2,0.2,train,EmoBank
+115CVL035_343_553,"In 1998, we served a total of 31,484 low-income individuals through job training and placement assistance, youth and senior programming, family counseling, emergency assistance, and much more.",0.05,0.05,0.0,train,EmoBank
+How_soon-Lebron-James_2023_2147,"4. He's put himself in a position where if he leaves Cleveland, every other city (and Cleveland) will be rooting against him",-0.225,0.0,-0.09,train,EmoBank
+The_Black_Willow_11330_11437,"Your stories strike a chord with the deepest, most ancient stories of mankind, the tales basic to humanity.",0.1,0.05,0.1,train,EmoBank
+Ohio_Steel_14233_14343,United Steel Workers of America was the union representing the Youngstown steel workers when the closings hit.,0.0,0.0,0.0,train,EmoBank
+WhereToHongKong_49015_49130,"The ornate, picturesque temple dates from the Ming Dynasty (1368–1644) and is the oldest building in Macau.",0.05,0.05,0.0,train,EmoBank
+hsus4_4492_4510,Thanks in advance.,0.3,0.05,0.05,train,EmoBank
+20020731-nyt_25175_25282,"The previous numismatic record holder was an 1804 U.S. silver dollar, which sold for $4.14 million in 1999.",0.05,0.05,0.1,train,EmoBank
+602CZL285_86_259,Pat LaCrosse asked me to send this information inviting you to join the Georgia O'Keeffe Circle of the Indianapolis Museum of Art's Second Century Society (SCS).,0.25,0.0,0.085,train,EmoBank
+NYTnewswire6_3460_3538,She will have reunions of sorts with her famous kitchen in the next few weeks.,0.22,0.11,0.11,train,EmoBank
+detroit_5339_5457,"Anyone who takes this plunge is risking their life every day, betting on a future that may take a long time to arrive.",-0.1,0.05,-0.05,train,EmoBank
+Acephalous-Cant-believe_2192_2221,So thanks a lot for that one.,0.1,0.2,0.0,train,EmoBank
+wsj_0106_428_586,"A spokesman for the Toronto cable television and telecommunications concern said the coupon rate hasn't yet been fixed, but will probably be set at around 8%.",0.0,-0.06,0.0,train,EmoBank
+Nathans_Bylichka_54358_54442,"The vault rose into obscurity above me, and a massive rose window stood ahead of me.",0.0,0.1,0.05,train,EmoBank
+NYTnewswire8_2498_2808,"In a field that has struggled long and hard to prove that mind, mood and behavior can be studied empirically, the past decade, Davison says, has seen ""exciting developments"" that demonstrate the validity of various psychotherapeutic interventions and the psychosocial-behavioral models on which they are based.",0.165,0.165,0.11,train,EmoBank
+NYTnewswire2_6466_6621,"The second mobster added, ""Our Sikharulidze fell, the Canadians were 10 times better, and in spite of that the French with their vote gave us first place.""",0.0,0.0,0.215,train,EmoBank
+HistoryLasVegas_2024_2254,"Unable to replicate the agricultural techniques of the Anasazi, the Paiutes were destined to a semi-nomadic lifestyle until European settlers arrived, changing the nature of existence in the valley forever.",0.0,0.0,0.07,train,EmoBank
+Uprooted_Farming-on-Sand_3354_3445,"City folk marvel at the quaint charms of the Cape, its idyllic beauty and simple pleasures.",0.4,0.2,0.2,train,EmoBank
+Anti-Terrorist_3221_3284,"Brute force has failed in Palestine, and it is failing in Iraq.",-0.1,0.05,-0.1,train,EmoBank
+WhereToHongKong_7437_7528,In the very early morning the park is taken over by people doing tai-chi exercises.,0.05,-0.05,0.0,train,EmoBank
+cable_spool_fort_5915_5920,Baby!,0.3,0.25,0.1,train,EmoBank
+Nathans_Bylichka_20265_20408,"The sky, cupping over squat buildings, was less yellow here, and stands were set up everywhere the way I’d picture a market in the Middle East.",0.0,-0.065,0.065,train,EmoBank
+easy_money_6497_6546,He was smiling now and his eyes weren't so tired.,0.3,0.15,-0.1,train,EmoBank
+112C-L014_785_803,The positive side.,0.35,0.15,0.1,train,EmoBank
+SemEval_678,Astronaut may have buckled under stress,-0.25,0.1,-0.2,train,EmoBank
+20020731-nyt_34021_34271,"They show him as an Army lieutenant, at his swearing-in as a state senator, as ambassador to the United Nations, surrounded by children as New York City school board president, and at other jobs, leading up to his current position, state comptroller.",0.05,0.05,0.05,train,EmoBank
+lessig_blog-carbon_6746_6867,"Carbon offsets 'harm environment' http://news.bbc.co.uk/1/hi/uk_politics/6378471.stm Tuesday, 20 February 2007, 17:31 GMT",-0.1,0.0,0.05,train,EmoBank
+hotel-california_16690_16735,"“All the luxuries money can buy,” she echoed.",0.22,0.22,0.22,train,EmoBank
+hsus4_6633_6786,"West Virginia— Residents may obtain a summary of the registration & financial documents from the Secretary of State, State Capitol, Charleston, WV 25305.",0.0,0.0,0.0,train,EmoBank
+captured_moments_36981_37063,"Had he said then that I should use it on myself, I might have.",-0.07,0.0,0.07,train,EmoBank
+Madame_White_Snake_3871_4094,"In “Eternal Prisoner,” Madame White Snake’s bewitching beauty follows her lover Hsü into his dreams, and the next morning “he was so distracted that he could not concentrate on doing business.”",0.05,0.1,-0.05,train,EmoBank
+SemEval_1392,Regular naps make hearts healthy,0.25,-0.05,0.1,train,EmoBank
+NYTnewswire9_10595_10661,Karnes carries the image of hundreds of hospital beds in his mind.,-0.15,0.05,0.0,train,EmoBank
+NYTnewswire2_6797_6974,"The second mobster said the French pair had ""only three judges,"" and of the two judges they needed to win the gold medal ""one is ours, and the other our friends will give them.""",0.0,0.065,-0.125,train,EmoBank
+SemEval_1262,Full details of the EU report on Iran,0.0,0.0,0.0,train,EmoBank
+SemEval_1191,Frustration rises as North Korea nuclear talks stall,-0.4,0.3,-0.25,train,EmoBank
+NYTnewswire7_7494_7562,"(Michelle Cole is a staff writer for The Oregonian of Portland, Ore.",0.0,-0.3,0.05,train,EmoBank
+110CYL069_2166_2322,"once his tears have subsided, he confirms what his classmates have already figured out: he just received a job offer -- his first in five years.",0.23,0.275,0.09,train,EmoBank
+Homosexuality_4528_4853,"This, he claimed, made laws such as paragraph 175, a law adopted by King William I throughout the German Kingdoms at the time of their unification which forbade sex between males, and forced criminal penalties upon individuals partaking in such behavior, unfair and unreasonable .",-0.05,0.0,-0.05,train,EmoBank
+Fermentation_HR5034_7189_7255,All the state needs to do is offer the feeblest of justifications.,-0.2,-0.05,0.0,train,EmoBank
+wsj_0032_456_551,The offer is being launched pursuant to a previously announced agreement between the companies.,0.0,0.0,-0.06,train,EmoBank
+defenders5_6447_6598,They have the financial backing of powerful special interests and the determination to ignore the will of the people of Alaska and the American public.,-0.05,-0.05,0.1,train,EmoBank
+113CWL017_1567_1584,Richard Dickinson,0.0,-0.1,0.0,train,EmoBank
+112C-L015_1087_1146,Your contribution will make a difference in a child's life.,0.22,0.165,0.22,train,EmoBank
+WhatToHongKong_22054_22074,Taijiquan (Tai Chi).,-0.05,-0.1,0.0,train,EmoBank
+NYTnewswire9_2689_2766,He never even told his story to students in his 40 years of teaching college.,-0.05,-0.05,0.05,train,EmoBank
+The_Black_Willow_6237_6287,"""I know,"" Allan replied, ""but how am I to do that?",-0.1,0.0,-0.2,train,EmoBank
+The_Black_Willow_1278_1348,"Although the concept was a simple one, Allan thought it had potential.",0.1,0.1,0.05,train,EmoBank
+SemEval_1248,Weekly Nielsen will 'Lost' find its way back?,-0.05,0.1,0.0,train,EmoBank
+SemEval_1071,Arroyo lauds passage of anti-terror bill,0.2,0.0,0.1,train,EmoBank
+The_Black_Willow_20177_20324,"Instead, he bethought himself of the loss of the tree; considered also Arthur's motivation and whether some good might not come of this, after all.",0.0,0.05,0.0,train,EmoBank
+Nathans_Bylichka_31460_31496,"I mean, what is this place, really?”",-0.15,0.05,-0.1,train,EmoBank
+110CYL071_2038_2263,"The families of the new wage earners may feel the accomplishment in terms of a house to live in, money to purchase food -- without food stamps -- and the beginning of a family focused on success, not hopelessness.",0.1,-0.05,0.0,train,EmoBank
+Homosexuality_932_1139,"“Those who are halves of a man whole pursue males, and being slices, so to speak, of the male, love men throughout their boyhood, and take pleasure in physical contact with men”",0.045,0.09,-0.045,train,EmoBank
+Acephalous-Internet_4199_4253,"Plus, they smoked a prodigious quantity of cigarettes.",-0.05,0.1,-0.1,train,EmoBank
+wildelifewatch1_538_616,Will you join us in this exciting mission ... and help keep the promise alive?,0.165,0.22,0.055,train,EmoBank
+appalachian1_7679_7753,Hundreds and hundreds of them every month—many at chapters near your home.,-0.05,-0.1,0.05,train,EmoBank
+wsj_0150_318_393,The financial-services company will pay 0.82 share for each Williams share.,0.0,-0.07,0.07,train,EmoBank
+warner1_2743_2805,TIME WARNER new york CABLE at its best,0.1,0.0,-0.05,train,EmoBank
+wsj_0151_776_923,"Mr. Edelman declined to specify what prompted the recent moves, saying they are meant only to benefit shareholders when ""the company is on a roll.""",0.0,-0.05,0.0,train,EmoBank
+Seedbombing_4620_4688,Did this with my aunt in Griffith Park after the last bout of fires.,-0.05,-0.15,0.0,train,EmoBank
+114CUL058_1185_1212,"In short, Fun for Everyone!",0.6,0.5,0.15,train,EmoBank
+easy_money_9481_9606,"For as far as I could see by a weak, gray light the stone stepped up and down making little hills and terraces and platforms.",0.055,-0.22,-0.055,train,EmoBank
+Nathans_Bylichka_51042_51220,"I slipped past the waving monstrosity that had blocked my view before, a mountain of wet, veined flesh, and had almost passed through the crowd when a clawed hand grabbed my arm.",-0.35,0.25,-0.2,train,EmoBank
+Nathans_Bylichka_28160_28169,she said.,0.0,0.0,0.0,train,EmoBank
+Nathans_Bylichka_32691_32757,“I am glad to be out of the favor-trading scene for half a minute.,0.35,0.1,0.05,train,EmoBank
+WhereToHongKong_1561_1695,"On Connaught Road Central, you’ll find one of Hong Kong’s curiosities, the 244-m- (800-ft-) long Mid-Levels outdoor escalator.",0.15,0.05,0.1,train,EmoBank
+SemEval_873,Microsoft supports OpenID authentication standard,0.0,-0.1,0.0,train,EmoBank
+Black_and_white_3281_3569,"“This artistic acestism, i.e., the suppression of externals and the reduction of all colors to black and white, manifests its real aesthetic function only against the background of a highly refined sensibility for colors and their subtle hues.",0.05,0.0,0.15,train,EmoBank
+SemEval_533,TBS to pay $2M fine for ad campaign bomb scare,0.0,0.045,0.045,train,EmoBank
+blog-monastery_5657_5837,"A person is never ""done,"" and so, I'll continue to observe and discuss and study, trying to pick the directions in which I'll change, and trying to make tomorrow better than today.",0.085,0.04,0.0,train,EmoBank
+blog-new-year's-resolutions_1188_1202,"""self-control""",-0.05,-0.05,0.3,train,EmoBank
+detroit_4098_4153,"You see, abandoned houses in this town get set on fire.",-0.1,0.1,-0.05,train,EmoBank
+20000415_apw_eng-NEW_47_65,"AMMAN, Jordan (AP)",0.0,0.045,0.045,train,EmoBank
+captured_moments_17454_17473,"""Ever the altruist.",0.0,-0.135,0.0,train,EmoBank
+WhatToHongKong_1189_1289,"Stores do not open until 10am or later, but shopping goes on into the evening, up to 9:30pm.",0.0,-0.3,0.1,train,EmoBank
+hotel-california_28630_28672,“Not if you're going to be rude about it.”,-0.55,0.3,0.15,train,EmoBank
+hotel-california_5023_5031,"“Honey,”",0.25,0.05,0.05,train,EmoBank
+anth_essay_4_13197_13539,"Customary law in Colombia contrasts with Western law as it maintains a different perception of casual relationships: tying back to the indigenous concept of harmony, crimes are viewed as imbalances in the community's harmony and can often be traced back to those who did not perpetuate the crime, but may have influenced the accused to do so.",-0.15,0.0,-0.05,train,EmoBank
+Nathans_Bylichka_2986_3017,Let’s not waste any more time.”,-0.185,-0.065,0.25,train,EmoBank
+captured_moments_35484_35592,"I demanded, squeezing his throat until he began jerking his head madly at the sculpture.",-0.35,0.3,0.35,train,EmoBank
+hotel-california_26402_26454,Fact: I wasn't sure I wanted the dream stage to end.,0.0,-0.11,0.11,train,EmoBank
+hotel-california_29071_29207,"I was just coming up on a corner and he was around the other side, talking to a couple people, and they must not have known I was there.",-0.1,0.0,0.0,train,EmoBank
+116CUL032_18_32,"August 4, 1999",0.0,0.0,-0.055,train,EmoBank
+110CYL069_513_544,And we don't waste money.,0.05,0.0,0.25,train,EmoBank
+110CYL070_18_35,"December 10, 1996",0.0,-0.15,-0.05,train,EmoBank
+The_Black_Willow_9959_10019,"""Something saleable; something worth reading, worth writing!",0.31,0.25,0.06,train,EmoBank
+A_defense_of_Michael_Moore_13287_13421,"Regarding the NRA website excerpt about the case and the highlighting of the phrase ""48 hours after Kayla Rolland is pronounced dead"":",-0.15,0.05,0.0,train,EmoBank
+lessig_blog-carbon_4_62,"United carbon offset disappointment April 27, 2009 9:08 AM",-0.3,0.0,-0.05,train,EmoBank
+wsj_0144_317_370,But revenue declined to $3 billion from $3.2 billion.,-0.275,0.09,-0.225,train,EmoBank
+Fermentation_Eminent-Domain_2969_3108,"But this prestige has nothing to due with the law that demands ""Napa Valley"", in addition to simply ""Rutherford"", be placed on these wines.",-0.09,0.09,-0.09,train,EmoBank
+appalachian1_2386_2525,And we’re working with the National Park Service in upgrading the trail system in the Delaware Water Gap and Acadia National Park in Maine.,0.0,-0.06,0.0,train,EmoBank
+hotel-california_10710_10832,"How they were all powered was a mystery—as good as the technology got, a quality robot like that was still an energy sink.",-0.05,0.0,-0.05,train,EmoBank
+Nathans_Bylichka_56673_56758,"I could perceive Nepthys’ sword flashing over me, and I heard steel crack, then bone.",-0.31,0.125,-0.19,train,EmoBank
+Nathans_Bylichka_57108_57117,“Nathan.”,0.0,-0.185,0.06,train,EmoBank
+NYTnewswire9_2266_2500,"The story of the 509th is a tale of an elite outfit that lived in a bubble of secrecy and endured the taunts of other war-weary U.S. units that resented sharing a small Pacific island with the 509th, which appeared exempt from combat.",-0.06,-0.06,-0.06,train,EmoBank
+Nathans_Bylichka_3069_3159,It was dark enough that I could actually see a few stars through the screen of city light.,0.1,0.05,0.0,train,EmoBank
+117CWL009_488_567,We are so grateful for your generous contribution to last year's auction.,0.35,0.1,0.05,train,EmoBank
+NYTnewswire1_268_471,"ANAHEIM, Calif. -- The Anaheim Angels got help where they felt they needed it most, agreeing to trade for Milwaukee Brewers outfielder Alex Ochoa only hours before Wednesday's nonwaiver trading deadline.",0.06,-0.375,0.0,train,EmoBank
+SemEval_996,What the Godfather of Soul meant to me,0.055,0.0,0.11,train,EmoBank
+hotel-california_33184_33204,"“Look what I found,”",0.22,0.165,0.055,train,EmoBank
+hotel-california_27931_28014,I didn't want to think about disappearances and time and purposes and consequences.,-0.165,-0.165,0.165,train,EmoBank
+SemEval_1311,Court TV: Accused killer tells jury a love story,-0.05,0.05,0.1,train,EmoBank
+aspca1_263_283,His belly was empty.,-0.2,-0.15,0.05,train,EmoBank
+easy_money_2907_2939,Four Hundred ounces for a start.,0.07,0.07,0.0,train,EmoBank
+Ant_Robot_6936_6981,A rudimentary blueprint of Antie is attached.,0.0,-0.1,0.1,train,EmoBank
+easy_money_10130_10260,"I guess, thinking back, I might have expected him to gloat, but the view was the kind of thing that humbles you, shuts your mouth.",-0.2,0.1,0.0,train,EmoBank
+SemEval_600,Man rides stationary bike for 85 hours,-0.06,-0.06,0.19,train,EmoBank
+Ohio_Steel_8078_8166,"Lykes ignored the letters, so the Coalition turned once again to the federal government.",-0.125,-0.125,0.19,train,EmoBank
+hotel-california_34316_34334,I can never leave.,-0.275,0.135,-0.365,train,EmoBank
+110CYL068_2589_2593,P.S.,0.0,-0.285,0.0,train,EmoBank
+SemEval_141,Turkish Writers Say Efforts to Stifle Speech May Backfire,-0.07,-0.145,-0.07,train,EmoBank
+HistoryLasVegas_76_213,"The inhabited history of the Las Vegas Valley stretches to 23,000 b.c. , when much of the area was covered by a prehistoric lake.",0.0,0.0,0.0,train,EmoBank
+NYTnewswire7_5992_6111,"The Monterey Bay Aquarium's Web site rates different species of fish for overfishing, habitat damage and other factors.",-0.25,-0.05,0.15,train,EmoBank
+Fermentation_Eminent-Domain_596_731,"Passed unanimously out of the California Assembly and Senate, AB 1798 now awaits the Governor's signature, which it will surely obtain.",0.0,0.0,0.1,train,EmoBank
+wsj_0172_4_121,First of America Bank Corp. said it completed its acquisition of Midwest Financial Group Inc. for about $250 million.,0.1,0.05,0.1,train,EmoBank
+WhatToHongKong_17658_17868,"The Frin ge Club, 21 Lower Albert Road, Central, is Hong Kong’s best-known alternate entertainment venue, with jazz, rock, and other live music, in addition to a gallery for visual arts.",0.05,0.0,0.0,train,EmoBank
+SemEval_856,Thailand: missing 25 years after taking wrong bus,-0.145,0.0,-0.07,train,EmoBank
+SemEval_1468,"Snow begins, heavy accumulations expected",0.0,0.0,-0.09,train,EmoBank
+Nathans_Bylichka_22825_22839,“I don’t know.,-0.22,-0.11,-0.165,train,EmoBank
+118CWL049_58_70,Adolescence.,0.0,-0.05,-0.05,train,EmoBank
+captured_moments_14909_14962,I often told her too many things.,-0.15,-0.05,-0.15,train,EmoBank
+hotel-california_24225_24246,I looked at Adrienne.,0.0,-0.06,-0.06,train,EmoBank
+captured_moments_21147_21155,"""Nardo?""",0.0,0.0,0.0,train,EmoBank
+118CWL049_1919_1974,"But for each girl served, more are left unserved.",-0.25,0.1,0.05,train,EmoBank
+WhereToHongKong_24391_24483,This ancient burial vault is believed to date back to the Han Dynasty (a.d. 25–220).,0.055,-0.11,0.055,train,EmoBank
+captured_moments_36281_36338,His story would stand in either case.,0.0,-0.1,0.0,train,EmoBank
+114CUL060_2333_2364,"Julie Marsh, Executive Director",0.0,-0.165,-0.055,train,EmoBank
+lessig_blog-carbon_5410_5483,We cook from whole ingredients and never eat processed or prepared foods.,0.05,-0.05,0.1,train,EmoBank
+Nathans_Bylichka_28421_28497,"she said, seeing his expression, “that would make the stone rather useless.”",-0.05,-0.05,0.0,train,EmoBank
+captured_moments_23385_23397,She giggled.,0.45,0.2,-0.05,train,EmoBank
+hotel-california_23992_24077,"But... well, no one important ever disappears, so it doesn't really matter, does it.”",0.0,-0.05,0.05,train,EmoBank
+20020731-nyt_42607_42736,The State Department and American officials in Cairo have issued diplomatically phrased protests of Ibrahim's trial and sentence.,-0.05,0.0,0.0,train,EmoBank
+captured_moments_28015_28030,"I would pay --""",0.05,-0.05,0.05,train,EmoBank
+Black_and_white_6956_7122,"White is seen as representing spirituality, the heavens, and light, it is all which is modern, it signifies the opposite of the carnal nature of color.",0.1,-0.25,-0.05,train,EmoBank
+blog-monastery_3892_4037,"This sutra delved into some questions about the nature of the self, whether the self is a delusion, and how the clinging of self is a defilement.",-0.05,0.05,0.0,train,EmoBank
+blog-monastery_2883_2899,"""Psychologists,""",-0.05,-0.1,0.1,train,EmoBank
+detroit_9837_9953,"Its going to take some pioneering individuals to start creating those pockets of innovation, creativity, and vision.",0.0,0.05,-0.05,train,EmoBank
+Nathans_Bylichka_9351_9358,Get in.,-0.05,0.05,0.15,train,EmoBank
+Homosexuality_12235_12342,"Both believed that homosexual was a result of nature, rather than nurture (Dobbens & Woods).",-0.05,-0.1,0.05,train,EmoBank
+110CYL071_1281_1339,"Like Michael, they share two common characteristics.",-0.07,0.145,0.07,train,EmoBank
+Fermentation_HR5034_11491_11523,"Austin SEO said... Interesting!,",0.11,0.11,0.11,train,EmoBank
+20020731-nyt_21606_21692,Not bad for a guy who was kicked out of high school in 1997 for threatening a teacher.,0.15,0.1,0.0,train,EmoBank
+cable_spool_fort_3441_3605,"When he saw Roy in the hospital with a shaved head and the small silver plug at the back of his noggin like a bottle cap, Chad had called him, ""Remote Control Boy.""",0.125,0.06,0.06,train,EmoBank
+Bartok_22180_22198,The Recapitulation,0.05,0.05,0.05,train,EmoBank
+A_defense_of_Michael_Moore_24309_24444,"It is the second intuition which gun rights groups like the NRA seek to obscure using fraudulent data by the likes of John ""Mary"" Lott.",-0.05,-0.05,0.0,train,EmoBank
+marine1_49_230,The enclosed set of name and address labels is a FREE GIFT to you from America’s leader in protecting our increasingly vulnerable ocean planet -- the Center for Marine Conservation.,0.05,0.05,0.05,train,EmoBank
+Black_and_white_9799_9893,Concrete bodies decrease the space more or less depending on their color value.,-0.06,-0.125,0.06,train,EmoBank
+captured_moments_9269_9382,"I dimly remember three bedpartners who were probably human, and one that I hope was delirium.",-0.135,-0.09,0.0,train,EmoBank
+lw1_539_585,"""Tarrin says the planet's a freaking gemstone!",0.32,0.545,0.185,train,EmoBank
+SemEval_564,Virtual 'American Idol' hits right notes,0.15,0.15,0.1,train,EmoBank
+Ohio_Steel_13069_13159,The Save Our Valley Campaign also lacked one essential component: an actual concrete plan.,-0.275,-0.135,-0.09,train,EmoBank
+SemEval_518,7 dead in apartment building fire,-0.4,0.05,-0.05,train,EmoBank
+cable_spool_fort_6788_6831,The door was on that side and Mrs. Rayburn.,0.0,-0.07,0.0,train,EmoBank
+marine1_2255_2267,"over, please",-0.1,0.0,0.0,train,EmoBank
+A_defense_of_Michael_Moore_25587_25687,His claim that it is possible to purchase ammunition in supermarkets is independent from that claim.,-0.11,-0.165,-0.055,train,EmoBank
+Ant_Robot_4334_4601,"An ant engaged in nest patrolling must exit the nest at the proper time in the morning and wander about for a bit on the nest mound, presumably taking measurements of the temperature and humidity in some way and making sure that it is safe for the other ants to exit.",0.0,0.0,0.0,train,EmoBank
+Nathans_Bylichka_7259_7300,“I need to file a missing persons report.,-0.35,-0.1,0.0,train,EmoBank
+SemEval_215,Toddler died from E. coli tainted spinach,-0.69,0.375,-0.125,train,EmoBank
+Ant_Robot_7899_8030,Antie will also be equipped with one photoreceptor located in the middle of the top of its chassis corresponding to the ant’s eyes.,0.0,-0.135,0.045,train,EmoBank
+NYTnewswire4_3733_3851,"Although he said the Gators will be excited to play the Hurricanes, ""I don't want to talk about that game,"" Zook said.",-0.35,0.2,0.05,train,EmoBank
+110CYL200_18_32,"March 17, 2000",0.0,-0.05,0.05,train,EmoBank
+HistoryLasVegas_1011_1134,"The areas surrounding the springs were desert oases: sprawling collections of grasses, trees, and wildlife.",0.055,-0.11,0.0,train,EmoBank
+wsj_0120_779_834,Mr. McGuigan cites three completed efforts in Oklahoma.,0.05,0.05,0.05,train,EmoBank
+SemEval_1434,Ancient coin shows Cleopatra was no beauty,-0.15,-0.15,0.0,train,EmoBank
+captured_moments_38180_38297,"As I put my hand on the impervious surface of Tasha's stopbox, I heard Malaquez run for the door.",0.0,-0.1,0.05,train,EmoBank
+Madame_White_Snake_3505_3540,“ethereal beauty”,0.25,0.125,0.125,train,EmoBank
+WhereToHongKong_60718_60841,"In the early Middle Ages, Canton had a significant Muslim population as a result of its trade with the Middle East.",0.055,0.0,0.0,train,EmoBank
+SemEval_24,Hurricane Paul Weakens To Tropical Storm,0.05,0.1,0.05,train,EmoBank
+SemEval_1114,Sick hearts switch on a fetal gene,-0.185,-0.06,-0.125,dev,EmoBank
+defenders5_705_785,In May the Alaska legislature voted to reinstate same-day airborne wolf killing.,-0.05,0.05,-0.05,dev,EmoBank
+HistoryLasVegas_12218_12346,"Emerging stars, no longer content with playing small nightclubs, came to Las Vegas with dreams of making it big.",0.15,0.0,0.05,dev,EmoBank
+NYTnewswire9_4035_4099,"And he immediately liked Karnes, who showed him around the base.",0.25,0.1,-0.05,dev,EmoBank
+captured_moments_16856_16952,"Shortly before she left, Tasha said, ""You steal from life for art, Bernardo.",-0.125,0.0,0.0,dev,EmoBank
+The_Black_Willow_3108_3169,"He held a hand to his forehead, eyes closed and face flushed.",-0.25,0.125,-0.125,dev,EmoBank
+hotel-california_33279_33299,I couldn't find her.,-0.445,0.055,-0.22,dev,EmoBank
+SemEval_835,'Bookworm Adventures' wordsmith's joy,0.1,0.1,0.0,dev,EmoBank
+Seedbombing_420_456,It also requires a certain attitude.,0.06,-0.065,0.06,dev,EmoBank
+WhereToHongKong_57784_57846,"However, it’s also easy to get to Guangzhou by train or ferry.",0.1,-0.1,0.1,dev,EmoBank
+united1_666_790,Optional shore excursions will provide the best opportunities for exploring the highlights of each fascinating port-of-call!,0.225,0.045,-0.045,dev,EmoBank
+WhatToHongKong_9910_10090,"If you do plan to buy jewelry, be sure to consult the “Shopping Guide to Jewellery” published by the Hong Kong Tourist Authority to find a reputable dealer.",0.06,-0.185,0.125,dev,EmoBank
+hotel-california_1848_2039,"Second, I was floating in the dark remnants of my broken ship, and any conceivable light sources were not within view; starlight is a distinctly different color and significantly less bright.",-0.3,0.15,-0.2,dev,EmoBank
+Uprooted_Bike_4316_4386,Bikes are cheap: you can get one at your local thrift store for $5-50.,0.15,0.1,0.1,dev,EmoBank
+blog-new-year's-resolutions_2191_2524,"They propose that people with high self-efficacy--people who believe that failure is the result of insufficient effort, and thus exhibit increased commitment and persistence--will achieve more of their goals than people with low self-efficacy, who tend to view failure as the result of deficient ability, and thus may simply give up.",0.0,0.05,0.1,dev,EmoBank
+20020731-nyt_17273_17317,The Red Sox wanted to bolster their offense.,0.0,-0.05,-0.05,dev,EmoBank
+easy_money_10424_10432,A place.,0.0,-0.25,0.0,dev,EmoBank
+SemEval_1245,Astronaut's arrest tests NASA's mettle,-0.06,-0.06,0.0,dev,EmoBank
+Nathans_Bylichka_39817_39841,The man closed his eyes.,0.0,-0.365,0.045,dev,EmoBank
+HistoryLasVegas_12075_12217,"From the mid-1940s to the mid-1960s, Las Vegas nurtured a growing sense that it was the “Entertainment Capital of the World. ”",0.05,0.05,0.1,dev,EmoBank
+The_Black_Willow_15755_15885,"Nathan read the package of words in silence, his only motions the steady progress of his eyes and occasional replacement of pages.",0.0,0.0,0.0,dev,EmoBank
+Nathans_Bylichka_38191_38199,We left.,-0.05,0.0,0.0,dev,EmoBank
+hotel-california_33964_33980,A space station.,0.0,0.0,0.0,dev,EmoBank
+hotel-california_29537_29552,asked Adrienne.,0.0,-0.165,0.055,dev,EmoBank
+hotel-california_5135_5232,"I died in those last moments, suffocating on my own exhaled breath, and this, this was my reward.",-0.35,0.3,-0.25,dev,EmoBank
+118CWL050_2331_2435,You are an important part in making sure these young people are matched with caring adult mentors.,0.0,-0.05,0.0,dev,EmoBank
+Black_and_white_381_543,"At the same time in our modern society, color has been seen as an external threat to be purged from the enlightened mind and space.",-0.05,0.05,0.0,dev,EmoBank
+IntroHongKong_3491_3715,"There are many stories of refugees who arrived with nothing in their pockets, set up a small sidewalk stall, worked diligently until they had their own store, and then expanded it into a modest chain.",0.225,-0.045,0.0,dev,EmoBank
+detroit_16848_16864,Thanks Lump-man.,0.09,0.045,0.045,dev,EmoBank
+Nathans_Bylichka_24949_25020,"Outside, the thing at the herb cart nodded when we mentioned the stone.",-0.05,-0.05,-0.05,dev,EmoBank
+Tupelo-Honey-Cafe_3029_3124,"No sooner had I taken the above photo, when a server (not even my server) appeared at my elbow.",-0.05,-0.05,-0.15,dev,EmoBank
+NYTnewswire9_9353_9579,"When an unsuspecting Tibbets descended from the Enola Gay on Tinian, he barely managed to palm his pipe as Gen. Carl Spaatz, commander of the Strategic Air Forces, stepped forward to pin the medal on his bomb flight coveralls.",0.06,-0.06,-0.065,dev,EmoBank
+WhatToHongKong_16546_16554,Theater.,0.0,0.085,0.0,dev,EmoBank
+SemEval_820,Super Bowl MVP Manning insists he's one of the guys,0.09,-0.045,0.045,dev,EmoBank
+WhatToHongKong_1337_1435,Shops in Central are an exception; they generally close at 6pm and are not open on Sunday.,0.0,0.0,0.0,dev,EmoBank
+anth_essay_4_753_815,One of the most dominant and easily noted factors is language.,0.0,0.0,0.165,dev,EmoBank
+Bartok_3174_3210,"To begin with, the movement is in F.",0.0,-0.06,0.0,dev,EmoBank
+Fermentation_HR5034_6278_6406,"This claim by the wholesalers that H.R. 5034 ""does not amend"" federal regulations on alcohol is a straight up misrepresentation.",-0.15,0.2,0.05,dev,EmoBank
+WhereToHongKong_42102_42243,"Macau’s own currency, the pataca, is pegged to the Hong Kong dollar, and you can use your Hong Kong currency freely in Macau.",0.15,-0.15,0.05,dev,EmoBank
+Tupelo-Honey-Cafe_3486_3532,"But even if you're not, try this out sometime.",0.1,0.0,0.15,dev,EmoBank
+captured_moments_9978_10047,"The editor says no, only those that are relevant.",0.0,0.055,0.165,dev,EmoBank
+Nathans_Bylichka_38850_38931,"“Okay,” he said as we hit the street, “we’re going to see another friend of mine.",0.15,0.05,-0.05,dev,EmoBank
+vampires_1777_1901,If you were off Zombies would you have gotten back on it time to publish NY Times bestseller Pride & Prejudice and Zombies ?,0.0,-0.1,0.0,dev,EmoBank
+Ohio_Steel_213_241,An Extended Essay in History,0.0,-0.125,0.06,dev,EmoBank
+Fermentation_HR5034_6323_6339,"""does not amend""",-0.145,0.0,0.07,dev,EmoBank
+The_Black_Willow_22364_22580,"Fallen trunks lay rotting across the rivulet; the living elders oversaw the grove while younger trees, still small and not yet as knotted and gnarled as their forefathers, sprang up where branches reached the ground.",0.05,0.0,0.05,dev,EmoBank
+NWF1_3131_3283,Through the colorful pages of NATIONAL WILDLIFE you will be fascinated by exquisite photography from some of the best nature photographers in the world.,0.25,0.31,0.185,dev,EmoBank
+captured_moments_11497_11701,"The Tasha in this file would walk through a net show in half an hour, including commercials, and just before an ad for Figuero's Flash Diapers -- Keeps Baby Driest!",-0.07,-0.07,-0.07,dev,EmoBank
+20020731-nyt_25556_25589,"""This is the Mona Lisa of coins,""",0.0,0.06,0.25,dev,EmoBank
+hotel-california_20706_20733,We're just dumb and lucky.”,0.05,0.1,-0.1,dev,EmoBank
+WhatToHongKong_8660_8749,Also check out Star Computer City in the Star House near the Star Ferry terminal.,0.1,0.05,0.0,dev,EmoBank
+SemEval_643,"Bush authorized Iranians' arrest in Iraq, Rice says",0.0,-0.05,0.05,dev,EmoBank
+wsj_0106_194_273,"Perpetual preferred shares aren't retractable by the holders, the company said.",-0.05,-0.05,-0.05,dev,EmoBank
+112C-L014_1631_1655,Mary Roth Tom Hirschauer,0.0,-0.15,0.0,dev,EmoBank
+112C-L016_94_189,"At Pleasant Run, Inc. we are making plans and arrangements for our children and families.",0.05,-0.15,-0.1,dev,EmoBank
+Nathans_Bylichka_14294_14314,He really stood out.,0.06,0.125,0.06,dev,EmoBank
+110CYL071_2323_2391,Please send the largest contribution you can comfortably make.,-0.1,-0.1,0.15,dev,EmoBank
+SemEval_80,Google to unveil election mashup,0.0,-0.1,0.0,dev,EmoBank
+SemEval_815,Cisco sues Apple over iPhone name,-0.3,0.15,0.15,dev,EmoBank
+captured_moments_10838_10852,You loved her.,0.35,0.0,0.0,dev,EmoBank
+118CWL048_61_71,"Dear Name,",0.0,0.1,0.05,dev,EmoBank
+WhereToHongKong_56281_56446,"Guangzhou, with a population of more than 5 million, straddles the Pearl River — China’s fifth longest — which links the city to the South China Sea.",0.0,0.0,0.0,dev,EmoBank
+hotel-california_21055_21090,"Ray shrugged, then got up and left.",-0.2,-0.1,-0.1,dev,EmoBank
+SemEval_528,Global National Major child porn ring bust,-0.25,0.085,0.165,dev,EmoBank
+aspca1_522_534,Dear Friend:,0.25,-0.06,0.0,dev,EmoBank
+Nathans_Bylichka_34697_34767,"As long as I looked at it, it didn’t reveal any magic sparkle or glow.",-0.125,-0.06,-0.125,dev,EmoBank
+SemEval_229,"Dad locked up son, watched on TV, police say",-0.25,-0.085,0.165,dev,EmoBank
+audubon1_421_470,And who plans to commit such a mass bird killing?,-0.5,-0.1,-0.1,dev,EmoBank
+NWF1_1606_1664,Ranger Rick is just one of our many wildlife publications.,0.05,0.0,0.0,dev,EmoBank
+hotel-california_25603_25617,"“Disappeared,”",-0.05,0.0,-0.05,dev,EmoBank
+A1_734_1004,"He said that it would he possible for the companies working in the electronic trade sector to make Dubai their headquarters, and to establish offices here and provide employment and own machinery in the zone opened to companies fully owned by the foreigners.",0.07,-0.07,0.0,dev,EmoBank
+A_defense_of_Michael_Moore_23403_23627,"Not surprisingly, guncite, too, compares data from different years -- as I know from personal experience, it is quite difficult to do comparisons of crime statistics due to differences in reporting frequency and methodology.",-0.145,0.0,0.07,dev,EmoBank
+WhereToHongKong_30409_30548,The Art Gallery in the Institute of Chinese Studies Building is worth a visit for its painting and calligraphy collections.,0.1,0.0,0.05,dev,EmoBank
+Black_and_white_6898_6942,"Thus, began the cult of the black and white.",0.0,-0.15,0.0,dev,EmoBank
+SemEval_556,India's Taj Mahal gets facelift,0.2,0.1,0.1,dev,EmoBank
+hsus4_5287_5379,Registration by the Secretary of State does not imply endorsement by the Secretary of State.,-0.045,-0.09,0.0,dev,EmoBank
+114CUL058_99_156,We need your help in continuing the work of Jameson Camp.,0.1,0.2,-0.05,dev,EmoBank
+audubon2_1425_1710,"This award-winning style is evident in every issue with behind-the-headlines reporting, passionate coverage of the environment, exotic journeys to remote places you may never otherwise experience, and of course, in AUDUBON’s famous photography of nature’s most awe-inspiring creations.",0.11,0.055,0.055,dev,EmoBank
+SemEval_581,Shareholders sue Apple,-0.25,0.15,0.05,dev,EmoBank
+wsj_0168_488_616,The loan may be extended by the McAlpine group for an additional year with an increase in the conversion price to $2.50 a share.,0.1,0.05,0.05,dev,EmoBank
+20000415_apw_eng-NEW_985_1240,"If supplies are not reaching the people who need them, Hall said, he wanted to find out whether the United Nations or relief agencies needed to handle things differently, or whether ""Iraq needs to get out of the way and let us do the job.""",-0.15,0.2,0.05,dev,EmoBank
+SemEval_926,Action intensity boosts vision,0.0,0.0,-0.07,dev,EmoBank
+20000419_apw_eng-NEW_95_111,"BASRA, Iraq (AP)",-0.085,-0.17,-0.085,dev,EmoBank
+hotel-california_25160_25170,“Why not?”,0.0,0.0,0.0,dev,EmoBank
+Nathans_Bylichka_2904_2985,"Come on, I don’t have to get fucked up every time we go out just to enjoy myself.",-0.365,0.32,0.135,dev,EmoBank
+Seedbombing_1296_1372,"If the fertilizer in the mix is what I think it is, that wouldn't be pretty.",-0.25,-0.1,0.0,dev,EmoBank
+WhereToHongKong_30052_30228,"The Sai Kung area is the location of two official parks and nature preserves, while on the south side of the peninsula are some of the territory’s best beaches.",0.0,-0.15,0.0,dev,EmoBank
+SemEval_515,Dance movie takes over No. 1,0.2,0.0,0.05,dev,EmoBank
+SemEval_1084,Experts issue new heart disease guidelines for women,0.0,0.05,0.1,dev,EmoBank
+SemEval_1382,Cousin: Gunman was Srebrenica survivor,-0.06,0.0,-0.125,dev,EmoBank
+Nathans_Bylichka_3260_3337,"If it was March, that meant that we’d been together almost a year and a half.",0.1,-0.1,0.0,dev,EmoBank
+SemEval_1047,Japanese whaling ship won't accept help,-0.3,-0.05,-0.05,dev,EmoBank
+detroit_858_923,"The artist types notified their buddies, who moved in post haste.",0.05,0.0,0.0,dev,EmoBank
+SemEval_540,Golden Globes on their way,0.15,0.2,0.05,dev,EmoBank
+detroit_10948_11052,"No, even before that -- The Dollmaker has often been called 'America's least pretentious masterpiece'.",0.0,-0.05,0.05,dev,EmoBank
+20020731-nyt_45721_45895,"President Bush has now unveiled his long-awaited ""Clear Skies"" proposal, which he promises will simplify and strengthen the Clean Air Act without crippling American industry.",0.045,-0.045,0.0,dev,EmoBank
+119CWL041_851_942,You have shared in the vision and the leadership of the YMCA of Greater Indianapolis.,0.1,0.0,0.0,dev,EmoBank
+easy_money_1085_1117,"'m a linguistics researcher, Ed.",0.0,-0.165,0.0,dev,EmoBank
+WhatToHongKong_12478_12530,An enormous variety of makes and models are on sale.,0.07,0.0,0.0,dev,EmoBank
+easy_money_5306_5417,He pulled out a small leather diary and opened it to a yellowed page marked with yet another small sticky note.,0.0,0.0,-0.07,dev,EmoBank
+SemEval_7,Kate is marrying Doherty,0.22,0.11,0.11,test,EmoBank
+captured_moments_20021_20052,"""Calling him by his first name.",0.0,-0.045,0.23,test,EmoBank
+captured_moments_21568_21581,"""Truthfully.""",0.1,0.05,0.1,test,EmoBank
+WhereToHongKong_63764_64071,"The individual artisans’ shops are no longer here, but you can visit a silk-weaving factory, a ceramics plant, and the Foshan Folk Art Studio, where you can observe workers making Chinese lanterns, carving sculptures, painting scrolls, and cutting intricate designs in paper.",0.05,-0.15,0.1,test,EmoBank
+Ohio_Steel_14127_14211,The Campaign failed to save any jobs and Youngstown was plunged into economic chaos.,-0.28,-0.11,-0.055,test,EmoBank
+anth_essay_4_9891_10154,Mayans gained formal recognition in 1995 as the majority population in a precursor to the 1996 peace accord; by 1999 its government floated a referendum on an indigenous bill of rights resembling that codified in the Colombian constitution (Warren 2002: 157-158).,0.135,-0.18,0.135,test,EmoBank
+WhereToHongKong_22333_22552,"A few blocks up Nathan Road is Kowloon Park (open daily 6am–midnight), elegantly laid out with fountains, promenades, and ornamental gardens; be sure to go up the steps to see the Sculpture Walk.",0.1,0.05,0.05,test,EmoBank
+SemEval_634,Models' health guidelines -- will they help?,0.0,-0.05,-0.05,test,EmoBank
+hotel-california_16778_16809,"“Smuggling,” responded Kishori.",-0.06,-0.06,0.06,test,EmoBank
+A_defense_of_Michael_Moore_7523_7651,"Moore is not from Colorado -- his question is generic, not meant to refer specifically to the Lockheed Martin plant in question.",-0.06,-0.125,0.19,test,EmoBank
+detroit_4932_4951,It's the Rust Belt.,0.0,-0.05,0.0,test,EmoBank
+20000419_apw_eng-NEW_770_902,But he insisted the international community can do a much better job in helping Iraq deal with its economic and health problems.,0.0,0.0,0.06,test,EmoBank
+WhereToHongKong_31893_32129,Legend has it that a local woman climbed the hill every day to watch for her husband returning from across the sea; one day the wife and her child were turned to stone as a permanent symbol of her enduring faith.,-0.05,-0.05,0.0,test,EmoBank
+wsj_0152_412_487,Telerate's two independent directors have rejected the offer as inadequate.,-0.11,-0.055,0.165,test,EmoBank
+lessig_blog-carbon_367_423,We're a couple months late buying credits for last year.,-0.165,0.055,-0.055,test,EmoBank
+hotel-california_30229_30259,"“She doesn't drink, remember?”",0.0,-0.1,0.0,test,EmoBank
+NYTnewswire3_4024_4146,"""The diversity is the big difference with this plant,"" said Richard Doherty, president of Envisioneering, a research firm.",0.0,-0.1,0.05,test,EmoBank
+hotel-california_25422_25450,“Why are you so interested?”,0.055,0.0,0.11,test,EmoBank
+captured_moments_32661_32841,"A tall, narrow stopbox stood in the center of one room; sand trickled forever downward while beads of water splashed across the sand's path.",0.0,0.05,0.0,test,EmoBank
+NYTnewswire9_9777_9839,"Three days later, another B-29 from the 509th bombed Nagasaki.",-0.335,0.0,-0.165,test,EmoBank
+SemEval_940,The amounts you have to pay for a bomb scare,-0.4,0.15,0.0,test,EmoBank
+Bartok_14380_14467,"E♭, furthermore, is not convincingly established as a dominant-functioning tone at all.",-0.05,0.1,0.0,test,EmoBank
+Nathans_Bylichka_3826_4024,"We slammed against the doorway and I was laughing too, the pulse close enough to shake the doorframe and set up vibrations in my chest, Rachel in my arms because she’d used me to soften her landing.",0.55,0.4,0.1,test,EmoBank
+SemEval_782,Iraqi forces detain official suspected in Shia conspiracy,0.145,-0.07,0.07,test,EmoBank
+Fermentation_HR5034_12069_12195,Tom said... Seems like some old geezers are filling their pockets with some major greenbacks getting this bill passed through.,-0.2,0.05,-0.1,test,EmoBank
+How_soon-Lebron-James_279_437,"He's also managed to surround himself with people who understand business, but I'm starting to wonder if he's lost a bit of understanding of American culture.",-0.11,0.11,0.0,test,EmoBank
+20020731-nyt_37846_38143,"Justice James R. Zazzali and Justice Virginia Long said in a separate opinion that in addition to the reasons given in the majority opinion, also written by Zazzali, they believed the death penalty would constitute cruel and unusual punishment because of Nelson's history of emotional disturbance.",-0.1,0.05,-0.05,test,EmoBank
+wsj_0173_471_571,"After these payments, about $225,000 will be available for the 20 million common shares outstanding.",0.0,-0.1,-0.05,test,EmoBank
+hotel-california_30864_30892,"If he refuses, threaten him.",-0.28,0.165,0.22,test,EmoBank
+sucker_1199_1247,Gotta love that understatement and comic timing.,0.3,0.15,0.15,test,EmoBank
+Nathans_Bylichka_25939_25975,"“Good evening, gentlemen,” she said.",0.315,-0.045,0.09,test,EmoBank
+Acephalous-Cant-believe_1410_1424,I should know.,0.0,0.0,0.05,test,EmoBank
+WhereToHongKong_1968_2039,"Just east of the Star Ferry terminal, you’ll come to City Hall.",-0.05,0.0,0.0,test,EmoBank
+SemEval_534,"""Stomp the Yard"" has winning moves in its weekend debut",0.1,0.05,0.05,test,EmoBank
+Nathans_Bylichka_37351_37366,"“I suppose so,”",0.0,0.0,0.05,test,EmoBank
+Black_and_white_7791_7809,WHITE pure white.,-0.06,0.06,0.0,test,EmoBank
+appalachian1_6289_6340,Experience the peace and beauty of coastal rhythms.,0.22,0.22,0.055,test,EmoBank
+Uprooted_Bike_6076_6115,"Tried/shared/re-tweeted, with pleasure!",0.45,0.45,0.05,test,EmoBank
+hotel-california_30620_30693,"“If you dislike this place so much, why don't you do something about it?”",-0.31,0.125,0.31,test,EmoBank
+117CWL008_1449_1499,Thank you in advance for your consideration.,0.3,0.05,0.1,test,EmoBank
+Nathans_Bylichka_15350_15360,Let’s go.”,0.15,0.05,0.1,test,EmoBank
+20020731-nyt_34272_34544,"A photograph of the candidate standing in his Army uniform next to his mother is shown, then the advertisement shifts to McCall talking about education, while images of the candidate looking at a computer screen with a small child and of him surrounded by children appear.",0.0,-0.05,0.0,test,EmoBank
+NYTnewswire9_5177_5248,"Karnes hated to pry, and skimmed over personal portions of the letters.",-0.1,-0.05,-0.1,test,EmoBank
+wsj_0152_4_114,Dow Jones & Co. said it extended its $18-a-share offer for Telerate Inc. common stock until 5 p.m. EST Nov. 9.,0.1,0.05,0.05,test,EmoBank
+NYTnewswire7_2098_2262,"The NMFS estimates that in 2000, more than 16,000 tons of Chilean seabass were legally caught from an internationally regulated harvest area in the Antarctic Ocean.",-0.15,0.1,0.15,test,EmoBank
+NYTnewswire2_8918_9007,"""This is a criminal act and it certainly puts things in a different league,"" Howard said.",-0.085,0.085,0.165,test,EmoBank
+hotel-california_7064_7108,"Man, was it good to be done with that stage.",0.35,0.05,0.1,test,EmoBank
+WhatToHongKong_16276_16282,Dance.,0.25,0.15,0.05,test,EmoBank
+SemEval_1018,Planning seen in Iraqi attacks on U.S. copters,-0.05,0.05,0.05,test,EmoBank
+easy_money_5514_5754,I didn't see much resemblance except maybe there were about the same number of points in the cat's cradle thing in the diary and the number of dots on the map showing places where statues stood in a thin line around the coast of the island.,0.0,-0.05,0.0,test,EmoBank
+The_Black_Willow_6754_6832,"There simply is no audience for fairy tales – no literate audience, at least.""",-0.285,0.0,-0.07,test,EmoBank
+hotel-california_23970_24077,"“Of course we notice. But... well, no one important ever disappears, so it doesn't really matter, does it.”",-0.1,0.1,-0.1,test,EmoBank
+Madame_White_Snake_7597_7650,But are the morals of these stories entirely sincere?,0.0,0.0,0.0,test,EmoBank
+Tupelo-Honey-Cafe_4_104,"Noshin' at the Tupelo Honey Cafe | Plus, how to get great service in busy restaurants 23 Mar., 2010",0.145,0.145,0.0,test,EmoBank
+112C-L013_973_1053,Pleasant Run Children's Homes began serving children nearly 130 years ago.,0.05,0.1,0.2,test,EmoBank
+112C-L016_1321_1331,"Sincerely,",0.1,-0.1,0.05,test,EmoBank
+WhereToHongKong_13840_13950,Originally the temple was on the shore but reclamation projects have now left it high and dry.,-0.05,0.1,0.05,test,EmoBank
+110CYL071_1962_2031,"The savings are counted in more ways than dollars and cents, however.",0.0,-0.31,0.19,test,EmoBank
+HistoryLasVegas_17793_17932,"Over 20,000 additional hotel rooms have been added in a few short years, including resorts in Summerlin and Lake Las Vegas.",0.25,0.1,0.15,test,EmoBank
+detroit_9372_9511,"See, there's a wee bit of loyalty to the Big 3 and driving a foreign car doesn't really scream ""solidarity"" to those struggling to survive.",-0.15,0.1,-0.1,test,EmoBank
+NYTnewswire6_6946_6961,Words of wisdom,0.125,0.0,0.19,test,EmoBank
+116CUL034_328_548,"It retained, however, the same mission with which it had been charged from its inception: to serve as a catalyst for effective, coordinated, and collaborative service delivery to youth in our community.",0.06,-0.06,0.0,test,EmoBank
+SemEval_896,Sea search for missing Microsoft scientist,-0.15,-0.05,-0.05,test,EmoBank
+Fermentation_Eminent-Domain_97_347,"I was disappointed, though not surprised, to see that today a conjunctive labeling law dictating that ""Sonoma County"" be placed on every label on wines produced from grapes grown in Sonoma County was unanimously passed by the California Legislature .",-0.2,0.05,-0.05,test,EmoBank
+WhatToHongKong_20665_20834,"The Discovery Bay Golf Club on Lantau island (Tel. 2987 7273) has an 18-hole Robert Trent Jones Jr. course, open to visitors Monday, Tuesday, and Friday.",0.07,0.07,0.07,test,EmoBank
+aspca1_121_211,"424 East 92nd StreetLarry M. HawkNew York, NY 10128President/CEO www.aspca.org",0.0,-0.055,0.0,test,EmoBank
+WhereToHongKong_65512_65641,"Visitors need a visa to enter China, and must disembark at the border (now called “boundary”) checkpoint, Lo Wai.",0.0,-0.2,-0.05,test,EmoBank
+hotel-california_18971_19010,We're not even going to leave a legacy.,-0.335,-0.055,-0.11,test,EmoBank
+118CWL050_2742_2992,"It will also be used to help maintain the infrastructure that fosters and supports the development of effective relationships, including volunteer orientation and training and ongoing supervision and support by a professional staff.",0.07,-0.07,0.07,test,EmoBank
+SemEval_90,China Successfully Launches Two Satellites,0.2,0.0,0.0,test,EmoBank
+20020731-nyt_47083_47129,We also agree that the law needs streamlining.,0.0,0.2,0.15,test,EmoBank
+SemEval_233,Trailblazing trio protects City by the Bay,0.1,0.0,0.05,test,EmoBank
+Uprooted_Farming-on-Sand_2067_2103,"This was called ""salt marsh haying"".",0.0,-0.1,0.0,test,EmoBank
+captured_moments_22323_22347,"""He may come to dinner?""",0.15,0.05,-0.1,test,EmoBank
+NYTnewswire6_3925_4055,"As reinstalled in Washington, the kitchen should be as we all remember it from countless TV shows, ""right down to the toothpicks.""",0.0,0.05,0.15,test,EmoBank
+NYTnewswire5_1704_1833,"They are frequently blanched or salted and left to macerate for up to an hour, then rinsed and patted dry to tame the bitterness.",-0.07,0.0,0.07,test,EmoBank
+WhereToHongKong_55494_55728,"The small Chapel of St. Francis Xavier is dedicated to the 16th-century patron saint of missionaries, and has on display the elbow of the saint, along with the bones of numerous Japanese and Vietnamese martyrs.",0.05,0.05,0.0,test,EmoBank
+114CUL060_783_845,"And not just during the summer, but throughout the year.",0.0,-0.09,0.0,test,EmoBank
+Uprooted_Farming-on-Sand_1913_2066,"There used to be a local tradition in this area: at each spring tide , the local community would head out to the bogs and marshes to harvest the grasses.",0.125,0.06,0.0,test,EmoBank
+NYTnewswire8_3750_3891,Lilienfeld feels that many clinical psychologists already receive inadequate training in fundamentals such as research design and evaluation.,0.0,-0.06,0.125,test,EmoBank
+appalachian1_2055_2210,"We’re partnering with agencies and other organizations to introduce inner-city youth to the fun of the outdoors in Boston, Philadelphia, and New York City.",0.15,0.1,0.05,test,EmoBank
+118CWL050_1405_1497,"Former Little Sister Amy, now 18-years old, is a testament to the Big Sisters program.",0.145,0.07,0.0,test,EmoBank
+NYTnewswire2_7262_7308,"""The French have nothing but the ice dancing,""",0.0,-0.07,0.07,test,EmoBank
+118CWL050_1504_1554,"""I was matched with my Big Sister in June of 1992.",0.15,0.0,0.1,test,EmoBank
+NYTnewswire9_8515_8639,The crew was horrified by the purple mushroom cloud that climbed to 10 miles and looked as if it would engulf the Enola Gay.,-0.35,0.3,-0.25,test,EmoBank
+SemEval_938,MySpace welcomes French friends,0.25,0.06,0.0,test,EmoBank
+wwf12_3238_3286,"The challenges we face are daunting, to be sure.",-0.22,0.11,-0.055,test,EmoBank
+blog-monastery_3690_3772,Tibetan Buddhist philosophy also approaches the mind and the self from the inside.,0.0,-0.23,-0.045,test,EmoBank
+captured_moments_28138_28149,Tasha said.,0.0,-0.1,0.0,test,EmoBank
+Nathans_Bylichka_14583_14613,The two glanced at each other.,0.05,0.0,0.0,test,EmoBank
+Nathans_Bylichka_44317_44334,“That’s amazing!”,0.65,0.6,0.25,test,EmoBank
+SemEval_1176,Spain ahead although Nadal is out,0.055,0.11,-0.165,test,EmoBank
+SemEval_705,Doomsday Clock ticking away,-0.2,0.05,-0.15,test,EmoBank
+HistoryLasVegas_14858_15018,"That, combined with the formation of the Nevada Gaming Control Board, would signal the beginning of the end for heavy mob influence in the city.",0.0,0.0,-0.05,test,EmoBank
+defenders5_6808_6957,1. SIGN the enclosed Citizens’ Advisory Ballot to show your support for repealing “same-day airborne land-and-shoot” wolf killing in Alaska;,-0.11,0.165,0.22,test,EmoBank
+SemEval_101,French suburb riots could resume,-0.11,0.055,0.11,test,EmoBank
+captured_moments_33740_33796,"I waited in the dark, carpeted hall.",-0.15,0.1,-0.15,test,EmoBank
+20020731-nyt_21693_21798,"""I did a lot of walking, got an interview and got a job and an opportunity of a lifetime,"" Orellana said.",0.165,0.0,0.11,test,EmoBank
+118CWL049_1256_1327,"Today, we are offering you the opportunity to help change a life.",0.285,0.285,0.355,test,EmoBank
+easy_money_13763_13838,All that gold in Fort Knox was just too much for me to wrap my head around.,-0.145,-0.07,-0.07,test,EmoBank

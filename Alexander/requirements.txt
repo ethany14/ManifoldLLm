@@ -1,0 +1,1 @@
+-r ../small_language_model/requirements.txt
