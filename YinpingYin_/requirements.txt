@@ -1,0 +1,2 @@
+# Standard-library-only catalog / normalization scripts
+# Optional: pandas, numpy, torch for subsequent model experiments
